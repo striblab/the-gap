@@ -72,11 +72,12 @@
           "logo": {
             "@type": "ImageObject",
             "url": "<%= config.publish.production.url %>assets/images/strib/strib-logo-transparent-307.png",
-            "width": 307,
-            "height": 292
+            "width": 307
           }
         },
-        "description": "<%= content.socialDescription ? content.socialDescription.replace(/"/g, '\\"') : '' %>"
+        "description": "<%= content.socialDescription ? content.socialDescription.replace(/"/g, '\\"') : '' %>",
+        "datePublished": "<%= content.datePublished %>",
+        "dateModified": "<%= new Date().toISOString() %>"
       }
     </script>
 
@@ -110,7 +111,7 @@
 
     <!-- Main content here -->
     <main id="main-content" class="content" role="main">
-
+      @@include('./_main.ejs.html')
     </main>
 
     <!-- Footer -->

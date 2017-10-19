@@ -13,9 +13,6 @@ Some efficiency gap explaining
 1. *Data processing steps here.*
 1. ...
 
-
-
-
 ## Embed
 
 This project is best used as a full, standalone page, or an embed.  The best way to embed the piece is with the following code:

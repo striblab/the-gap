@@ -1,3 +1,71 @@
 /**
  * Project specific styling.
  */
+
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.panel {
+  width: 100%;
+  height: 90vh;
+  border-bottom: 1px solid #919191;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel-center {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.panel-large {
+  font-size: 2rem;
+  line-height: 1.25em;
+}
+
+.panel-small {
+  font-size: 0.85rem;
+  line-height: 1.25em;
+}
+
+.districts {
+  display: flex;
+  flex-direction: row;
+}
+
+.district {
+  width: 50%;
+  border: 1px solid #222222;
+  border-radius: 0.5em;
+  min-height: 5em;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.p1,
+.p2 {
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  margin: 0.25em;
+  border-radius: 50%;
+}
+
+.p1 {
+  background-color: pink;
+}
+
+.p2 {
+  background-color: green;
+}
+
+.p-text {
+  height: auto;
+  width: auto;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+}
