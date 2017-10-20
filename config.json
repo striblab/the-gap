@@ -1,8 +1,7 @@
 {
-  "about this file": "This document defines configuration for this project that is not content or copy.",
+  "about this file":
+    "This document defines configuration for this project that is not content or copy.",
   "projectIdentifier": "the-gap",
-
-
   "social": {
     "image": "assets/images/strib/strib-logo-name-social-card.png"
   },
@@ -18,27 +17,26 @@
       "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"
     ]
   },
-
-  "content": {
-
-  },
+  "content": {},
   "publish": {
-
     "default": {
       "bucket": "static.startribune.com",
       "path": "news/projects-staging/all/the-gap/",
-      "url": "http://static.startribune.com/news/projects-staging/all/the-gap/"
+      "url": "http://static.startribune.com/news/projects-staging/all/the-gap/",
+      "cacheSeconds": 30
     },
     "testing": {
       "bucket": "stribtest-bucket",
       "path": "news/projects/the-gap/",
-      "url": "https://s3.amazonaws.com/stribtest-bucket/news/projects/the-gap/"
+      "url": "https://s3.amazonaws.com/stribtest-bucket/news/projects/the-gap/",
+      "cacheSeconds": 30
     },
-
     "production": {
       "bucket": "static.startribune.com",
       "path": "news/projects/all/the-gap/",
-      "url": "http://static.startribune.com/news/projects/all/the-gap/"
+      "url": "http://static.startribune.com/news/projects/all/the-gap/",
+      "cacheSeconds": 600
     }
-  }
+  },
+  "publishToken": "04e2d3e5a7af0e86ce9f6fb234d5a86a"
 }
