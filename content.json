@@ -1,9 +1,23 @@
 {
   "title": "The Gap",
   "organization": "Star Tribune",
-  "authors": "Star Tribune visuals team, Jeff Hargarten, MaryJo Webster, CJ Sinner, Alan Palazzolo",
+  "authors":
+    "Star Tribune visuals team, Jeff Hargarten, MaryJo Webster, CJ Sinner, Alan Palazzolo",
   "datePublished": "2017-10-19T20:16:26.054Z",
   "socialDescription": null,
   "tweet": "Check out this new project.",
-  "twitterAccount": "@StarTribune"
+  "twitterAccount": "@StarTribune",
+  "example": {
+    "p1Color": "#1f78b4",
+    "p1Name": "Blue",
+    "p2Color": "#b2df8a",
+    "p2Name": "Green",
+    "districts": [
+      { "p1": 40, "p2": 60 },
+      { "p1": 40, "p2": 60 },
+      { "p1": 40, "p2": 60 },
+      { "p1": 90, "p2": 10 },
+      { "p1": 90, "p2": 10 }
+    ]
+  }
 }

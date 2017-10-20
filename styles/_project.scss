@@ -32,40 +32,37 @@
   line-height: 1.25em;
 }
 
-.districts {
-  display: flex;
-  flex-direction: row;
-}
+.district-bar {
+  min-height: 3em;
+  width: 100%;
+  position: relative;
+  margin-bottom: 1em;
 
-.district {
-  width: 50%;
-  border: 1px solid #222222;
-  border-radius: 0.5em;
-  min-height: 5em;
-  margin: 0.5em;
-  padding: 0.5em;
-}
+  .voters {
+    min-height: 3em;
+    display: block;
+    float: left;
+  }
 
-.p1,
-.p2 {
-  display: inline-block;
-  height: 1.5em;
-  width: 1.5em;
-  margin: 0.25em;
-  border-radius: 50%;
-}
+  .midpoint {
+    position: absolute;
+    left: 49.998%;
+    min-height: 3em;
+    display: block;
+    border-left: 1px dashed #222222;
+    z-index: 100;
+  }
 
-.p1 {
-  background-color: pink;
-}
-
-.p2 {
-  background-color: green;
-}
-
-.p-text {
-  height: auto;
-  width: auto;
-  padding: 0.25em 0.5em;
-  border-radius: 0.25em;
+  .wasted {
+    position: absolute;
+    min-height: 3em;
+    background:
+      repeating-linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2) 10px,
+        rgba(0, 0, 0, 0.3) 10px,
+        rgba(0, 0, 0, 0.3) 20px
+      );
+  }
 }

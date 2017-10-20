@@ -1,135 +1,145 @@
 <div class="container">
   <div class="panel">
     <div class="panel-center panel-large">
-      Currently the Supreme Court is hearing a case about gerrymandering in Wisconsin.
+      <p>Currently the Supreme Court is hearing a case about gerrymandering in Wisconsin.</p>
     </div>
   </div>
 
-  <div class="panel">
-    <div class="panel-center panel-large">
-      At the core of this case is the <strong>efficency gap</strong>.
-    </div>
-  </div>
 
   <div class="panel">
     <div class="panel-center panel-large">
-      The efficency gap measures wasted votes as a way to show partisan gerrymandering.
+      <p>Let's look at a hypothetical set of districts.</p>
     </div>
   </div>
 
-  <div class="panel">
-    <div class="panel-center panel-large">
-      So what is a <em>wasted vote</em>?
-      <br><br>It's a vote that if left out, would not effect the outcome.  It's either a vote of a losing party, or a vote that was not needed by the winning party?
-    </div>
-  </div>
 
   <div class="panel">
     <div class="panel-center">
-      Say we have two districts and two parties/candidates in each.
+      <p>Say we have a set of <%= content.example.districts.length %> districts, with a distribution of <%= _.sumBy(content.example.districts, 'p1') %> <%= content.example.p1Name %> voters and <%= _.sumBy(content.example.districts, 'p2') %> <%= content.example.p2Name %> voters.  In theory we would expect <%= content.example.p1Name %> to have more seats than <%= content.example.p2Name %> in our district body.</p>
 
-      <div class="districts">
-        <div class="district">
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p2"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p2"></i>
-          <i class="p2"></i>
-          <i class="p2"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p2"></i>
-          <i class="p2"></i>
-          <i class="p1"></i>
-          <i class="p2"></i>
-
-          <div class="panel-small">
-            This district has 8 pinks votes and 7 green votes.  Pink wins by 1 vote.
-            <br><br>
-            This means that Pink did not waste any votes as they needed all of them to win, but Green wasted all 6 of their votes, as they did not win.
-          </div>
-        </div>
-
-        <div class="district">
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p1"></i>
-          <i class="p2"></i>
-          <i class="p2"></i>
-
-          <div class="panel-small">
-            This district has 13 pinks votes and 2 green votes.  Pink wins by 11 vote.
-            <br><br>
-            This means that Pink wasted 5 votes, as all they needed to win was 8, but Green only wasted 2 votes.
-          </div>
-
-        </div>
+      <div class="district-bar cf">
+        <span class="voters voters-p1"
+          style="background-color: <%= content.example.p1Color %>; width: <%= _.sumBy(content.example.districts, 'p1') / (_.sumBy(content.example.districts, (d) => { return d.p1 + d.p2; })) * 100 %>%"></span>
+        <span class="voters voters-p2"
+          style="background-color: <%= content.example.p2Color %>; width: <%= _.sumBy(content.example.districts, 'p2') / (_.sumBy(content.example.districts, (d) => { return d.p1 + d.p2; })) * 100 %>%"></span>
+        <span class="midpoint"></span>
       </div>
     </div>
   </div>
 
+
   <div class="panel">
     <div class="panel-center">
-      So what?  There's no way to avoid wasted votes.
-      <br><br>
-      The key is when we look at them across all districts.
+      <p>But, we can create districts that lead to more seats for the <%= content.example.p2Name %> party.</p>
 
-      <div class="districts">
-        <div class="district">
-          <p>Wasted votes</p>
-          <span class="p1 p-text">0 votes</span>
-          <span class="p2 p-text">7 votes</span>
+      <% _.each(content.example.districts, (d) => { %>
+        <div class="district-bar cf">
+          <span class="voters voters-p1"
+            style="background-color: <%= content.example.p1Color %>; width: <%= d.p1 / (d.p1 + d.p2) * 100 %>%"></span>
+          <span class="voters voters-p2"
+            style="background-color: <%= content.example.p2Color %>; width: <%= d.p2 / (d.p1 + d.p2) * 100 %>%"></span>
+          <span class="midpoint"></span>
         </div>
+      <% }) %>
+    </div>
+  </div>
 
-        <div class="district">
-          <p>Wasted votes</p>
-          <span class="p1 p-text">5 votes</span>
-          <span class="p2 p-text">2 votes</span>
+
+  <div class="panel">
+    <div class="panel-center panel-large">
+      <p>This is where the <strong>efficency gap</strong> comes in, which is at the core of the Supreme Court case.</p>
+    </div>
+  </div>
+
+
+  <div class="panel">
+    <div class="panel-center panel-large">
+      <p>The efficency gap measures wasted votes as a way to show partisan gerrymandering.</p>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-center panel-large">
+      <p>So what is a <em>wasted vote</em>?
+      <br><br>It's a vote that if left out, would not effect the outcome.  It's either any vote of a losing party, or any vote that was not needed by the winning party?</p>
+    </div>
+  </div>
+
+
+  <div class="panel">
+    <div class="panel-center">
+      <p>How does that look in our hypothetical districts?  As you can see, there are far more <%= content.example.p1Name %> wasted votes.  Let's quanitify that.</p>
+
+      <% _.each(content.example.districts, (d) => { %>
+        <div class="district-bar cf">
+          <% if (d.p2 > d.p1) { %>
+            <span class="wasted" style="left: 0; width: 50%"></span>
+          <% } %>
+          <% if (d.p1 > d.p2) { %>
+            <span class="wasted" style="left: 50%; width: 50%"></span>
+          <% } %>
+
+          <span class="voters voters-p1"
+            style="background-color: <%= content.example.p1Color %>; width: <%= d.p1 / (d.p1 + d.p2) * 100 %>%"></span>
+          <span class="voters voters-p2"
+            style="background-color: <%= content.example.p2Color %>; width: <%= d.p2 / (d.p1 + d.p2) * 100 %>%"></span>
+          <span class="midpoint"></span>
         </div>
-      </div>
-
-      We then look at how these numbers add up across both districts.  There are a total of 5 Pink votes wasted, which we divided by the total number of votes of 30, which gives us 17%.
-      <br><br>
-      There are a total of 6 Green votes wasted, giving us 20% of all votes.
+      <% }) %>
     </div>
   </div>
+
 
   <div class="panel">
     <div class="panel-center panel-large">
-      The gives us a 3% pro Pink efficiency gap.  Which is not bad.
-      <br><br>
-      The case says a 7% efficency gap or more would lead to one party always keeping control.
+      <p><%= content.example.p1Name %> has a total of
+      <%= _.sumBy(content.example.districts, (d) => {
+        return d.p2 > d.p1 ? d.p1 : d.p1 - Math.floor(((d.p1 + d.p2) / 2) + 1);
+      }) %>
+      wasted votes, which is
+      <%= _.sumBy(content.example.districts, (d) => {
+        return d.p2 > d.p1 ? d.p1 : d.p1 - Math.floor(((d.p1 + d.p2) / 2) + 1);
+      }) / _.sumBy(content.example.districts, (d) => { return d.p1 + d.p2; }) * 100 %>%
+      of all the votes.
+
+      While <%= content.example.p2Name %> has a total of
+      <%= _.sumBy(content.example.districts, (d) => {
+        return d.p1 > d.p2 ? d.p2 : d.p2 - Math.floor(((d.p1 + d.p2) / 2) + 1);
+      }) %>
+      wasted votes, which is
+      <%= _.sumBy(content.example.districts, (d) => {
+        return d.p1 > d.p2 ? d.p2 : d.p2 - Math.floor(((d.p1 + d.p2) / 2) + 1);
+      }) / _.sumBy(content.example.districts, (d) => { return d.p1 + d.p2; }) * 100 %>%
+      of all the votes.</p>
+
+      <p>This gives us a
+        <%=
+        Math.round((_.sumBy(content.example.districts, (d) => {
+          return d.p2 > d.p1 ? d.p1 : d.p1 - Math.floor(((d.p1 + d.p2) / 2) + 1);
+        }) / _.sumBy(content.example.districts, (d) => { return d.p1 + d.p2; }) * 100) -
+        (_.sumBy(content.example.districts, (d) => {
+          return d.p1 > d.p2 ? d.p2 : d.p2 - Math.floor(((d.p1 + d.p2) / 2) + 1);
+        }) / _.sumBy(content.example.districts, (d) => { return d.p1 + d.p2; }) * 100)) %>%
+        pro-<%= content.example.p2Name %> efficency gap.
+      </p>
     </div>
   </div>
 
-  <div class="panel">
-    <div class="panel-center panel-large">
-      So, what does the Wisconsin efficency gap look like.
-      <br><br>
-      <em>Maybe a map or cartogram</em>
-    </div>
-  </div>
 
   <div class="panel">
     <div class="panel-center panel-large">
-      And what about the Minnesota State House.
-      <br><br>
-      <em>Maybe a map or cartogram</em>
+      <p>According to the case, anything more than 7% is significant and makes it near impossible to swing the majority of seats.</p>
     </div>
   </div>
+
+
+  <div class="panel">
+    <div class="panel-center panel-large">
+      <p>So, let's look at real numbers for Wisconsin</p>
+      <img src="./assets/images/example-wisconsin-wp.png">
+    </div>
+  </div>
+
 
   <div class="panel">
     <div class="panel-center panel-large">
