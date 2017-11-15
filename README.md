@@ -22,6 +22,15 @@ needed to prevail)"
 "At its core, it is nothing more than a tally of all the cracking and packing
 decisions in a district plan."
 
+* [Some discussion about the algorithm](https://www.scribd.com/document/348420271/Extreme-Maps).
+* [Good article](https://www.nytimes.com/interactive/2017/10/03/upshot/how-the-new-math-of-gerrymandering-works-supreme-court.html)
+* [Early Stephanopoulos article](https://newrepublic.com/article/118534/gerrymandering-efficiency-gap-better-way-measure-gerrymandering)
+* [More by Stephanopoulos](https://www.vox.com/the-big-idea/2017/7/11/15949750/research-gerrymandering-wisconsin-supreme-court-partisanship)
+* [Good explanation on Washington Post](https://www.washingtonpost.com/graphics/2017/politics/courts-law/gerrymander/)
+* [AP analysis notes and data](http://data.ap.org/projects/2017/efficiency-gap/)
+  * [Congress data](http://data.ap.org/projects/2017/efficiency-gap/Congress_Elections.xlsx)
+  * [State houses data](http://data.ap.org/projects/2017/efficiency-gap/Statehouses_Elections.xlsx)
+
 ## Data
 
 * Data from the Secretary of State.

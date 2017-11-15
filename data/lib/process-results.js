@@ -91,11 +91,6 @@ function parseInput(data) {
     data[p] = parseFloat(data[p]);
   });
 
-  // Don't worry about non-R or non-D
-  if (['DFL', 'D', 'R'].indexOf(data.party) === -1) {
-    return;
-  }
-
   // Standardize DFL
   data.party = data.party === 'DFL' ? 'D' : data.party;
 
@@ -171,7 +166,13 @@ function parseInputLegacy(data) {
       { field: 'R', output: 'R' },
       { field: 'IR', output: 'R' },
       { field: 'D', output: 'D' },
-      { field: 'DFL', output: 'D' }
+      { field: 'DFL', output: 'D' },
+      { field: 'IP', output: 'I' },
+      { field: 'WI', output: 'W' },
+      { field: 'GP', output: 'G' },
+      { field: 'GR', output: 'Z' },
+      { field: 'EDP', output: 'E' },
+      { field: 'TRP', output: 'T' }
     ].forEach(party => {
       if (
         !data['Precinct Name'].match(/totals/i) &&
@@ -246,28 +247,37 @@ function processDistricts(type, raw, proxy) {
     }),
     g => {
       let precincts = _.groupBy(g, 'precinctID');
+      let partyCounts = _.mapValues(_.groupBy(g, 'party'), p => {
+        return p && p.length ? _.sumBy(p, 'votes') : 0;
+      });
 
       let c = {
         contest: g[0].contest,
         contestName: g[0].contestName,
         precincts: _.size(precincts),
-        dVotes: _.sumBy(g, p => {
-          return p.party === 'D' ? p.votes : 0;
-        }),
-        rVotes: _.sumBy(g, p => {
-          return p.party === 'R' ? p.votes : 0;
-        }),
-        totalVotes: _.reduce(
-          precincts,
-          (total, p) => {
-            return total + p[0].totalVotes;
-          },
-          0
-        )
+        allVotes: partyCounts,
+        dVotes: partyCounts.D ? partyCounts.D : 0,
+        rVotes: partyCounts.R ? partyCounts.R : 0,
+        totalVotes:
+          (partyCounts.D ? partyCounts.D : 0) +
+          (partyCounts.R ? partyCounts.R : 0),
+        totalAllVotes: _.reduce(partyCounts, (total, p) => total + p, 0)
       };
 
+      // Determine winner (could be a third party)
+      let winnerVotes = 0;
+      _.each(partyCounts, (v, k) => {
+        c.winner = !c.winner || v > winnerVotes ? k : c.winner;
+        winnerVotes = !winnerVotes || v > winnerVotes ? v : winnerVotes;
+      });
+
+      // Check third party
+      if (c.winner !== 'D' && c.winner !== 'R') {
+        c.thirdParty = true;
+      }
+
       // Check uncontested
-      if (!c.rVotes || !c.dVotes) {
+      if (!c.thirdParty && (!c.rVotes || !c.dVotes)) {
         c.uncontested = true;
       }
 
@@ -299,27 +309,37 @@ function processDistricts(type, raw, proxy) {
         )
       };
 
-      // Check for non-d or non-r possible wins
-      if (c.totalVotes - (c.rVotes + c.dVotes) > c.rVotes + c.dVotes) {
-        console.error('Third-party win maybe: ', c);
-        c.thirdParty = true;
-      }
-
       // Some calculations, use proxy for third party or uncontested
       c.proxied = c.thirdParty || c.uncontested;
       c.dEffectiveVotes = c.proxied ? c.proxy.dVotes : c.dVotes;
       c.rEffectiveVotes = c.proxied ? c.proxy.rVotes : c.rVotes;
 
       // Winner
-      c.win = c.dVotes > c.rVotes ? 'D' : 'R';
-      c.effectiveWin = c.dEffectiveVotes > c.rEffectiveVotes ? 'D' : 'R';
+      c.effectiveWinner = c.dEffectiveVotes > c.rEffectiveVotes ? 'D' : 'R';
+
+      // The proxy is off.  TODO: What is best for this.
+      // Do a 75/25 split
+      if (c.effectiveWinner !== c.winner) {
+        console.error('Proxy winner is different for: ', c.contestName);
+        c.proxiedAgain = true;
+        c.dEffectiveVotes =
+          c.winner === 'D'
+            ? Math.round(c.totalVotes * 0.75)
+            : Math.round(c.totalVotes * 0.25);
+        c.rEffectiveVotes =
+          c.winner === 'R'
+            ? Math.round(c.totalVotes * 0.75)
+            : Math.round(c.totalVotes * 0.25);
+
+        c.effectiveWinner = c.winner;
+      }
 
       // Wasted votes
       let mid = Math.floor((c.rEffectiveVotes + c.dEffectiveVotes) / 2) + 1;
       c.dWasted =
-        c.effectiveWin === 'D' ? c.dEffectiveVotes - mid : c.dEffectiveVotes;
+        c.effectiveWinner === 'D' ? c.dEffectiveVotes - mid : c.dEffectiveVotes;
       c.rWasted =
-        c.effectiveWin === 'R' ? c.rEffectiveVotes - mid : c.rEffectiveVotes;
+        c.effectiveWinner === 'R' ? c.rEffectiveVotes - mid : c.rEffectiveVotes;
 
       return c;
     }
@@ -331,26 +351,31 @@ function processDistricts(type, raw, proxy) {
     year: argv.year,
     districts: districts.length,
     proxied: _.filter(districts, 'proxied').length,
+    proxiedAgain: _.filter(districts, 'proxiedAgain').length,
     proxyContest: proxyContestNote,
-    dTotalEffectiveVotes: _.sumBy(districts, 'dEffectiveVotes'),
-    rTotalEffectiveVotes: _.sumBy(districts, 'rEffectiveVotes'),
-    dTotalEffectiveWins: _.sumBy(districts, { effectiveWin: 'D' }),
-    rTotalEffectiveWins: _.sumBy(districts, { effectiveWin: 'R' }),
-    dTotalWins: _.sumBy(districts, { win: 'D' }),
-    rTotalWins: _.sumBy(districts, { win: 'R' }),
-    dTotalWasted: _.sumBy(districts, 'dWasted'),
-    rTotalWasted: _.sumBy(districts, 'rWasted'),
-    totalVotes: _.sumBy(districts, d => {
+
+    dVotes: _.sumBy(districts, 'dVotes'),
+    rVotes: _.sumBy(districts, 'rVotes'),
+    dWins: _.sumBy(districts, { winner: 'D' }),
+    rWins: _.sumBy(districts, { winner: 'R' }),
+    votes: _.sumBy(districts, d => {
       return d.dVotes + d.rVotes;
     }),
-    totalEffectiveVotes: _.sumBy(districts, d => {
+
+    dEffectiveVotes: _.sumBy(districts, 'dEffectiveVotes'),
+    rEffectiveVotes: _.sumBy(districts, 'rEffectiveVotes'),
+    dEffectiveWins: _.sumBy(districts, { effectiveWinner: 'D' }),
+    rEffectiveWins: _.sumBy(districts, { effectiveWinner: 'R' }),
+    effectiveVotes: _.sumBy(districts, d => {
       return d.dEffectiveVotes + d.rEffectiveVotes;
-    })
+    }),
+    dEffectiveWasted: _.sumBy(districts, 'dWasted'),
+    rEffectiveWasted: _.sumBy(districts, 'rWasted')
   };
 
   // Calculate gap
   totals.gap =
-    (totals.dTotalWasted - totals.rTotalWasted) / totals.totalEffectiveVotes;
+    (totals.dEffectiveWasted - totals.rEffectiveWasted) / totals.effectiveVotes;
   totals.gapSeats = totals.gap * totals.districts;
 
   return {
