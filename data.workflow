@@ -66,18 +66,51 @@ sources/2004-president-by-state-leg.csv, %download <- [-timecheck]
 ; http://electionresults.sos.state.mn.us/20001107/
 
 ; 1998
+; Doesn't have congressional district columns
 sources/1998-all-by-precinct-legacy.csv, %download <- [-timecheck]
   mkdir -p $BASE/sources
   curl "http://www.sos.state.mn.us/media/1918/1998_results.xls" | in2csv --format xls > $OUTPUT
 
 ; 1996
+; Doesn't have congressional district columns
 sources/1996-all-by-precinct-legacy.csv, %download <- [-timecheck]
   mkdir -p $BASE/sources
   curl "http://www.sos.state.mn.us/media/1976/1996_results.xls" | in2csv --format xls > $OUTPUT
 
 
 
-; Processing...
+; Gap efficiency analysis processing
+build/2016-congress-gap.json, build/2016-house-gap.json, build/2016-senate-gap.json, %process <- sources/2016-all-by-precinct.csv
+  mkdir -p $BASE/build
+  node $BASE/lib/process-results.js --proxy-contest="0101" --year="2016" < $INPUT
+
+build/2014-congress-gap.json, build/2014-house-gap.json, %process <- sources/2014-all-by-precinct.csv
+  mkdir -p $BASE/build
+  node $BASE/lib/process-results.js --proxy-contest="0102" --year="2014" < $INPUT
+
+build/2012-congress-gap.json, build/2012-house-gap.json, build/2012-senate-gap.json, %process <- sources/2012-all-by-precinct.csv
+  mkdir -p $BASE/build
+  node $BASE/lib/process-results.js --proxy-contest="0101" --year="2012" < $INPUT
+
+build/2010-congress-gap.json, build/2010-house-gap.json, build/2010-senate-gap.json, %process <- sources/2010-all-by-precinct-legacy.csv
+  mkdir -p $BASE/build
+  node $BASE/lib/process-results.js --proxy-contest="GOV" --proxy-contest-name="Governor" --year="2010" --type="legacy" < $INPUT
+
+build/2008-congress-gap.json, build/2008-house-gap.json, build/2008-senate-gap.json, %process <- sources/2008-all-by-precinct-legacy.csv
+  mkdir -p $BASE/build
+  node $BASE/lib/process-results.js --proxy-contest="USPRES" --proxy-contest-name="US President" --year="2008" --type="legacy" < $INPUT
+
+build/2006-congress-gap.json, build/2006-house-gap.json, build/2006-senate-gap.json, %process <- sources/2006-all-by-precinct.csv
+  mkdir -p $BASE/build
+  node $BASE/lib/process-results.js --proxy-contest="0102" --year="2006" < $INPUT
+
+build/1998-house-gap.json, %process <- sources/1998-all-by-precinct-legacy.csv
+  mkdir -p $BASE/build
+  node $BASE/lib/process-results.js --proxy-contest="Aud" --proxy-contest-name="State Auditor" --year="1998" --type="legacy" < $INPUT
+
+build/1996-house-gap.json, %process <- sources/1996-all-by-precinct-legacy.csv
+  mkdir -p $BASE/build
+  node $BASE/lib/process-results.js --proxy-contest="Pres" --proxy-contest-name="US President" --year="1996" --type="legacy" < $INPUT
 
 
 

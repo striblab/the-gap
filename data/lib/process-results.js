@@ -311,12 +311,15 @@ function processDistricts(type, raw, proxy) {
       c.rEffectiveVotes = c.proxied ? c.proxy.rVotes : c.rVotes;
 
       // Winner
-      c.win = c.dEffectiveVotes > c.rEffectiveVotes ? 'D' : 'R';
+      c.win = c.dVotes > c.rVotes ? 'D' : 'R';
+      c.effectiveWin = c.dEffectiveVotes > c.rEffectiveVotes ? 'D' : 'R';
 
       // Wasted votes
       let mid = Math.floor((c.rEffectiveVotes + c.dEffectiveVotes) / 2) + 1;
-      c.dWasted = c.win === 'D' ? c.dEffectiveVotes - mid : c.dEffectiveVotes;
-      c.rWasted = c.win === 'R' ? c.rEffectiveVotes - mid : c.rEffectiveVotes;
+      c.dWasted =
+        c.effectiveWin === 'D' ? c.dEffectiveVotes - mid : c.dEffectiveVotes;
+      c.rWasted =
+        c.effectiveWin === 'R' ? c.rEffectiveVotes - mid : c.rEffectiveVotes;
 
       return c;
     }
@@ -329,6 +332,12 @@ function processDistricts(type, raw, proxy) {
     districts: districts.length,
     proxied: _.filter(districts, 'proxied').length,
     proxyContest: proxyContestNote,
+    dTotalEffectiveVotes: _.sumBy(districts, 'dEffectiveVotes'),
+    rTotalEffectiveVotes: _.sumBy(districts, 'rEffectiveVotes'),
+    dTotalEffectiveWins: _.sumBy(districts, { effectiveWin: 'D' }),
+    rTotalEffectiveWins: _.sumBy(districts, { effectiveWin: 'R' }),
+    dTotalWins: _.sumBy(districts, { win: 'D' }),
+    rTotalWins: _.sumBy(districts, { win: 'R' }),
     dTotalWasted: _.sumBy(districts, 'dWasted'),
     rTotalWasted: _.sumBy(districts, 'rWasted'),
     totalVotes: _.sumBy(districts, d => {
@@ -342,6 +351,7 @@ function processDistricts(type, raw, proxy) {
   // Calculate gap
   totals.gap =
     (totals.dTotalWasted - totals.rTotalWasted) / totals.totalEffectiveVotes;
+  totals.gapSeats = totals.gap * totals.districts;
 
   return {
     totals: totals,

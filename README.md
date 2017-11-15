@@ -1,6 +1,26 @@
 # The Gap
 
-Some efficiency gap explaining
+Some efficiency gap explaining in context of
+[Gill v. Whitford](http://www.scotusblog.com/case-files/cases/gill-v-whitford/).
+
+[Original? paper on the efficiency gap](http://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=1946&context=public_law_and_legal_theory)
+by Nicholas O. Stephanopoulos and Eric M. McGhee
+
+"Our analysis begins with the premise that the goal of a partisan gerrymander is
+to win as many seats as possible given a certain number of votes. To accomplish
+this aim, a party must ensure that its votes translate into seats more
+“efficiently” than do those of its opponent."
+
+"The efficiency gap, then, is simply the difference between the parties’
+respective wasted votes, divided by the total number of votes cast in the
+election."
+
+"Wasted votes include both “lost” votes (those cast for a losing candidate) and
+“surplus votes” (those cast for a winning candidate but in excess of what she
+needed to prevail)"
+
+"At its core, it is nothing more than a tally of all the cracking and packing
+decisions in a district plan."
 
 ## Data
 
