@@ -1,0 +1,221 @@
+{
+  "totals": {
+    "type": "congress",
+    "year": 2016,
+    "districts": 8,
+    "proxied": 0,
+    "proxiedAgain": 0,
+    "proxyContest": "U.S. President & Vice President",
+    "dVotes": 1434590,
+    "rVotes": 1334686,
+    "dWins": 5,
+    "rWins": 3,
+    "votes": 2769276,
+    "dEffectiveVotes": 1434590,
+    "rEffectiveVotes": 1334686,
+    "dEffectiveWins": 5,
+    "rEffectiveWins": 3,
+    "effectiveVotes": 2769276,
+    "dEffectiveWasted": 595945,
+    "rEffectiveWasted": 788687,
+    "gap": -0.06960014097547518,
+    "gapSeats": -0.5568011278038014
+  },
+  "districts": [
+    {
+      "contest": "0111",
+      "contestName": "U.S. Representative District 8",
+      "precincts": 810,
+      "allVotes": {
+        "R": 177089,
+        "D": 179098,
+        "WI": 792
+      },
+      "dVotes": 179098,
+      "rVotes": 177089,
+      "totalVotes": 356187,
+      "totalAllVotes": 356979,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 138665,
+        "rVotes": 194779
+      },
+      "dEffectiveVotes": 179098,
+      "rEffectiveVotes": 177089,
+      "effectiveWinner": "D",
+      "dWasted": 1004,
+      "rWasted": 177089
+    },
+    {
+      "contest": "0109",
+      "contestName": "U.S. Representative District 6",
+      "precincts": 280,
+      "allVotes": {
+        "R": 235380,
+        "D": 123008,
+        "WI": 536
+      },
+      "dVotes": 123008,
+      "rVotes": 235380,
+      "totalVotes": 358388,
+      "totalAllVotes": 358924,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 123329,
+        "rVotes": 218546
+      },
+      "dEffectiveVotes": 123008,
+      "rEffectiveVotes": 235380,
+      "effectiveWinner": "R",
+      "dWasted": 123008,
+      "rWasted": 56185
+    },
+    {
+      "contest": "0108",
+      "contestName": "U.S. Representative District 5",
+      "precincts": 236,
+      "allVotes": {
+        "R": 80660,
+        "D": 249964,
+        "LMN": 30759,
+        "WI": 499
+      },
+      "dVotes": 249964,
+      "rVotes": 80660,
+      "totalVotes": 330624,
+      "totalAllVotes": 361882,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 273402,
+        "rVotes": 68535
+      },
+      "dEffectiveVotes": 249964,
+      "rEffectiveVotes": 80660,
+      "effectiveWinner": "D",
+      "dWasted": 84651,
+      "rWasted": 80660
+    },
+    {
+      "contest": "0106",
+      "contestName": "U.S. Representative District 3",
+      "precincts": 247,
+      "allVotes": {
+        "R": 223077,
+        "D": 169243,
+        "WI": 1144
+      },
+      "dVotes": 169243,
+      "rVotes": 223077,
+      "totalVotes": 392320,
+      "totalAllVotes": 393464,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 201833,
+        "rVotes": 164259
+      },
+      "dEffectiveVotes": 169243,
+      "rEffectiveVotes": 223077,
+      "effectiveWinner": "R",
+      "dWasted": 169243,
+      "rWasted": 26916
+    },
+    {
+      "contest": "0110",
+      "contestName": "U.S. Representative District 7",
+      "precincts": 1329,
+      "allVotes": {
+        "R": 156952,
+        "D": 173589,
+        "WI": 307
+      },
+      "dVotes": 173589,
+      "rVotes": 156952,
+      "totalVotes": 330541,
+      "totalAllVotes": 330848,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 104566,
+        "rVotes": 208215
+      },
+      "dEffectiveVotes": 173589,
+      "rEffectiveVotes": 156952,
+      "effectiveWinner": "D",
+      "dWasted": 8318,
+      "rWasted": 156952
+    },
+    {
+      "contest": "0104",
+      "contestName": "U.S. Representative District 1",
+      "precincts": 697,
+      "allVotes": {
+        "R": 166526,
+        "D": 169074,
+        "WI": 277
+      },
+      "dVotes": 169074,
+      "rVotes": 166526,
+      "totalVotes": 335600,
+      "totalAllVotes": 335877,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 130831,
+        "rVotes": 181647
+      },
+      "dEffectiveVotes": 169074,
+      "rEffectiveVotes": 166526,
+      "effectiveWinner": "D",
+      "dWasted": 1273,
+      "rWasted": 166526
+    },
+    {
+      "contest": "0105",
+      "contestName": "U.S. Representative District 2",
+      "precincts": 292,
+      "allVotes": {
+        "R": 173970,
+        "D": 167315,
+        "IP": 28869,
+        "WI": 360
+      },
+      "dVotes": 167315,
+      "rVotes": 173970,
+      "totalVotes": 341285,
+      "totalAllVotes": 370514,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 171287,
+        "rVotes": 175807
+      },
+      "dEffectiveVotes": 167315,
+      "rEffectiveVotes": 173970,
+      "effectiveWinner": "R",
+      "dWasted": 167315,
+      "rWasted": 3327
+    },
+    {
+      "contest": "0107",
+      "contestName": "U.S. Representative District 4",
+      "precincts": 229,
+      "allVotes": {
+        "R": 121032,
+        "D": 203299,
+        "LMN": 27152,
+        "WI": 461
+      },
+      "dVotes": 203299,
+      "rVotes": 121032,
+      "totalVotes": 324331,
+      "totalAllVotes": 351944,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 223803,
+        "rVotes": 111163
+      },
+      "dEffectiveVotes": 203299,
+      "rEffectiveVotes": 121032,
+      "effectiveWinner": "D",
+      "dWasted": 41133,
+      "rWasted": 121032
+    }
+  ]
+}

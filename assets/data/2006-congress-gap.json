@@ -1,0 +1,224 @@
+{
+  "totals": {
+    "type": "congress",
+    "year": 2006,
+    "districts": 8,
+    "proxied": 0,
+    "proxiedAgain": 0,
+    "proxyContest": "US SENATOR",
+    "dVotes": 1152621,
+    "rVotes": 924636,
+    "dWins": 5,
+    "rWins": 3,
+    "votes": 2077257,
+    "dEffectiveVotes": 1152621,
+    "rEffectiveVotes": 924636,
+    "dEffectiveWins": 5,
+    "rEffectiveWins": 3,
+    "effectiveVotes": 2077257,
+    "dEffectiveWasted": 534952,
+    "rEffectiveWasted": 503671,
+    "gap": 0.015058801101645102,
+    "gapSeats": 0.12047040881316082
+  },
+  "districts": [
+    {
+      "contest": "0111",
+      "contestName": "US REPRESENTATIVE DISTRICT 08",
+      "precincts": 810,
+      "allVotes": {
+        "R": 97683,
+        "D": 180670,
+        "UP": 5508,
+        "WI": 155
+      },
+      "dVotes": 180670,
+      "rVotes": 97683,
+      "totalVotes": 278353,
+      "totalAllVotes": 284016,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 171568,
+        "rVotes": 103164
+      },
+      "dEffectiveVotes": 180670,
+      "rEffectiveVotes": 97683,
+      "effectiveWinner": "D",
+      "dWasted": 41493,
+      "rWasted": 97683
+    },
+    {
+      "contest": "0109",
+      "contestName": "US REPRESENTATIVE DISTRICT 06",
+      "precincts": 313,
+      "allVotes": {
+        "IP": 23557,
+        "R": 151248,
+        "D": 127144,
+        "WI": 239
+      },
+      "dVotes": 127144,
+      "rVotes": 151248,
+      "totalVotes": 278392,
+      "totalAllVotes": 302188,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 153247,
+        "rVotes": 138591
+      },
+      "dEffectiveVotes": 127144,
+      "rEffectiveVotes": 151248,
+      "effectiveWinner": "R",
+      "dWasted": 127144,
+      "rWasted": 12051
+    },
+    {
+      "contest": "0108",
+      "contestName": "US REPRESENTATIVE DISTRICT 05",
+      "precincts": 223,
+      "allVotes": {
+        "IP": 51456,
+        "R": 52263,
+        "D": 136060,
+        "GP": 4792,
+        "WI": 334
+      },
+      "dVotes": 136060,
+      "rVotes": 52263,
+      "totalVotes": 188323,
+      "totalAllVotes": 244905,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 184546,
+        "rVotes": 53006
+      },
+      "dEffectiveVotes": 136060,
+      "rEffectiveVotes": 52263,
+      "effectiveWinner": "D",
+      "dWasted": 41898,
+      "rWasted": 52263
+    },
+    {
+      "contest": "0106",
+      "contestName": "US REPRESENTATIVE DISTRICT 03",
+      "precincts": 246,
+      "allVotes": {
+        "R": 184333,
+        "D": 99588,
+        "WI": 323
+      },
+      "dVotes": 99588,
+      "rVotes": 184333,
+      "totalVotes": 283921,
+      "totalAllVotes": 284244,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 160041,
+        "rVotes": 118330
+      },
+      "dEffectiveVotes": 99588,
+      "rEffectiveVotes": 184333,
+      "effectiveWinner": "R",
+      "dWasted": 99588,
+      "rWasted": 42372
+    },
+    {
+      "contest": "0110",
+      "contestName": "US REPRESENTATIVE DISTRICT 07",
+      "precincts": 1246,
+      "allVotes": {
+        "R": 74557,
+        "D": 179164,
+        "CP": 3303,
+        "WI": 170
+      },
+      "dVotes": 179164,
+      "rVotes": 74557,
+      "totalVotes": 253721,
+      "totalAllVotes": 257194,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 138849,
+        "rVotes": 110740
+      },
+      "dEffectiveVotes": 179164,
+      "rEffectiveVotes": 74557,
+      "effectiveWinner": "D",
+      "dWasted": 52303,
+      "rWasted": 74557
+    },
+    {
+      "contest": "0104",
+      "contestName": "US REPRESENTATIVE DISTRICT 01",
+      "precincts": 750,
+      "allVotes": {
+        "R": 126486,
+        "D": 141556,
+        "WI": 379
+      },
+      "dVotes": 141556,
+      "rVotes": 126486,
+      "totalVotes": 268042,
+      "totalAllVotes": 268421,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 147971,
+        "rVotes": 109372
+      },
+      "dEffectiveVotes": 141556,
+      "rEffectiveVotes": 126486,
+      "effectiveWinner": "D",
+      "dWasted": 7534,
+      "rWasted": 126486
+    },
+    {
+      "contest": "0105",
+      "contestName": "US REPRESENTATIVE DISTRICT 02",
+      "precincts": 315,
+      "allVotes": {
+        "IP": 10802,
+        "R": 163269,
+        "D": 116343,
+        "WI": 126
+      },
+      "dVotes": 116343,
+      "rVotes": 163269,
+      "totalVotes": 279612,
+      "totalAllVotes": 290540,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 156714,
+        "rVotes": 125891
+      },
+      "dEffectiveVotes": 116343,
+      "rEffectiveVotes": 163269,
+      "effectiveWinner": "R",
+      "dWasted": 116343,
+      "rWasted": 23462
+    },
+    {
+      "contest": "0107",
+      "contestName": "US REPRESENTATIVE DISTRICT 04",
+      "precincts": 220,
+      "allVotes": {
+        "R": 74797,
+        "D": 172096,
+        "WI": 573
+      },
+      "dVotes": 172096,
+      "rVotes": 74797,
+      "totalVotes": 246893,
+      "totalAllVotes": 247466,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 165913,
+        "rVotes": 76559
+      },
+      "dEffectiveVotes": 172096,
+      "rEffectiveVotes": 74797,
+      "effectiveWinner": "D",
+      "dWasted": 48649,
+      "rWasted": 74797
+    }
+  ]
+}

@@ -16,6 +16,7 @@
 
 ; Base directory for all inputs and output
 BASE=data
+NBIN=node_modules/.bin
 
 
 ; Download results files.  (At least in 2016) There is not US President by
@@ -77,6 +78,62 @@ sources/1996-all-by-precinct-legacy.csv, %download <- [-timecheck]
   mkdir -p $BASE/sources
   curl "http://www.sos.state.mn.us/media/1976/1996_results.xls" | in2csv --format xls > $OUTPUT
 
+; Geo data (congress)
+sources/districts-2012-congress.geo.json, %download, %dl-geo <- [-timecheck]
+  mkdir -p $BASE/sources
+  wget -O $OUTPUT "https://www.gis.leg.mn/php/shptoGeojson.php?file=/geo/data/congressional/C2012"
+
+sources/districts-2002-congress.geo.json, %download, %dl-geo <- [-timecheck]
+  mkdir -p $BASE/sources
+  wget -O $OUTPUT "https://www.gis.leg.mn/php/shptoGeojson.php?file=/geo/data/congressional/C2002"
+
+sources/districts-1994-congress.geo.json, %download, %dl-geo <- [-timecheck]
+  mkdir -p $BASE/sources
+  wget -O $OUTPUT "https://www.gis.leg.mn/php/shptoGeojson.php?file=/geo/data/congressional/C1994"
+
+; Geo data (state-house)
+sources/districts-2012-house.geo.json, %download, %dl-geo <- [-timecheck]
+  mkdir -p $BASE/sources
+  wget -O $OUTPUT "https://www.gis.leg.mn/php/shptoGeojson.php?file=/geo/data/house/L2012-1"
+
+sources/districts-2002-house.geo.json, %download, %dl-geo <- [-timecheck]
+  mkdir -p $BASE/sources
+  wget -O $OUTPUT "https://www.gis.leg.mn/php/shptoGeojson.php?file=/geo/data/house/L2002"
+
+sources/districts-1994-house.geo.json, %download, %dl-geo <- [-timecheck]
+  mkdir -p $BASE/sources
+  wget -O $OUTPUT "https://www.gis.leg.mn/php/shptoGeojson.php?file=/geo/data/house/L1994"
+
+; Geo data (state-senate)
+sources/districts-2012-senate.geo.json, %download, %dl-geo <- [-timecheck]
+  mkdir -p $BASE/sources
+  wget -O $OUTPUT "https://www.gis.leg.mn/php/shptoGeojson.php?file=/geo/data/senate/S2012"
+
+sources/districts-2002-senate.geo.json, %download, %dl-geo <- [-timecheck]
+  mkdir -p $BASE/sources
+  wget -O $OUTPUT "https://www.gis.leg.mn/php/shptoGeojson.php?file=/geo/data/senate/S2002"
+
+sources/districts-1994-senate.geo.json, %download, %dl-geo <- [-timecheck]
+  mkdir -p $BASE/sources
+  wget -O $OUTPUT "https://www.gis.leg.mn/php/shptoGeojson.php?file=/geo/data/senate/S1994"
+
+
+
+; Convert district files
+; Not sure how to do wildcard inputs and outputs
+build/districts/2012-congress.topo.json, %convert <- sources/districts-2012-congress.geo.json
+  mkdir -p $BASE/build/districts
+
+  for f in $BASE/sources/districts-*
+  do
+    ogr2ogr -f GeoJSON -t_srs EPSG:4326 -s_srs EPSG:26915 /vsistdout/ "$f" | \
+    $NBIN/geo2topo -q 1e5 | \
+    $NBIN/geostitch | \
+    $NBIN/toposimplify -f -F -p 0.00001 \
+    > $BASE/build/districts/`basename "$f" .geo.json`.topo.json
+  done
+
+
 
 
 ; Gap efficiency analysis processing
@@ -112,6 +169,15 @@ build/1996-house-gap.json, %process <- sources/1996-all-by-precinct-legacy.csv
   mkdir -p $BASE/build
   node $BASE/lib/process-results.js --proxy-contest="Pres" --proxy-contest-name="US President" --year="1996" --type="legacy" < $INPUT
 
+
+; Publish (i.e. copy to assets)
+../assets/data/2016-congress-gap.json, %publish <- build/2016-congress-gap.json
+  mkdir -p $BASE/../assets/data
+  cp $BASE/build/*.json $BASE/../assets/data/
+
+../assets/data/districts-2012-congress.topo.json, %publish <- build/districts/districts-2012-congress.topo.json
+  mkdir -p $BASE/../assets/data
+  cp $BASE/build/districts/*.json $BASE/../assets/data/
 
 
 ; Cleanup tasks

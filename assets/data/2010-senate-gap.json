@@ -1,0 +1,1705 @@
+{
+  "totals": {
+    "type": "senate",
+    "year": 2010,
+    "districts": 67,
+    "proxied": 2,
+    "proxiedAgain": 0,
+    "proxyContest": "Governor",
+    "dVotes": 1005132,
+    "rVotes": 1021634,
+    "dWins": 30,
+    "rWins": 37,
+    "votes": 2026766,
+    "dEffectiveVotes": 1028051,
+    "rEffectiveVotes": 1004042,
+    "dEffectiveWins": 30,
+    "rEffectiveWins": 37,
+    "effectiveVotes": 2032093,
+    "dEffectiveWasted": 612230,
+    "rEffectiveWasted": 403765,
+    "gap": 0.10258634816418342,
+    "gapSeats": 6.873285327000289
+  },
+  "districts": [
+    {
+      "contest": "10",
+      "contestName": "MN Senate District 10",
+      "precincts": 122,
+      "allVotes": {
+        "R": 17048,
+        "D": 14040,
+        "I": 0,
+        "W": 29
+      },
+      "dVotes": 14040,
+      "rVotes": 17048,
+      "totalVotes": 31088,
+      "totalAllVotes": 31117,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10941,
+        "rVotes": 16720
+      },
+      "dEffectiveVotes": 14040,
+      "rEffectiveVotes": 17048,
+      "effectiveWinner": "R",
+      "dWasted": 14040,
+      "rWasted": 1503
+    },
+    {
+      "contest": "11",
+      "contestName": "MN Senate District 11",
+      "precincts": 127,
+      "allVotes": {
+        "R": 20798,
+        "D": 11171,
+        "I": 0,
+        "W": 37
+      },
+      "dVotes": 11171,
+      "rVotes": 20798,
+      "totalVotes": 31969,
+      "totalAllVotes": 32006,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11993,
+        "rVotes": 16009
+      },
+      "dEffectiveVotes": 11171,
+      "rEffectiveVotes": 20798,
+      "effectiveWinner": "R",
+      "dWasted": 11171,
+      "rWasted": 4813
+    },
+    {
+      "contest": "12",
+      "contestName": "MN Senate District 12",
+      "precincts": 79,
+      "allVotes": {
+        "R": 16530,
+        "D": 11609,
+        "I": 0,
+        "W": 3125
+      },
+      "dVotes": 11609,
+      "rVotes": 16530,
+      "totalVotes": 28139,
+      "totalAllVotes": 31264,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 12163,
+        "rVotes": 16038
+      },
+      "dEffectiveVotes": 11609,
+      "rEffectiveVotes": 16530,
+      "effectiveWinner": "R",
+      "dWasted": 11609,
+      "rWasted": 2460
+    },
+    {
+      "contest": "13",
+      "contestName": "MN Senate District 13",
+      "precincts": 110,
+      "allVotes": {
+        "R": 16485,
+        "D": 13514,
+        "I": 0,
+        "W": 32
+      },
+      "dVotes": 13514,
+      "rVotes": 16485,
+      "totalVotes": 29999,
+      "totalAllVotes": 30031,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11095,
+        "rVotes": 14908
+      },
+      "dEffectiveVotes": 13514,
+      "rEffectiveVotes": 16485,
+      "effectiveWinner": "R",
+      "dWasted": 13514,
+      "rWasted": 1485
+    },
+    {
+      "contest": "14",
+      "contestName": "MN Senate District 14",
+      "precincts": 58,
+      "allVotes": {
+        "R": 21422,
+        "D": 12110,
+        "I": 0,
+        "W": 36
+      },
+      "dVotes": 12110,
+      "rVotes": 21422,
+      "totalVotes": 33532,
+      "totalAllVotes": 33568,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11734,
+        "rVotes": 17630
+      },
+      "dEffectiveVotes": 12110,
+      "rEffectiveVotes": 21422,
+      "effectiveWinner": "R",
+      "dWasted": 12110,
+      "rWasted": 4655
+    },
+    {
+      "contest": "15",
+      "contestName": "MN Senate District 15",
+      "precincts": 42,
+      "allVotes": {
+        "R": 13495,
+        "D": 13035,
+        "I": 0,
+        "W": 43
+      },
+      "dVotes": 13035,
+      "rVotes": 13495,
+      "totalVotes": 26530,
+      "totalAllVotes": 26573,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11175,
+        "rVotes": 12079
+      },
+      "dEffectiveVotes": 13035,
+      "rEffectiveVotes": 13495,
+      "effectiveWinner": "R",
+      "dWasted": 13035,
+      "rWasted": 229
+    },
+    {
+      "contest": "16",
+      "contestName": "MN Senate District 16",
+      "precincts": 64,
+      "allVotes": {
+        "R": 20480,
+        "D": 15164,
+        "I": 0,
+        "W": 47
+      },
+      "dVotes": 15164,
+      "rVotes": 20480,
+      "totalVotes": 35644,
+      "totalAllVotes": 35691,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11294,
+        "rVotes": 20363
+      },
+      "dEffectiveVotes": 15164,
+      "rEffectiveVotes": 20480,
+      "effectiveWinner": "R",
+      "dWasted": 15164,
+      "rWasted": 2657
+    },
+    {
+      "contest": "17",
+      "contestName": "MN Senate District 17",
+      "precincts": 40,
+      "allVotes": {
+        "R": 21171,
+        "D": 16569,
+        "I": 0,
+        "W": 62
+      },
+      "dVotes": 16569,
+      "rVotes": 21171,
+      "totalVotes": 37740,
+      "totalAllVotes": 37802,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 13597,
+        "rVotes": 20146
+      },
+      "dEffectiveVotes": 16569,
+      "rEffectiveVotes": 21171,
+      "effectiveWinner": "R",
+      "dWasted": 16569,
+      "rWasted": 2300
+    },
+    {
+      "contest": "18",
+      "contestName": "MN Senate District 18",
+      "precincts": 68,
+      "allVotes": {
+        "R": 16587,
+        "D": 10821,
+        "I": 2083,
+        "W": 26
+      },
+      "dVotes": 10821,
+      "rVotes": 16587,
+      "totalVotes": 27408,
+      "totalAllVotes": 29517,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9396,
+        "rVotes": 16067
+      },
+      "dEffectiveVotes": 10821,
+      "rEffectiveVotes": 16587,
+      "effectiveWinner": "R",
+      "dWasted": 10821,
+      "rWasted": 2882
+    },
+    {
+      "contest": "19",
+      "contestName": "MN Senate District 19",
+      "precincts": 31,
+      "allVotes": {
+        "R": 27184,
+        "D": 12466,
+        "I": 0,
+        "W": 37
+      },
+      "dVotes": 12466,
+      "rVotes": 27184,
+      "totalVotes": 39650,
+      "totalAllVotes": 39687,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 12211,
+        "rVotes": 23606
+      },
+      "dEffectiveVotes": 12466,
+      "rEffectiveVotes": 27184,
+      "effectiveWinner": "R",
+      "dWasted": 12466,
+      "rWasted": 7358
+    },
+    {
+      "contest": "20",
+      "contestName": "MN Senate District 20",
+      "precincts": 195,
+      "allVotes": {
+        "R": 11970,
+        "D": 15876,
+        "I": 0,
+        "W": 25
+      },
+      "dVotes": 15876,
+      "rVotes": 11970,
+      "totalVotes": 27846,
+      "totalAllVotes": 27871,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11855,
+        "rVotes": 11549
+      },
+      "dEffectiveVotes": 15876,
+      "rEffectiveVotes": 11970,
+      "effectiveWinner": "D",
+      "dWasted": 1952,
+      "rWasted": 11970
+    },
+    {
+      "contest": "21",
+      "contestName": "MN Senate District 21",
+      "precincts": 117,
+      "allVotes": {
+        "R": 16597,
+        "D": 10021,
+        "I": 0,
+        "W": 38
+      },
+      "dVotes": 10021,
+      "rVotes": 16597,
+      "totalVotes": 26618,
+      "totalAllVotes": 26656,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9041,
+        "rVotes": 13541
+      },
+      "dEffectiveVotes": 10021,
+      "rEffectiveVotes": 16597,
+      "effectiveWinner": "R",
+      "dWasted": 10021,
+      "rWasted": 3287
+    },
+    {
+      "contest": "22",
+      "contestName": "MN Senate District 22",
+      "precincts": 173,
+      "allVotes": {
+        "R": 15310,
+        "D": 10444,
+        "I": 0,
+        "W": 39
+      },
+      "dVotes": 10444,
+      "rVotes": 15310,
+      "totalVotes": 25754,
+      "totalAllVotes": 25793,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9451,
+        "rVotes": 12791
+      },
+      "dEffectiveVotes": 10444,
+      "rEffectiveVotes": 15310,
+      "effectiveWinner": "R",
+      "dWasted": 10444,
+      "rWasted": 2432
+    },
+    {
+      "contest": "23",
+      "contestName": "MN Senate District 23",
+      "precincts": 69,
+      "allVotes": {
+        "R": 11951,
+        "D": 17633,
+        "I": 0,
+        "W": 47
+      },
+      "dVotes": 17633,
+      "rVotes": 11951,
+      "totalVotes": 29584,
+      "totalAllVotes": 29631,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13170,
+        "rVotes": 12213
+      },
+      "dEffectiveVotes": 17633,
+      "rEffectiveVotes": 11951,
+      "effectiveWinner": "D",
+      "dWasted": 2840,
+      "rWasted": 11951
+    },
+    {
+      "contest": "24",
+      "contestName": "MN Senate District 24",
+      "precincts": 127,
+      "allVotes": {
+        "R": 25300,
+        "D": 0,
+        "I": 0,
+        "W": 473
+      },
+      "dVotes": 0,
+      "rVotes": 25300,
+      "totalVotes": 25300,
+      "totalAllVotes": 25773,
+      "winner": "R",
+      "uncontested": true,
+      "proxy": {
+        "dVotes": 10509,
+        "rVotes": 14494
+      },
+      "proxied": true,
+      "dEffectiveVotes": 10509,
+      "rEffectiveVotes": 14494,
+      "effectiveWinner": "R",
+      "dWasted": 10509,
+      "rWasted": 1992
+    },
+    {
+      "contest": "25",
+      "contestName": "MN Senate District 25",
+      "precincts": 65,
+      "allVotes": {
+        "R": 15272,
+        "D": 14387,
+        "I": 0,
+        "W": 20
+      },
+      "dVotes": 14387,
+      "rVotes": 15272,
+      "totalVotes": 29659,
+      "totalAllVotes": 29679,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 13419,
+        "rVotes": 16168
+      },
+      "dEffectiveVotes": 14387,
+      "rEffectiveVotes": 15272,
+      "effectiveWinner": "R",
+      "dWasted": 14387,
+      "rWasted": 442
+    },
+    {
+      "contest": "26",
+      "contestName": "MN Senate District 26",
+      "precincts": 47,
+      "allVotes": {
+        "R": 15337,
+        "D": 12893,
+        "I": 0,
+        "W": 43
+      },
+      "dVotes": 12893,
+      "rVotes": 15337,
+      "totalVotes": 28230,
+      "totalAllVotes": 28273,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11020,
+        "rVotes": 13266
+      },
+      "dEffectiveVotes": 12893,
+      "rEffectiveVotes": 15337,
+      "effectiveWinner": "R",
+      "dWasted": 12893,
+      "rWasted": 1221
+    },
+    {
+      "contest": "27",
+      "contestName": "MN Senate District 27",
+      "precincts": 84,
+      "allVotes": {
+        "R": 11005,
+        "D": 17574,
+        "I": 0,
+        "W": 23
+      },
+      "dVotes": 17574,
+      "rVotes": 11005,
+      "totalVotes": 28579,
+      "totalAllVotes": 28602,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14190,
+        "rVotes": 10881
+      },
+      "dEffectiveVotes": 17574,
+      "rEffectiveVotes": 11005,
+      "effectiveWinner": "D",
+      "dWasted": 3284,
+      "rWasted": 11005
+    },
+    {
+      "contest": "28",
+      "contestName": "MN Senate District 28",
+      "precincts": 88,
+      "allVotes": {
+        "R": 16706,
+        "D": 13649,
+        "I": 0,
+        "W": 26
+      },
+      "dVotes": 13649,
+      "rVotes": 16706,
+      "totalVotes": 30355,
+      "totalAllVotes": 30381,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11820,
+        "rVotes": 14498
+      },
+      "dEffectiveVotes": 13649,
+      "rEffectiveVotes": 16706,
+      "effectiveWinner": "R",
+      "dWasted": 13649,
+      "rWasted": 1528
+    },
+    {
+      "contest": "29",
+      "contestName": "MN Senate District 29",
+      "precincts": 52,
+      "allVotes": {
+        "R": 21858,
+        "D": 11360,
+        "I": 0,
+        "W": 42
+      },
+      "dVotes": 11360,
+      "rVotes": 21858,
+      "totalVotes": 33218,
+      "totalAllVotes": 33260,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 12347,
+        "rVotes": 16071
+      },
+      "dEffectiveVotes": 11360,
+      "rEffectiveVotes": 21858,
+      "effectiveWinner": "R",
+      "dWasted": 11360,
+      "rWasted": 5248
+    },
+    {
+      "contest": "30",
+      "contestName": "MN Senate District 30",
+      "precincts": 47,
+      "allVotes": {
+        "R": 16757,
+        "D": 14056,
+        "I": 0,
+        "W": 47
+      },
+      "dVotes": 14056,
+      "rVotes": 16757,
+      "totalVotes": 30813,
+      "totalAllVotes": 30860,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11676,
+        "rVotes": 14357
+      },
+      "dEffectiveVotes": 14056,
+      "rEffectiveVotes": 16757,
+      "effectiveWinner": "R",
+      "dWasted": 14056,
+      "rWasted": 1350
+    },
+    {
+      "contest": "31",
+      "contestName": "MN Senate District 31",
+      "precincts": 88,
+      "allVotes": {
+        "R": 13981,
+        "D": 13544,
+        "I": 0,
+        "W": 22
+      },
+      "dVotes": 13544,
+      "rVotes": 13981,
+      "totalVotes": 27525,
+      "totalAllVotes": 27547,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 12315,
+        "rVotes": 12083
+      },
+      "dEffectiveVotes": 13544,
+      "rEffectiveVotes": 13981,
+      "effectiveWinner": "R",
+      "dWasted": 13544,
+      "rWasted": 218
+    },
+    {
+      "contest": "32",
+      "contestName": "MN Senate District 32",
+      "precincts": 36,
+      "allVotes": {
+        "R": 28902,
+        "D": 0,
+        "I": 0,
+        "W": 818
+      },
+      "dVotes": 0,
+      "rVotes": 28902,
+      "totalVotes": 28902,
+      "totalAllVotes": 29720,
+      "winner": "R",
+      "uncontested": true,
+      "proxy": {
+        "dVotes": 12410,
+        "rVotes": 22116
+      },
+      "proxied": true,
+      "dEffectiveVotes": 12410,
+      "rEffectiveVotes": 22116,
+      "effectiveWinner": "R",
+      "dWasted": 12410,
+      "rWasted": 4852
+    },
+    {
+      "contest": "33",
+      "contestName": "MN Senate District 33",
+      "precincts": 40,
+      "allVotes": {
+        "R": 24950,
+        "D": 11554,
+        "I": 0,
+        "W": 23
+      },
+      "dVotes": 11554,
+      "rVotes": 24950,
+      "totalVotes": 36504,
+      "totalAllVotes": 36527,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11128,
+        "rVotes": 20558
+      },
+      "dEffectiveVotes": 11554,
+      "rEffectiveVotes": 24950,
+      "effectiveWinner": "R",
+      "dWasted": 11554,
+      "rWasted": 6697
+    },
+    {
+      "contest": "34",
+      "contestName": "MN Senate District 34",
+      "precincts": 39,
+      "allVotes": {
+        "R": 23839,
+        "D": 11382,
+        "I": 2330,
+        "W": 17
+      },
+      "dVotes": 11382,
+      "rVotes": 23839,
+      "totalVotes": 35221,
+      "totalAllVotes": 37568,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10575,
+        "rVotes": 22325
+      },
+      "dEffectiveVotes": 11382,
+      "rEffectiveVotes": 23839,
+      "effectiveWinner": "R",
+      "dWasted": 11382,
+      "rWasted": 6228
+    },
+    {
+      "contest": "35",
+      "contestName": "MN Senate District 35",
+      "precincts": 34,
+      "allVotes": {
+        "R": 26723,
+        "D": 11892,
+        "I": 0,
+        "W": 38
+      },
+      "dVotes": 11892,
+      "rVotes": 26723,
+      "totalVotes": 38615,
+      "totalAllVotes": 38653,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11996,
+        "rVotes": 22261
+      },
+      "dEffectiveVotes": 11892,
+      "rEffectiveVotes": 26723,
+      "effectiveWinner": "R",
+      "dWasted": 11892,
+      "rWasted": 7415
+    },
+    {
+      "contest": "36",
+      "contestName": "MN Senate District 36",
+      "precincts": 43,
+      "allVotes": {
+        "R": 23426,
+        "D": 13686,
+        "I": 0,
+        "W": 42
+      },
+      "dVotes": 13686,
+      "rVotes": 23426,
+      "totalVotes": 37112,
+      "totalAllVotes": 37154,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 12155,
+        "rVotes": 20994
+      },
+      "dEffectiveVotes": 13686,
+      "rEffectiveVotes": 23426,
+      "effectiveWinner": "R",
+      "dWasted": 13686,
+      "rWasted": 4869
+    },
+    {
+      "contest": "37",
+      "contestName": "MN Senate District 37",
+      "precincts": 27,
+      "allVotes": {
+        "R": 20622,
+        "D": 13984,
+        "I": 0,
+        "W": 23
+      },
+      "dVotes": 13984,
+      "rVotes": 20622,
+      "totalVotes": 34606,
+      "totalAllVotes": 34629,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 13703,
+        "rVotes": 16919
+      },
+      "dEffectiveVotes": 13984,
+      "rEffectiveVotes": 20622,
+      "effectiveWinner": "R",
+      "dWasted": 13984,
+      "rWasted": 3318
+    },
+    {
+      "contest": "38",
+      "contestName": "MN Senate District 38",
+      "precincts": 23,
+      "allVotes": {
+        "R": 15801,
+        "D": 14718,
+        "I": 0,
+        "W": 21
+      },
+      "dVotes": 14718,
+      "rVotes": 15801,
+      "totalVotes": 30519,
+      "totalAllVotes": 30540,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 12731,
+        "rVotes": 13912
+      },
+      "dEffectiveVotes": 14718,
+      "rEffectiveVotes": 15801,
+      "effectiveWinner": "R",
+      "dWasted": 14718,
+      "rWasted": 541
+    },
+    {
+      "contest": "39",
+      "contestName": "MN Senate District 39",
+      "precincts": 31,
+      "allVotes": {
+        "R": 14048,
+        "D": 18126,
+        "I": 0,
+        "W": 39
+      },
+      "dVotes": 18126,
+      "rVotes": 14048,
+      "totalVotes": 32174,
+      "totalAllVotes": 32213,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14342,
+        "rVotes": 13757
+      },
+      "dEffectiveVotes": 18126,
+      "rEffectiveVotes": 14048,
+      "effectiveWinner": "D",
+      "dWasted": 2038,
+      "rWasted": 14048
+    },
+    {
+      "contest": "40",
+      "contestName": "MN Senate District 40",
+      "precincts": 25,
+      "allVotes": {
+        "R": 14852,
+        "D": 14242,
+        "I": 0,
+        "W": 38
+      },
+      "dVotes": 14242,
+      "rVotes": 14852,
+      "totalVotes": 29094,
+      "totalAllVotes": 29132,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 13043,
+        "rVotes": 13042
+      },
+      "dEffectiveVotes": 14242,
+      "rEffectiveVotes": 14852,
+      "effectiveWinner": "R",
+      "dWasted": 14242,
+      "rWasted": 304
+    },
+    {
+      "contest": "41",
+      "contestName": "MN Senate District 41",
+      "precincts": 30,
+      "allVotes": {
+        "R": 20890,
+        "D": 16098,
+        "I": 0,
+        "W": 39
+      },
+      "dVotes": 16098,
+      "rVotes": 20890,
+      "totalVotes": 36988,
+      "totalAllVotes": 37027,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 14818,
+        "rVotes": 16724
+      },
+      "dEffectiveVotes": 16098,
+      "rEffectiveVotes": 20890,
+      "effectiveWinner": "R",
+      "dWasted": 16098,
+      "rWasted": 2395
+    },
+    {
+      "contest": "42",
+      "contestName": "MN Senate District 42",
+      "precincts": 29,
+      "allVotes": {
+        "R": 19467,
+        "D": 15443,
+        "I": 0,
+        "W": 26
+      },
+      "dVotes": 15443,
+      "rVotes": 19467,
+      "totalVotes": 34910,
+      "totalAllVotes": 34936,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 12965,
+        "rVotes": 17321
+      },
+      "dEffectiveVotes": 15443,
+      "rEffectiveVotes": 19467,
+      "effectiveWinner": "R",
+      "dWasted": 15443,
+      "rWasted": 2011
+    },
+    {
+      "contest": "43",
+      "contestName": "MN Senate District 43",
+      "precincts": 32,
+      "allVotes": {
+        "R": 17018,
+        "D": 18271,
+        "I": 0,
+        "W": 22
+      },
+      "dVotes": 18271,
+      "rVotes": 17018,
+      "totalVotes": 35289,
+      "totalAllVotes": 35311,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14331,
+        "rVotes": 16428
+      },
+      "dEffectiveVotes": 18271,
+      "rEffectiveVotes": 17018,
+      "effectiveWinner": "D",
+      "dWasted": 626,
+      "rWasted": 17018
+    },
+    {
+      "contest": "44",
+      "contestName": "MN Senate District 44",
+      "precincts": 28,
+      "allVotes": {
+        "R": 10816,
+        "D": 20253,
+        "I": 0,
+        "W": 41
+      },
+      "dVotes": 20253,
+      "rVotes": 10816,
+      "totalVotes": 31069,
+      "totalAllVotes": 31110,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 17807,
+        "rVotes": 9766
+      },
+      "dEffectiveVotes": 20253,
+      "rEffectiveVotes": 10816,
+      "effectiveWinner": "D",
+      "dWasted": 4718,
+      "rWasted": 10816
+    },
+    {
+      "contest": "45",
+      "contestName": "MN Senate District 45",
+      "precincts": 29,
+      "allVotes": {
+        "R": 12158,
+        "D": 17263,
+        "I": 0,
+        "W": 34
+      },
+      "dVotes": 17263,
+      "rVotes": 12158,
+      "totalVotes": 29421,
+      "totalAllVotes": 29455,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 15057,
+        "rVotes": 11186
+      },
+      "dEffectiveVotes": 17263,
+      "rEffectiveVotes": 12158,
+      "effectiveWinner": "D",
+      "dWasted": 2552,
+      "rWasted": 12158
+    },
+    {
+      "contest": "46",
+      "contestName": "MN Senate District 46",
+      "precincts": 22,
+      "allVotes": {
+        "R": 7243,
+        "D": 11812,
+        "I": 0,
+        "W": 40
+      },
+      "dVotes": 11812,
+      "rVotes": 7243,
+      "totalVotes": 19055,
+      "totalAllVotes": 19095,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10784,
+        "rVotes": 6834
+      },
+      "dEffectiveVotes": 11812,
+      "rEffectiveVotes": 7243,
+      "effectiveWinner": "D",
+      "dWasted": 2284,
+      "rWasted": 7243
+    },
+    {
+      "contest": "47",
+      "contestName": "MN Senate District 47",
+      "precincts": 23,
+      "allVotes": {
+        "R": 14990,
+        "D": 13466,
+        "I": 1606,
+        "W": 19
+      },
+      "dVotes": 13466,
+      "rVotes": 14990,
+      "totalVotes": 28456,
+      "totalAllVotes": 30081,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 12490,
+        "rVotes": 14623
+      },
+      "dEffectiveVotes": 13466,
+      "rEffectiveVotes": 14990,
+      "effectiveWinner": "R",
+      "dWasted": 13466,
+      "rWasted": 761
+    },
+    {
+      "contest": "48",
+      "contestName": "MN Senate District 48",
+      "precincts": 31,
+      "allVotes": {
+        "R": 20475,
+        "D": 12581,
+        "I": 0,
+        "W": 34
+      },
+      "dVotes": 12581,
+      "rVotes": 20475,
+      "totalVotes": 33056,
+      "totalAllVotes": 33090,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11404,
+        "rVotes": 18385
+      },
+      "dEffectiveVotes": 12581,
+      "rEffectiveVotes": 20475,
+      "effectiveWinner": "R",
+      "dWasted": 12581,
+      "rWasted": 3946
+    },
+    {
+      "contest": "49",
+      "contestName": "MN Senate District 49",
+      "precincts": 28,
+      "allVotes": {
+        "R": 19979,
+        "D": 13102,
+        "I": 0,
+        "W": 37
+      },
+      "dVotes": 13102,
+      "rVotes": 19979,
+      "totalVotes": 33081,
+      "totalAllVotes": 33118,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11656,
+        "rVotes": 18298
+      },
+      "dEffectiveVotes": 13102,
+      "rEffectiveVotes": 19979,
+      "effectiveWinner": "R",
+      "dWasted": 13102,
+      "rWasted": 3438
+    },
+    {
+      "contest": "50",
+      "contestName": "MN Senate District 50",
+      "precincts": 27,
+      "allVotes": {
+        "R": 11991,
+        "D": 15122,
+        "I": 0,
+        "W": 30
+      },
+      "dVotes": 15122,
+      "rVotes": 11991,
+      "totalVotes": 27113,
+      "totalAllVotes": 27143,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14437,
+        "rVotes": 11723
+      },
+      "dEffectiveVotes": 15122,
+      "rEffectiveVotes": 11991,
+      "effectiveWinner": "D",
+      "dWasted": 1565,
+      "rWasted": 11991
+    },
+    {
+      "contest": "51",
+      "contestName": "MN Senate District 51",
+      "precincts": 35,
+      "allVotes": {
+        "R": 17002,
+        "D": 15301,
+        "I": 0,
+        "W": 42
+      },
+      "dVotes": 15301,
+      "rVotes": 17002,
+      "totalVotes": 32303,
+      "totalAllVotes": 32345,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 14213,
+        "rVotes": 14689
+      },
+      "dEffectiveVotes": 15301,
+      "rEffectiveVotes": 17002,
+      "effectiveWinner": "R",
+      "dWasted": 15301,
+      "rWasted": 850
+    },
+    {
+      "contest": "52",
+      "contestName": "MN Senate District 52",
+      "precincts": 33,
+      "allVotes": {
+        "R": 23184,
+        "D": 15343,
+        "I": 2941,
+        "W": 17
+      },
+      "dVotes": 15343,
+      "rVotes": 23184,
+      "totalVotes": 38527,
+      "totalAllVotes": 41485,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 15176,
+        "rVotes": 21610
+      },
+      "dEffectiveVotes": 15343,
+      "rEffectiveVotes": 23184,
+      "effectiveWinner": "R",
+      "dWasted": 15343,
+      "rWasted": 3920
+    },
+    {
+      "contest": "53",
+      "contestName": "MN Senate District 53",
+      "precincts": 23,
+      "allVotes": {
+        "R": 18394,
+        "D": 16483,
+        "I": 0,
+        "W": 33
+      },
+      "dVotes": 16483,
+      "rVotes": 18394,
+      "totalVotes": 34877,
+      "totalAllVotes": 34910,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 13738,
+        "rVotes": 17062
+      },
+      "dEffectiveVotes": 16483,
+      "rEffectiveVotes": 18394,
+      "effectiveWinner": "R",
+      "dWasted": 16483,
+      "rWasted": 955
+    },
+    {
+      "contest": "54",
+      "contestName": "MN Senate District 54",
+      "precincts": 24,
+      "allVotes": {
+        "R": 14279,
+        "D": 18600,
+        "I": 0,
+        "W": 33
+      },
+      "dVotes": 18600,
+      "rVotes": 14279,
+      "totalVotes": 32879,
+      "totalAllVotes": 32912,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 16185,
+        "rVotes": 12919
+      },
+      "dEffectiveVotes": 18600,
+      "rEffectiveVotes": 14279,
+      "effectiveWinner": "D",
+      "dWasted": 2160,
+      "rWasted": 14279
+    },
+    {
+      "contest": "55",
+      "contestName": "MN Senate District 55",
+      "precincts": 28,
+      "allVotes": {
+        "R": 11373,
+        "D": 15082,
+        "I": 2053,
+        "W": 21
+      },
+      "dVotes": 15082,
+      "rVotes": 11373,
+      "totalVotes": 26455,
+      "totalAllVotes": 28529,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13640,
+        "rVotes": 11809
+      },
+      "dEffectiveVotes": 15082,
+      "rEffectiveVotes": 11373,
+      "effectiveWinner": "D",
+      "dWasted": 1854,
+      "rWasted": 11373
+    },
+    {
+      "contest": "56",
+      "contestName": "MN Senate District 56",
+      "precincts": 28,
+      "allVotes": {
+        "R": 19850,
+        "D": 18668,
+        "I": 0,
+        "W": 31
+      },
+      "dVotes": 18668,
+      "rVotes": 19850,
+      "totalVotes": 38518,
+      "totalAllVotes": 38549,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 15059,
+        "rVotes": 18893
+      },
+      "dEffectiveVotes": 18668,
+      "rEffectiveVotes": 19850,
+      "effectiveWinner": "R",
+      "dWasted": 18668,
+      "rWasted": 590
+    },
+    {
+      "contest": "57",
+      "contestName": "MN Senate District 57",
+      "precincts": 37,
+      "allVotes": {
+        "R": 15206,
+        "D": 15812,
+        "I": 0,
+        "W": 25
+      },
+      "dVotes": 15812,
+      "rVotes": 15206,
+      "totalVotes": 31018,
+      "totalAllVotes": 31043,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13110,
+        "rVotes": 13828
+      },
+      "dEffectiveVotes": 15812,
+      "rEffectiveVotes": 15206,
+      "effectiveWinner": "D",
+      "dWasted": 302,
+      "rWasted": 15206
+    },
+    {
+      "contest": "58",
+      "contestName": "MN Senate District 58",
+      "precincts": 26,
+      "allVotes": {
+        "R": 3378,
+        "D": 13955,
+        "I": 0,
+        "W": 53
+      },
+      "dVotes": 13955,
+      "rVotes": 3378,
+      "totalVotes": 17333,
+      "totalAllVotes": 17386,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13197,
+        "rVotes": 3186
+      },
+      "dEffectiveVotes": 13955,
+      "rEffectiveVotes": 3378,
+      "effectiveWinner": "D",
+      "dWasted": 5288,
+      "rWasted": 3378
+    },
+    {
+      "contest": "59",
+      "contestName": "MN Senate District 59",
+      "precincts": 25,
+      "allVotes": {
+        "R": 5269,
+        "D": 19093,
+        "I": 0,
+        "W": 80
+      },
+      "dVotes": 19093,
+      "rVotes": 5269,
+      "totalVotes": 24362,
+      "totalAllVotes": 24442,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 18218,
+        "rVotes": 4789
+      },
+      "dEffectiveVotes": 19093,
+      "rEffectiveVotes": 5269,
+      "effectiveWinner": "D",
+      "dWasted": 6911,
+      "rWasted": 5269
+    },
+    {
+      "contest": "60",
+      "contestName": "MN Senate District 60",
+      "precincts": 26,
+      "allVotes": {
+        "R": 6782,
+        "D": 27088,
+        "I": 0,
+        "W": 70
+      },
+      "dVotes": 27088,
+      "rVotes": 6782,
+      "totalVotes": 33870,
+      "totalAllVotes": 33940,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 24668,
+        "rVotes": 5758
+      },
+      "dEffectiveVotes": 27088,
+      "rEffectiveVotes": 6782,
+      "effectiveWinner": "D",
+      "dWasted": 10152,
+      "rWasted": 6782
+    },
+    {
+      "contest": "61",
+      "contestName": "MN Senate District 61",
+      "precincts": 23,
+      "allVotes": {
+        "R": 1957,
+        "D": 15410,
+        "I": 0,
+        "W": 53
+      },
+      "dVotes": 15410,
+      "rVotes": 1957,
+      "totalVotes": 17367,
+      "totalAllVotes": 17420,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14797,
+        "rVotes": 1776
+      },
+      "dEffectiveVotes": 15410,
+      "rEffectiveVotes": 1957,
+      "effectiveWinner": "D",
+      "dWasted": 6726,
+      "rWasted": 1957
+    },
+    {
+      "contest": "62",
+      "contestName": "MN Senate District 62",
+      "precincts": 26,
+      "allVotes": {
+        "R": 6751,
+        "D": 26671,
+        "I": 0,
+        "W": 68
+      },
+      "dVotes": 26671,
+      "rVotes": 6751,
+      "totalVotes": 33422,
+      "totalAllVotes": 33490,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 24901,
+        "rVotes": 5829
+      },
+      "dEffectiveVotes": 26671,
+      "rEffectiveVotes": 6751,
+      "effectiveWinner": "D",
+      "dWasted": 9959,
+      "rWasted": 6751
+    },
+    {
+      "contest": "63",
+      "contestName": "MN Senate District 63",
+      "precincts": 23,
+      "allVotes": {
+        "R": 10139,
+        "D": 17305,
+        "I": 0,
+        "W": 40
+      },
+      "dVotes": 17305,
+      "rVotes": 10139,
+      "totalVotes": 27444,
+      "totalAllVotes": 27484,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 16050,
+        "rVotes": 8815
+      },
+      "dEffectiveVotes": 17305,
+      "rEffectiveVotes": 10139,
+      "effectiveWinner": "D",
+      "dWasted": 3582,
+      "rWasted": 10139
+    },
+    {
+      "contest": "64",
+      "contestName": "MN Senate District 64",
+      "precincts": 29,
+      "allVotes": {
+        "R": 9817,
+        "D": 23854,
+        "I": 0,
+        "W": 51
+      },
+      "dVotes": 23854,
+      "rVotes": 9817,
+      "totalVotes": 33671,
+      "totalAllVotes": 33722,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 21791,
+        "rVotes": 7994
+      },
+      "dEffectiveVotes": 23854,
+      "rEffectiveVotes": 9817,
+      "effectiveWinner": "D",
+      "dWasted": 7018,
+      "rWasted": 9817
+    },
+    {
+      "contest": "65",
+      "contestName": "MN Senate District 65",
+      "precincts": 25,
+      "allVotes": {
+        "R": 3490,
+        "D": 13312,
+        "I": 1680,
+        "W": 27
+      },
+      "dVotes": 13312,
+      "rVotes": 3490,
+      "totalVotes": 16802,
+      "totalAllVotes": 18509,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13717,
+        "rVotes": 3523
+      },
+      "dEffectiveVotes": 13312,
+      "rEffectiveVotes": 3490,
+      "effectiveWinner": "D",
+      "dWasted": 4910,
+      "rWasted": 3490
+    },
+    {
+      "contest": "66",
+      "contestName": "MN Senate District 66",
+      "precincts": 26,
+      "allVotes": {
+        "R": 5228,
+        "D": 16902,
+        "I": 0,
+        "W": 65
+      },
+      "dVotes": 16902,
+      "rVotes": 5228,
+      "totalVotes": 22130,
+      "totalAllVotes": 22195,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 15524,
+        "rVotes": 4725
+      },
+      "dEffectiveVotes": 16902,
+      "rEffectiveVotes": 5228,
+      "effectiveWinner": "D",
+      "dWasted": 5836,
+      "rWasted": 5228
+    },
+    {
+      "contest": "67",
+      "contestName": "MN Senate District 67",
+      "precincts": 26,
+      "allVotes": {
+        "R": 4343,
+        "D": 11194,
+        "I": 1393,
+        "W": 45
+      },
+      "dVotes": 11194,
+      "rVotes": 4343,
+      "totalVotes": 15537,
+      "totalAllVotes": 16975,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10864,
+        "rVotes": 4711
+      },
+      "dEffectiveVotes": 11194,
+      "rEffectiveVotes": 4343,
+      "effectiveWinner": "D",
+      "dWasted": 3425,
+      "rWasted": 4343
+    },
+    {
+      "contest": "03",
+      "contestName": "MN Senate District 03",
+      "precincts": 169,
+      "allVotes": {
+        "R": 13320,
+        "D": 18269,
+        "I": 0,
+        "W": 41
+      },
+      "dVotes": 18269,
+      "rVotes": 13320,
+      "totalVotes": 31589,
+      "totalAllVotes": 31630,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 16361,
+        "rVotes": 11827
+      },
+      "dEffectiveVotes": 18269,
+      "rEffectiveVotes": 13320,
+      "effectiveWinner": "D",
+      "dWasted": 2474,
+      "rWasted": 13320
+    },
+    {
+      "contest": "02",
+      "contestName": "MN Senate District 02",
+      "precincts": 215,
+      "allVotes": {
+        "R": 13825,
+        "D": 15588,
+        "I": 0,
+        "W": 24
+      },
+      "dVotes": 15588,
+      "rVotes": 13825,
+      "totalVotes": 29413,
+      "totalAllVotes": 29437,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12802,
+        "rVotes": 13278
+      },
+      "dEffectiveVotes": 15588,
+      "rEffectiveVotes": 13825,
+      "effectiveWinner": "D",
+      "dWasted": 881,
+      "rWasted": 13825
+    },
+    {
+      "contest": "09",
+      "contestName": "MN Senate District 09",
+      "precincts": 114,
+      "allVotes": {
+        "R": 13168,
+        "D": 14595,
+        "I": 0,
+        "W": 25
+      },
+      "dVotes": 14595,
+      "rVotes": 13168,
+      "totalVotes": 27763,
+      "totalAllVotes": 27788,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11882,
+        "rVotes": 12309
+      },
+      "dEffectiveVotes": 14595,
+      "rEffectiveVotes": 13168,
+      "effectiveWinner": "D",
+      "dWasted": 713,
+      "rWasted": 13168
+    },
+    {
+      "contest": "04",
+      "contestName": "MN Senate District 04",
+      "precincts": 140,
+      "allVotes": {
+        "R": 18956,
+        "D": 15752,
+        "I": 0,
+        "W": 55
+      },
+      "dVotes": 15752,
+      "rVotes": 18956,
+      "totalVotes": 34708,
+      "totalAllVotes": 34763,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 14060,
+        "rVotes": 16582
+      },
+      "dEffectiveVotes": 15752,
+      "rEffectiveVotes": 18956,
+      "effectiveWinner": "R",
+      "dWasted": 15752,
+      "rWasted": 1601
+    },
+    {
+      "contest": "08",
+      "contestName": "MN Senate District 08",
+      "precincts": 112,
+      "allVotes": {
+        "R": 13681,
+        "D": 16715,
+        "I": 0,
+        "W": 45
+      },
+      "dVotes": 16715,
+      "rVotes": 13681,
+      "totalVotes": 30396,
+      "totalAllVotes": 30441,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14867,
+        "rVotes": 12569
+      },
+      "dEffectiveVotes": 16715,
+      "rEffectiveVotes": 13681,
+      "effectiveWinner": "D",
+      "dWasted": 1516,
+      "rWasted": 13681
+    },
+    {
+      "contest": "06",
+      "contestName": "MN Senate District 06",
+      "precincts": 85,
+      "allVotes": {
+        "R": 12742,
+        "D": 21728,
+        "I": 0,
+        "W": 54
+      },
+      "dVotes": 21728,
+      "rVotes": 12742,
+      "totalVotes": 34470,
+      "totalAllVotes": 34524,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 20123,
+        "rVotes": 11532
+      },
+      "dEffectiveVotes": 21728,
+      "rEffectiveVotes": 12742,
+      "effectiveWinner": "D",
+      "dWasted": 4492,
+      "rWasted": 12742
+    },
+    {
+      "contest": "01",
+      "contestName": "MN Senate District 01",
+      "precincts": 247,
+      "allVotes": {
+        "R": 11132,
+        "D": 15614,
+        "I": 0,
+        "W": 24
+      },
+      "dVotes": 15614,
+      "rVotes": 11132,
+      "totalVotes": 26746,
+      "totalAllVotes": 26770,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11942,
+        "rVotes": 11802
+      },
+      "dEffectiveVotes": 15614,
+      "rEffectiveVotes": 11132,
+      "effectiveWinner": "D",
+      "dWasted": 2240,
+      "rWasted": 11132
+    },
+    {
+      "contest": "05",
+      "contestName": "MN Senate District 05",
+      "precincts": 90,
+      "allVotes": {
+        "R": 9666,
+        "D": 22322,
+        "I": 0,
+        "W": 31
+      },
+      "dVotes": 22322,
+      "rVotes": 9666,
+      "totalVotes": 31988,
+      "totalAllVotes": 32019,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 20703,
+        "rVotes": 8922
+      },
+      "dEffectiveVotes": 22322,
+      "rEffectiveVotes": 9666,
+      "effectiveWinner": "D",
+      "dWasted": 6327,
+      "rWasted": 9666
+    },
+    {
+      "contest": "07",
+      "contestName": "MN Senate District 07",
+      "precincts": 31,
+      "allVotes": {
+        "R": 7268,
+        "D": 19545,
+        "I": 0,
+        "W": 60
+      },
+      "dVotes": 19545,
+      "rVotes": 7268,
+      "totalVotes": 26813,
+      "totalAllVotes": 26873,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 17400,
+        "rVotes": 7075
+      },
+      "dEffectiveVotes": 19545,
+      "rEffectiveVotes": 7268,
+      "effectiveWinner": "D",
+      "dWasted": 6138,
+      "rWasted": 7268
+    }
+  ]
+}

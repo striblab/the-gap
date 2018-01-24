@@ -1,0 +1,74 @@
+{
+  "totals": {
+    "type": "senate",
+    "year": 2008,
+    "districts": 2,
+    "proxied": 0,
+    "proxiedAgain": 0,
+    "proxyContest": "US President",
+    "dVotes": 47469,
+    "rVotes": 34368,
+    "dWins": 2,
+    "rWins": 0,
+    "votes": 81837,
+    "dEffectiveVotes": 47469,
+    "rEffectiveVotes": 34368,
+    "dEffectiveWins": 2,
+    "rEffectiveWins": 0,
+    "effectiveVotes": 81837,
+    "dEffectiveWasted": 6549,
+    "rEffectiveWasted": 34368,
+    "gap": -0.33993181568239306,
+    "gapSeats": -0.6798636313647861
+  },
+  "districts": [
+    {
+      "contest": "16",
+      "contestName": "MN Senate District 16",
+      "precincts": 4,
+      "allVotes": {
+        "R": 22271,
+        "D": 22356,
+        "W": 1699
+      },
+      "dVotes": 22356,
+      "rVotes": 22271,
+      "totalVotes": 44627,
+      "totalAllVotes": 46326,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 1519,
+        "rVotes": 2307
+      },
+      "dEffectiveVotes": 22356,
+      "rEffectiveVotes": 22271,
+      "effectiveWinner": "D",
+      "dWasted": 42,
+      "rWasted": 22271
+    },
+    {
+      "contest": "63",
+      "contestName": "MN Senate District 63",
+      "precincts": 1,
+      "allVotes": {
+        "R": 12097,
+        "D": 25113,
+        "W": 99
+      },
+      "dVotes": 25113,
+      "rVotes": 12097,
+      "totalVotes": 37210,
+      "totalAllVotes": 37309,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 157,
+        "rVotes": 185
+      },
+      "dEffectiveVotes": 25113,
+      "rEffectiveVotes": 12097,
+      "effectiveWinner": "D",
+      "dWasted": 6507,
+      "rWasted": 12097
+    }
+  ]
+}

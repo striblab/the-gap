@@ -1,0 +1,3260 @@
+{
+  "totals": {
+    "type": "house",
+    "year": 2012,
+    "districts": 134,
+    "proxied": 4,
+    "proxiedAgain": 0,
+    "proxyContest": "U.S. President & Vice President",
+    "dVotes": 1468364,
+    "rVotes": 1233214,
+    "dWins": 73,
+    "rWins": 61,
+    "votes": 2701578,
+    "dEffectiveVotes": 1481806,
+    "rEffectiveVotes": 1238423,
+    "dEffectiveWins": 73,
+    "rEffectiveWins": 61,
+    "effectiveVotes": 2720229,
+    "dEffectiveWasted": 747961,
+    "rEffectiveWasted": 612047,
+    "gap": 0.04996417581019833,
+    "gapSeats": 6.695199558566577
+  },
+  "districts": [
+    {
+      "contest": "0207",
+      "contestName": "State Representative District 10B",
+      "precincts": 91,
+      "allVotes": {
+        "R": 10764,
+        "D": 11087,
+        "WI": 20
+      },
+      "dVotes": 11087,
+      "rVotes": 10764,
+      "totalVotes": 21851,
+      "totalAllVotes": 21871,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10098,
+        "rVotes": 12155
+      },
+      "dEffectiveVotes": 11087,
+      "rEffectiveVotes": 10764,
+      "effectiveWinner": "D",
+      "dWasted": 161,
+      "rWasted": 10764
+    },
+    {
+      "contest": "0257",
+      "contestName": "State Representative District 35B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 13120,
+        "D": 9052,
+        "WI": 30
+      },
+      "dVotes": 9052,
+      "rVotes": 13120,
+      "totalVotes": 22172,
+      "totalAllVotes": 22202,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9729,
+        "rVotes": 13632
+      },
+      "dEffectiveVotes": 9052,
+      "rEffectiveVotes": 13120,
+      "effectiveWinner": "R",
+      "dWasted": 9052,
+      "rWasted": 2033
+    },
+    {
+      "contest": "0249",
+      "contestName": "State Representative District 31B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 13101,
+        "D": 8391,
+        "WI": 40
+      },
+      "dVotes": 8391,
+      "rVotes": 13101,
+      "totalVotes": 21492,
+      "totalAllVotes": 21532,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8941,
+        "rVotes": 13796
+      },
+      "dEffectiveVotes": 8391,
+      "rEffectiveVotes": 13101,
+      "effectiveWinner": "R",
+      "dWasted": 8391,
+      "rWasted": 2354
+    },
+    {
+      "contest": "0256",
+      "contestName": "State Representative District 35A",
+      "precincts": 15,
+      "allVotes": {
+        "IP": 1587,
+        "R": 11906,
+        "D": 6755,
+        "WI": 31
+      },
+      "dVotes": 6755,
+      "rVotes": 11906,
+      "totalVotes": 18661,
+      "totalAllVotes": 20279,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9796,
+        "rVotes": 11290
+      },
+      "dEffectiveVotes": 6755,
+      "rEffectiveVotes": 11906,
+      "effectiveWinner": "R",
+      "dWasted": 6755,
+      "rWasted": 2575
+    },
+    {
+      "contest": "0248",
+      "contestName": "State Representative District 31A",
+      "precincts": 18,
+      "allVotes": {
+        "R": 11990,
+        "D": 7823,
+        "WI": 31
+      },
+      "dVotes": 7823,
+      "rVotes": 11990,
+      "totalVotes": 19813,
+      "totalAllVotes": 19844,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7674,
+        "rVotes": 13471
+      },
+      "dEffectiveVotes": 7823,
+      "rEffectiveVotes": 11990,
+      "effectiveWinner": "R",
+      "dWasted": 7823,
+      "rWasted": 2083
+    },
+    {
+      "contest": "0260",
+      "contestName": "State Representative District 37A",
+      "precincts": 17,
+      "allVotes": {
+        "R": 8830,
+        "D": 11843,
+        "WI": 37
+      },
+      "dVotes": 11843,
+      "rVotes": 8830,
+      "totalVotes": 20673,
+      "totalAllVotes": 20710,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11784,
+        "rVotes": 9843
+      },
+      "dEffectiveVotes": 11843,
+      "rEffectiveVotes": 8830,
+      "effectiveWinner": "D",
+      "dWasted": 1506,
+      "rWasted": 8830
+    },
+    {
+      "contest": "0261",
+      "contestName": "State Representative District 37B",
+      "precincts": 15,
+      "allVotes": {
+        "R": 11416,
+        "D": 9723,
+        "WI": 42
+      },
+      "dVotes": 9723,
+      "rVotes": 11416,
+      "totalVotes": 21139,
+      "totalAllVotes": 21181,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11094,
+        "rVotes": 11289
+      },
+      "dEffectiveVotes": 9723,
+      "rEffectiveVotes": 11416,
+      "effectiveWinner": "R",
+      "dWasted": 9723,
+      "rWasted": 846
+    },
+    {
+      "contest": "0262",
+      "contestName": "State Representative District 38A",
+      "precincts": 16,
+      "allVotes": {
+        "R": 12197,
+        "D": 8802,
+        "WI": 31
+      },
+      "dVotes": 8802,
+      "rVotes": 12197,
+      "totalVotes": 20999,
+      "totalAllVotes": 21030,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10072,
+        "rVotes": 12288
+      },
+      "dEffectiveVotes": 8802,
+      "rEffectiveVotes": 12197,
+      "effectiveWinner": "R",
+      "dWasted": 8802,
+      "rWasted": 1697
+    },
+    {
+      "contest": "0269",
+      "contestName": "State Representative District 41B",
+      "precincts": 15,
+      "allVotes": {
+        "R": 5669,
+        "D": 11943,
+        "CP": 2775,
+        "WI": 30
+      },
+      "dVotes": 11943,
+      "rVotes": 5669,
+      "totalVotes": 17612,
+      "totalAllVotes": 20417,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13780,
+        "rVotes": 7812
+      },
+      "dEffectiveVotes": 11943,
+      "rEffectiveVotes": 5669,
+      "effectiveWinner": "D",
+      "dWasted": 3136,
+      "rWasted": 5669
+    },
+    {
+      "contest": "0258",
+      "contestName": "State Representative District 36A",
+      "precincts": 10,
+      "allVotes": {
+        "R": 10691,
+        "D": 10235,
+        "WI": 35
+      },
+      "dVotes": 10235,
+      "rVotes": 10691,
+      "totalVotes": 20926,
+      "totalAllVotes": 20961,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10875,
+        "rVotes": 11076
+      },
+      "dEffectiveVotes": 10235,
+      "rEffectiveVotes": 10691,
+      "effectiveWinner": "R",
+      "dWasted": 10235,
+      "rWasted": 227
+    },
+    {
+      "contest": "0259",
+      "contestName": "State Representative District 36B",
+      "precincts": 14,
+      "allVotes": {
+        "IP": 891,
+        "R": 8555,
+        "D": 11679,
+        "WI": 25
+      },
+      "dVotes": 11679,
+      "rVotes": 8555,
+      "totalVotes": 20234,
+      "totalAllVotes": 21150,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12009,
+        "rVotes": 10149
+      },
+      "dEffectiveVotes": 11679,
+      "rEffectiveVotes": 8555,
+      "effectiveWinner": "D",
+      "dWasted": 1561,
+      "rWasted": 8555
+    },
+    {
+      "contest": "0268",
+      "contestName": "State Representative District 41A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 7829,
+        "D": 12653,
+        "WI": 41
+      },
+      "dVotes": 12653,
+      "rVotes": 7829,
+      "totalVotes": 20482,
+      "totalAllVotes": 20523,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13080,
+        "rVotes": 8418
+      },
+      "dEffectiveVotes": 12653,
+      "rEffectiveVotes": 7829,
+      "effectiveWinner": "D",
+      "dWasted": 2411,
+      "rWasted": 7829
+    },
+    {
+      "contest": "0191",
+      "contestName": "State Representative District 2B",
+      "precincts": 87,
+      "allVotes": {
+        "R": 9759,
+        "D": 9376,
+        "WI": 15
+      },
+      "dVotes": 9376,
+      "rVotes": 9759,
+      "totalVotes": 19135,
+      "totalAllVotes": 19150,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8299,
+        "rVotes": 11032
+      },
+      "dEffectiveVotes": 9376,
+      "rEffectiveVotes": 9759,
+      "effectiveWinner": "R",
+      "dWasted": 9376,
+      "rWasted": 191
+    },
+    {
+      "contest": "0195",
+      "contestName": "State Representative District 4B",
+      "precincts": 82,
+      "allVotes": {
+        "R": 6719,
+        "D": 12637,
+        "WI": 16
+      },
+      "dVotes": 12637,
+      "rVotes": 6719,
+      "totalVotes": 19356,
+      "totalAllVotes": 19372,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9244,
+        "rVotes": 10187
+      },
+      "dEffectiveVotes": 12637,
+      "rEffectiveVotes": 6719,
+      "effectiveWinner": "D",
+      "dWasted": 2958,
+      "rWasted": 6719
+    },
+    {
+      "contest": "0190",
+      "contestName": "State Representative District 2A",
+      "precincts": 107,
+      "allVotes": {
+        "R": 8901,
+        "D": 10730,
+        "WI": 21
+      },
+      "dVotes": 10730,
+      "rVotes": 8901,
+      "totalVotes": 19631,
+      "totalAllVotes": 19652,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9728,
+        "rVotes": 10135
+      },
+      "dEffectiveVotes": 10730,
+      "rEffectiveVotes": 8901,
+      "effectiveWinner": "D",
+      "dWasted": 914,
+      "rWasted": 8901
+    },
+    {
+      "contest": "0196",
+      "contestName": "State Representative District 5A",
+      "precincts": 70,
+      "allVotes": {
+        "R": 8497,
+        "D": 10901,
+        "WI": 25
+      },
+      "dVotes": 10901,
+      "rVotes": 8497,
+      "totalVotes": 19398,
+      "totalAllVotes": 19423,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10599,
+        "rVotes": 9332
+      },
+      "dEffectiveVotes": 10901,
+      "rEffectiveVotes": 8497,
+      "effectiveWinner": "D",
+      "dWasted": 1201,
+      "rWasted": 8497
+    },
+    {
+      "contest": "0217",
+      "contestName": "State Representative District 15B",
+      "precincts": 26,
+      "allVotes": {
+        "R": 11414,
+        "D": 8316,
+        "WI": 26
+      },
+      "dVotes": 8316,
+      "rVotes": 11414,
+      "totalVotes": 19730,
+      "totalAllVotes": 19756,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7414,
+        "rVotes": 13361
+      },
+      "dEffectiveVotes": 8316,
+      "rEffectiveVotes": 11414,
+      "effectiveWinner": "R",
+      "dWasted": 8316,
+      "rWasted": 1548
+    },
+    {
+      "contest": "0215",
+      "contestName": "State Representative District 14B",
+      "precincts": 20,
+      "allVotes": {
+        "R": 7749,
+        "D": 10017,
+        "WI": 53
+      },
+      "dVotes": 10017,
+      "rVotes": 7749,
+      "totalVotes": 17766,
+      "totalAllVotes": 17819,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10158,
+        "rVotes": 8306
+      },
+      "dEffectiveVotes": 10017,
+      "rEffectiveVotes": 7749,
+      "effectiveWinner": "D",
+      "dWasted": 1133,
+      "rWasted": 7749
+    },
+    {
+      "contest": "0213",
+      "contestName": "State Representative District 13B",
+      "precincts": 21,
+      "allVotes": {
+        "R": 12076,
+        "D": 7946,
+        "WI": 32
+      },
+      "dVotes": 7946,
+      "rVotes": 12076,
+      "totalVotes": 20022,
+      "totalAllVotes": 20054,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8649,
+        "rVotes": 12200
+      },
+      "dEffectiveVotes": 7946,
+      "rEffectiveVotes": 12076,
+      "effectiveWinner": "R",
+      "dWasted": 7946,
+      "rWasted": 2064
+    },
+    {
+      "contest": "0210",
+      "contestName": "State Representative District 12A",
+      "precincts": 147,
+      "allVotes": {
+        "IP": 1305,
+        "R": 9837,
+        "D": 10092,
+        "WI": 19
+      },
+      "dVotes": 10092,
+      "rVotes": 9837,
+      "totalVotes": 19929,
+      "totalAllVotes": 21253,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10130,
+        "rVotes": 11313
+      },
+      "dEffectiveVotes": 10092,
+      "rEffectiveVotes": 9837,
+      "effectiveWinner": "D",
+      "dWasted": 127,
+      "rWasted": 9837
+    },
+    {
+      "contest": "0233",
+      "contestName": "State Representative District 23B",
+      "precincts": 57,
+      "allVotes": {
+        "R": 16278,
+        "WI": 634
+      },
+      "dVotes": 0,
+      "rVotes": 16278,
+      "totalVotes": 16278,
+      "totalAllVotes": 16912,
+      "winner": "R",
+      "uncontested": true,
+      "proxy": {
+        "dVotes": 9741,
+        "rVotes": 10414
+      },
+      "proxied": true,
+      "dEffectiveVotes": 9741,
+      "rEffectiveVotes": 10414,
+      "effectiveWinner": "R",
+      "dWasted": 9741,
+      "rWasted": 336
+    },
+    {
+      "contest": "0225",
+      "contestName": "State Representative District 19B",
+      "precincts": 16,
+      "allVotes": {
+        "R": 6660,
+        "D": 11897,
+        "WI": 52
+      },
+      "dVotes": 11897,
+      "rVotes": 6660,
+      "totalVotes": 18557,
+      "totalAllVotes": 18609,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11934,
+        "rVotes": 8349
+      },
+      "dEffectiveVotes": 11897,
+      "rEffectiveVotes": 6660,
+      "effectiveWinner": "D",
+      "dWasted": 2618,
+      "rWasted": 6660
+    },
+    {
+      "contest": "0224",
+      "contestName": "State Representative District 19A",
+      "precincts": 38,
+      "allVotes": {
+        "D": 17263,
+        "WI": 416
+      },
+      "dVotes": 17263,
+      "rVotes": 0,
+      "totalVotes": 17263,
+      "totalAllVotes": 17679,
+      "winner": "D",
+      "uncontested": true,
+      "proxy": {
+        "dVotes": 11538,
+        "rVotes": 9908
+      },
+      "proxied": true,
+      "dEffectiveVotes": 11538,
+      "rEffectiveVotes": 9908,
+      "effectiveWinner": "D",
+      "dWasted": 814,
+      "rWasted": 9908
+    },
+    {
+      "contest": "0232",
+      "contestName": "State Representative District 23A",
+      "precincts": 88,
+      "allVotes": {
+        "R": 11544,
+        "D": 8908,
+        "WI": 21
+      },
+      "dVotes": 8908,
+      "rVotes": 11544,
+      "totalVotes": 20452,
+      "totalAllVotes": 20473,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8135,
+        "rVotes": 12246
+      },
+      "dEffectiveVotes": 8908,
+      "rEffectiveVotes": 11544,
+      "effectiveWinner": "R",
+      "dWasted": 8908,
+      "rWasted": 1317
+    },
+    {
+      "contest": "0219",
+      "contestName": "State Representative District 16B",
+      "precincts": 68,
+      "allVotes": {
+        "R": 11243,
+        "D": 6466,
+        "IND": 2303,
+        "WI": 13
+      },
+      "dVotes": 6466,
+      "rVotes": 11243,
+      "totalVotes": 17709,
+      "totalAllVotes": 20025,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8258,
+        "rVotes": 11874
+      },
+      "dEffectiveVotes": 6466,
+      "rEffectiveVotes": 11243,
+      "effectiveWinner": "R",
+      "dWasted": 6466,
+      "rWasted": 2388
+    },
+    {
+      "contest": "0208",
+      "contestName": "State Representative District 11A",
+      "precincts": 47,
+      "allVotes": {
+        "IP": 1164,
+        "R": 5931,
+        "D": 12610,
+        "WI": 39
+      },
+      "dVotes": 12610,
+      "rVotes": 5931,
+      "totalVotes": 18541,
+      "totalAllVotes": 19744,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12732,
+        "rVotes": 7326
+      },
+      "dEffectiveVotes": 12610,
+      "rEffectiveVotes": 5931,
+      "effectiveWinner": "D",
+      "dWasted": 3339,
+      "rWasted": 5931
+    },
+    {
+      "contest": "0280",
+      "contestName": "State Representative District 47A",
+      "precincts": 21,
+      "allVotes": {
+        "R": 12938,
+        "D": 7718,
+        "WI": 34
+      },
+      "dVotes": 7718,
+      "rVotes": 12938,
+      "totalVotes": 20656,
+      "totalAllVotes": 20690,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7988,
+        "rVotes": 14263
+      },
+      "dEffectiveVotes": 7718,
+      "rEffectiveVotes": 12938,
+      "effectiveWinner": "R",
+      "dWasted": 7718,
+      "rWasted": 2609
+    },
+    {
+      "contest": "0253",
+      "contestName": "State Representative District 33B",
+      "precincts": 21,
+      "allVotes": {
+        "R": 13211,
+        "D": 11053,
+        "WI": 40
+      },
+      "dVotes": 11053,
+      "rVotes": 13211,
+      "totalVotes": 24264,
+      "totalAllVotes": 24304,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11301,
+        "rVotes": 14132
+      },
+      "dEffectiveVotes": 11053,
+      "rEffectiveVotes": 13211,
+      "effectiveWinner": "R",
+      "dWasted": 11053,
+      "rWasted": 1078
+    },
+    {
+      "contest": "0281",
+      "contestName": "State Representative District 47B",
+      "precincts": 10,
+      "allVotes": {
+        "R": 16391,
+        "WI": 481
+      },
+      "dVotes": 0,
+      "rVotes": 16391,
+      "totalVotes": 16391,
+      "totalAllVotes": 16872,
+      "winner": "R",
+      "uncontested": true,
+      "proxy": {
+        "dVotes": 9502,
+        "rVotes": 12661
+      },
+      "proxied": true,
+      "dEffectiveVotes": 9502,
+      "rEffectiveVotes": 12661,
+      "effectiveWinner": "R",
+      "dWasted": 9502,
+      "rWasted": 1579
+    },
+    {
+      "contest": "0204",
+      "contestName": "State Representative District 9A",
+      "precincts": 71,
+      "allVotes": {
+        "R": 10972,
+        "D": 7922,
+        "WI": 33
+      },
+      "dVotes": 7922,
+      "rVotes": 10972,
+      "totalVotes": 18894,
+      "totalAllVotes": 18927,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7440,
+        "rVotes": 11939
+      },
+      "dEffectiveVotes": 7922,
+      "rEffectiveVotes": 10972,
+      "effectiveWinner": "R",
+      "dWasted": 7922,
+      "rWasted": 1524
+    },
+    {
+      "contest": "0197",
+      "contestName": "State Representative District 5B",
+      "precincts": 58,
+      "allVotes": {
+        "R": 9707,
+        "D": 11162,
+        "WI": 30
+      },
+      "dVotes": 11162,
+      "rVotes": 9707,
+      "totalVotes": 20869,
+      "totalAllVotes": 20899,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10630,
+        "rVotes": 10437
+      },
+      "dEffectiveVotes": 11162,
+      "rEffectiveVotes": 9707,
+      "effectiveWinner": "D",
+      "dWasted": 727,
+      "rWasted": 9707
+    },
+    {
+      "contest": "0220",
+      "contestName": "State Representative District 17A",
+      "precincts": 94,
+      "allVotes": {
+        "R": 8956,
+        "D": 10489,
+        "WI": 28
+      },
+      "dVotes": 10489,
+      "rVotes": 8956,
+      "totalVotes": 19445,
+      "totalAllVotes": 19473,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9428,
+        "rVotes": 10166
+      },
+      "dEffectiveVotes": 10489,
+      "rEffectiveVotes": 8956,
+      "effectiveWinner": "D",
+      "dWasted": 766,
+      "rWasted": 8956
+    },
+    {
+      "contest": "0218",
+      "contestName": "State Representative District 16A",
+      "precincts": 86,
+      "allVotes": {
+        "R": 10991,
+        "D": 8363,
+        "WI": 22
+      },
+      "dVotes": 8363,
+      "rVotes": 10991,
+      "totalVotes": 19354,
+      "totalAllVotes": 19376,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9035,
+        "rVotes": 10384
+      },
+      "dEffectiveVotes": 8363,
+      "rEffectiveVotes": 10991,
+      "effectiveWinner": "R",
+      "dWasted": 8363,
+      "rWasted": 1313
+    },
+    {
+      "contest": "0251",
+      "contestName": "State Representative District 32B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 10644,
+        "D": 10251,
+        "WI": 27
+      },
+      "dVotes": 10251,
+      "rVotes": 10644,
+      "totalVotes": 20895,
+      "totalAllVotes": 20922,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9484,
+        "rVotes": 12152
+      },
+      "dEffectiveVotes": 10251,
+      "rEffectiveVotes": 10644,
+      "effectiveWinner": "R",
+      "dWasted": 10251,
+      "rWasted": 196
+    },
+    {
+      "contest": "0250",
+      "contestName": "State Representative District 32A",
+      "precincts": 19,
+      "allVotes": {
+        "R": 10014,
+        "D": 8601,
+        "CP": 851,
+        "WI": 26
+      },
+      "dVotes": 8601,
+      "rVotes": 10014,
+      "totalVotes": 18615,
+      "totalAllVotes": 19492,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8451,
+        "rVotes": 11700
+      },
+      "dEffectiveVotes": 8601,
+      "rEffectiveVotes": 10014,
+      "effectiveWinner": "R",
+      "dWasted": 8601,
+      "rWasted": 706
+    },
+    {
+      "contest": "0264",
+      "contestName": "State Representative District 39A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 13033,
+        "D": 9638,
+        "WI": 31
+      },
+      "dVotes": 9638,
+      "rVotes": 13033,
+      "totalVotes": 22671,
+      "totalAllVotes": 22702,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10857,
+        "rVotes": 12813
+      },
+      "dEffectiveVotes": 9638,
+      "rEffectiveVotes": 13033,
+      "effectiveWinner": "R",
+      "dWasted": 9638,
+      "rWasted": 1697
+    },
+    {
+      "contest": "0194",
+      "contestName": "State Representative District 4A",
+      "precincts": 16,
+      "allVotes": {
+        "R": 8218,
+        "D": 10011,
+        "WI": 39
+      },
+      "dVotes": 10011,
+      "rVotes": 8218,
+      "totalVotes": 18229,
+      "totalAllVotes": 18268,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10724,
+        "rVotes": 8201
+      },
+      "dEffectiveVotes": 10011,
+      "rEffectiveVotes": 8218,
+      "effectiveWinner": "D",
+      "dWasted": 896,
+      "rWasted": 8218
+    },
+    {
+      "contest": "0192",
+      "contestName": "State Representative District 3A",
+      "precincts": 83,
+      "allVotes": {
+        "R": 7228,
+        "D": 14671,
+        "WI": 81
+      },
+      "dVotes": 14671,
+      "rVotes": 7228,
+      "totalVotes": 21899,
+      "totalAllVotes": 21980,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12718,
+        "rVotes": 9739
+      },
+      "dEffectiveVotes": 14671,
+      "rEffectiveVotes": 7228,
+      "effectiveWinner": "D",
+      "dWasted": 3721,
+      "rWasted": 7228
+    },
+    {
+      "contest": "0231",
+      "contestName": "State Representative District 22B",
+      "precincts": 88,
+      "allVotes": {
+        "R": 10165,
+        "D": 6745,
+        "WI": 15
+      },
+      "dVotes": 6745,
+      "rVotes": 10165,
+      "totalVotes": 16910,
+      "totalAllVotes": 16925,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7660,
+        "rVotes": 9456
+      },
+      "dEffectiveVotes": 6745,
+      "rEffectiveVotes": 10165,
+      "effectiveWinner": "R",
+      "dWasted": 6745,
+      "rWasted": 1709
+    },
+    {
+      "contest": "0206",
+      "contestName": "State Representative District 10A",
+      "precincts": 27,
+      "allVotes": {
+        "R": 8872,
+        "D": 11789,
+        "WI": 28
+      },
+      "dVotes": 11789,
+      "rVotes": 8872,
+      "totalVotes": 20661,
+      "totalAllVotes": 20689,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9074,
+        "rVotes": 11793
+      },
+      "dEffectiveVotes": 11789,
+      "rEffectiveVotes": 8872,
+      "effectiveWinner": "D",
+      "dWasted": 1458,
+      "rWasted": 8872
+    },
+    {
+      "contest": "0300",
+      "contestName": "State Representative District 57A",
+      "precincts": 13,
+      "allVotes": {
+        "R": 11420,
+        "D": 9941,
+        "WI": 36
+      },
+      "dVotes": 9941,
+      "rVotes": 11420,
+      "totalVotes": 21361,
+      "totalAllVotes": 21397,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11611,
+        "rVotes": 10810
+      },
+      "dEffectiveVotes": 9941,
+      "rEffectiveVotes": 11420,
+      "effectiveWinner": "R",
+      "dWasted": 9941,
+      "rWasted": 739
+    },
+    {
+      "contest": "0301",
+      "contestName": "State Representative District 57B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 11906,
+        "D": 10452,
+        "WI": 29
+      },
+      "dVotes": 10452,
+      "rVotes": 11906,
+      "totalVotes": 22358,
+      "totalAllVotes": 22387,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11644,
+        "rVotes": 11856
+      },
+      "dEffectiveVotes": 10452,
+      "rEffectiveVotes": 11906,
+      "effectiveWinner": "R",
+      "dWasted": 10452,
+      "rWasted": 726
+    },
+    {
+      "contest": "0288",
+      "contestName": "State Representative District 51A",
+      "precincts": 11,
+      "allVotes": {
+        "R": 9354,
+        "D": 11724,
+        "WI": 49
+      },
+      "dVotes": 11724,
+      "rVotes": 9354,
+      "totalVotes": 21078,
+      "totalAllVotes": 21127,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12526,
+        "rVotes": 9569
+      },
+      "dEffectiveVotes": 11724,
+      "rEffectiveVotes": 9354,
+      "effectiveWinner": "D",
+      "dWasted": 1184,
+      "rWasted": 9354
+    },
+    {
+      "contest": "0298",
+      "contestName": "State Representative District 56A",
+      "precincts": 12,
+      "allVotes": {
+        "R": 10905,
+        "D": 9278,
+        "WI": 38
+      },
+      "dVotes": 9278,
+      "rVotes": 10905,
+      "totalVotes": 20183,
+      "totalAllVotes": 20221,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10411,
+        "rVotes": 11202
+      },
+      "dEffectiveVotes": 9278,
+      "rEffectiveVotes": 10905,
+      "effectiveWinner": "R",
+      "dWasted": 9278,
+      "rWasted": 813
+    },
+    {
+      "contest": "0299",
+      "contestName": "State Representative District 56B",
+      "precincts": 11,
+      "allVotes": {
+        "R": 10515,
+        "D": 10685,
+        "WI": 34
+      },
+      "dVotes": 10685,
+      "rVotes": 10515,
+      "totalVotes": 21200,
+      "totalAllVotes": 21234,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11190,
+        "rVotes": 11124
+      },
+      "dEffectiveVotes": 10685,
+      "rEffectiveVotes": 10515,
+      "effectiveWinner": "D",
+      "dWasted": 84,
+      "rWasted": 10515
+    },
+    {
+      "contest": "0303",
+      "contestName": "State Representative District 58B",
+      "precincts": 27,
+      "allVotes": {
+        "R": 12520,
+        "D": 8512,
+        "WI": 19
+      },
+      "dVotes": 8512,
+      "rVotes": 12520,
+      "totalVotes": 21032,
+      "totalAllVotes": 21051,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9501,
+        "rVotes": 12473
+      },
+      "dEffectiveVotes": 8512,
+      "rEffectiveVotes": 12520,
+      "effectiveWinner": "R",
+      "dWasted": 8512,
+      "rWasted": 2003
+    },
+    {
+      "contest": "0291",
+      "contestName": "State Representative District 52B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 7430,
+        "D": 14493,
+        "WI": 29
+      },
+      "dVotes": 14493,
+      "rVotes": 7430,
+      "totalVotes": 21923,
+      "totalAllVotes": 21952,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12118,
+        "rVotes": 10391
+      },
+      "dEffectiveVotes": 14493,
+      "rEffectiveVotes": 7430,
+      "effectiveWinner": "D",
+      "dWasted": 3531,
+      "rWasted": 7430
+    },
+    {
+      "contest": "0289",
+      "contestName": "State Representative District 51B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 11298,
+        "D": 12210,
+        "WI": 26
+      },
+      "dVotes": 12210,
+      "rVotes": 11298,
+      "totalVotes": 23508,
+      "totalAllVotes": 23534,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12651,
+        "rVotes": 11506
+      },
+      "dEffectiveVotes": 12210,
+      "rEffectiveVotes": 11298,
+      "effectiveWinner": "D",
+      "dWasted": 455,
+      "rWasted": 11298
+    },
+    {
+      "contest": "0295",
+      "contestName": "State Representative District 54B",
+      "precincts": 19,
+      "allVotes": {
+        "R": 12493,
+        "D": 9228,
+        "WI": 33
+      },
+      "dVotes": 9228,
+      "rVotes": 12493,
+      "totalVotes": 21721,
+      "totalAllVotes": 21754,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11176,
+        "rVotes": 11045
+      },
+      "dEffectiveVotes": 9228,
+      "rEffectiveVotes": 12493,
+      "effectiveWinner": "R",
+      "dWasted": 9228,
+      "rWasted": 1632
+    },
+    {
+      "contest": "0302",
+      "contestName": "State Representative District 58A",
+      "precincts": 12,
+      "allVotes": {
+        "R": 12419,
+        "D": 8574,
+        "WI": 23
+      },
+      "dVotes": 8574,
+      "rVotes": 12419,
+      "totalVotes": 20993,
+      "totalAllVotes": 21016,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9550,
+        "rVotes": 12665
+      },
+      "dEffectiveVotes": 8574,
+      "rEffectiveVotes": 12419,
+      "effectiveWinner": "R",
+      "dWasted": 8574,
+      "rWasted": 1922
+    },
+    {
+      "contest": "0290",
+      "contestName": "State Representative District 52A",
+      "precincts": 14,
+      "allVotes": {
+        "R": 8216,
+        "D": 13732,
+        "WI": 41
+      },
+      "dVotes": 13732,
+      "rVotes": 8216,
+      "totalVotes": 21948,
+      "totalAllVotes": 21989,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13732,
+        "rVotes": 9195
+      },
+      "dEffectiveVotes": 13732,
+      "rEffectiveVotes": 8216,
+      "effectiveWinner": "D",
+      "dWasted": 2757,
+      "rWasted": 8216
+    },
+    {
+      "contest": "0294",
+      "contestName": "State Representative District 54A",
+      "precincts": 15,
+      "allVotes": {
+        "IP": 1428,
+        "R": 7664,
+        "D": 11069,
+        "WI": 30
+      },
+      "dVotes": 11069,
+      "rVotes": 7664,
+      "totalVotes": 18733,
+      "totalAllVotes": 20191,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12067,
+        "rVotes": 9017
+      },
+      "dEffectiveVotes": 11069,
+      "rEffectiveVotes": 7664,
+      "effectiveWinner": "D",
+      "dWasted": 1702,
+      "rWasted": 7664
+    },
+    {
+      "contest": "0235",
+      "contestName": "State Representative District 24B",
+      "precincts": 28,
+      "allVotes": {
+        "R": 7608,
+        "D": 9988,
+        "WI": 15
+      },
+      "dVotes": 9988,
+      "rVotes": 7608,
+      "totalVotes": 17596,
+      "totalAllVotes": 17611,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8499,
+        "rVotes": 9149
+      },
+      "dEffectiveVotes": 9988,
+      "rEffectiveVotes": 7608,
+      "effectiveWinner": "D",
+      "dWasted": 1189,
+      "rWasted": 7608
+    },
+    {
+      "contest": "0240",
+      "contestName": "State Representative District 27A",
+      "precincts": 51,
+      "allVotes": {
+        "IP": 1574,
+        "R": 9090,
+        "D": 9743,
+        "WI": 19
+      },
+      "dVotes": 9743,
+      "rVotes": 9090,
+      "totalVotes": 18833,
+      "totalAllVotes": 20426,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11630,
+        "rVotes": 8855
+      },
+      "dEffectiveVotes": 9743,
+      "rEffectiveVotes": 9090,
+      "effectiveWinner": "D",
+      "dWasted": 326,
+      "rWasted": 9090
+    },
+    {
+      "contest": "0236",
+      "contestName": "State Representative District 25A",
+      "precincts": 24,
+      "allVotes": {
+        "R": 11056,
+        "D": 9188,
+        "WI": 22
+      },
+      "dVotes": 9188,
+      "rVotes": 11056,
+      "totalVotes": 20244,
+      "totalAllVotes": 20266,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9703,
+        "rVotes": 11223
+      },
+      "dEffectiveVotes": 9188,
+      "rEffectiveVotes": 11056,
+      "effectiveWinner": "R",
+      "dWasted": 9188,
+      "rWasted": 933
+    },
+    {
+      "contest": "0229",
+      "contestName": "State Representative District 21B",
+      "precincts": 54,
+      "allVotes": {
+        "R": 11759,
+        "D": 8511,
+        "WI": 23
+      },
+      "dVotes": 8511,
+      "rVotes": 11759,
+      "totalVotes": 20270,
+      "totalAllVotes": 20293,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9289,
+        "rVotes": 11350
+      },
+      "dEffectiveVotes": 8511,
+      "rEffectiveVotes": 11759,
+      "effectiveWinner": "R",
+      "dWasted": 8511,
+      "rWasted": 1623
+    },
+    {
+      "contest": "0241",
+      "contestName": "State Representative District 27B",
+      "precincts": 41,
+      "allVotes": {
+        "R": 6792,
+        "D": 11486,
+        "WI": 19
+      },
+      "dVotes": 11486,
+      "rVotes": 6792,
+      "totalVotes": 18278,
+      "totalAllVotes": 18297,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11257,
+        "rVotes": 7106
+      },
+      "dEffectiveVotes": 11486,
+      "rEffectiveVotes": 6792,
+      "effectiveWinner": "D",
+      "dWasted": 2346,
+      "rWasted": 6792
+    },
+    {
+      "contest": "0211",
+      "contestName": "State Representative District 12B",
+      "precincts": 61,
+      "allVotes": {
+        "R": 13043,
+        "D": 6611,
+        "WI": 11
+      },
+      "dVotes": 6611,
+      "rVotes": 13043,
+      "totalVotes": 19654,
+      "totalAllVotes": 19665,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7423,
+        "rVotes": 12669
+      },
+      "dEffectiveVotes": 6611,
+      "rEffectiveVotes": 13043,
+      "effectiveWinner": "R",
+      "dWasted": 6611,
+      "rWasted": 3215
+    },
+    {
+      "contest": "0203",
+      "contestName": "State Representative District 8B",
+      "precincts": 54,
+      "allVotes": {
+        "R": 10642,
+        "D": 10630,
+        "WI": 19
+      },
+      "dVotes": 10630,
+      "rVotes": 10642,
+      "totalVotes": 21272,
+      "totalAllVotes": 21291,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8907,
+        "rVotes": 12835
+      },
+      "dEffectiveVotes": 10630,
+      "rEffectiveVotes": 10642,
+      "effectiveWinner": "R",
+      "dWasted": 10630,
+      "rWasted": 5
+    },
+    {
+      "contest": "0243",
+      "contestName": "State Representative District 28B",
+      "precincts": 64,
+      "allVotes": {
+        "R": 12006,
+        "D": 8542,
+        "WI": 74
+      },
+      "dVotes": 8542,
+      "rVotes": 12006,
+      "totalVotes": 20548,
+      "totalAllVotes": 20622,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10994,
+        "rVotes": 9864
+      },
+      "dEffectiveVotes": 8542,
+      "rEffectiveVotes": 12006,
+      "effectiveWinner": "R",
+      "dWasted": 8542,
+      "rWasted": 1731
+    },
+    {
+      "contest": "0228",
+      "contestName": "State Representative District 21A",
+      "precincts": 33,
+      "allVotes": {
+        "R": 12174,
+        "D": 8969,
+        "WI": 33
+      },
+      "dVotes": 8969,
+      "rVotes": 12174,
+      "totalVotes": 21143,
+      "totalAllVotes": 21176,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11177,
+        "rVotes": 10285
+      },
+      "dEffectiveVotes": 8969,
+      "rEffectiveVotes": 12174,
+      "effectiveWinner": "R",
+      "dWasted": 8969,
+      "rWasted": 1602
+    },
+    {
+      "contest": "0287",
+      "contestName": "State Representative District 50B",
+      "precincts": 15,
+      "allVotes": {
+        "R": 7836,
+        "D": 14800,
+        "WI": 39
+      },
+      "dVotes": 14800,
+      "rVotes": 7836,
+      "totalVotes": 22636,
+      "totalAllVotes": 22675,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13544,
+        "rVotes": 9748
+      },
+      "dEffectiveVotes": 14800,
+      "rEffectiveVotes": 7836,
+      "effectiveWinner": "D",
+      "dWasted": 3481,
+      "rWasted": 7836
+    },
+    {
+      "contest": "0285",
+      "contestName": "State Representative District 49B",
+      "precincts": 18,
+      "allVotes": {
+        "R": 11840,
+        "D": 13560,
+        "WI": 36
+      },
+      "dVotes": 13560,
+      "rVotes": 11840,
+      "totalVotes": 25400,
+      "totalAllVotes": 25436,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14043,
+        "rVotes": 12364
+      },
+      "dEffectiveVotes": 13560,
+      "rEffectiveVotes": 11840,
+      "effectiveWinner": "D",
+      "dWasted": 859,
+      "rWasted": 11840
+    },
+    {
+      "contest": "0286",
+      "contestName": "State Representative District 50A",
+      "precincts": 11,
+      "allVotes": {
+        "IP": 1439,
+        "R": 5864,
+        "D": 12036,
+        "WI": 30
+      },
+      "dVotes": 12036,
+      "rVotes": 5864,
+      "totalVotes": 17900,
+      "totalAllVotes": 19369,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13364,
+        "rVotes": 7117
+      },
+      "dEffectiveVotes": 12036,
+      "rEffectiveVotes": 5864,
+      "effectiveWinner": "D",
+      "dWasted": 3085,
+      "rWasted": 5864
+    },
+    {
+      "contest": "0267",
+      "contestName": "State Representative District 40B",
+      "precincts": 10,
+      "allVotes": {
+        "R": 4810,
+        "D": 12024,
+        "WI": 43
+      },
+      "dVotes": 12024,
+      "rVotes": 4810,
+      "totalVotes": 16834,
+      "totalAllVotes": 16877,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12593,
+        "rVotes": 5400
+      },
+      "dEffectiveVotes": 12024,
+      "rEffectiveVotes": 4810,
+      "effectiveWinner": "D",
+      "dWasted": 3606,
+      "rWasted": 4810
+    },
+    {
+      "contest": "0266",
+      "contestName": "State Representative District 40A",
+      "precincts": 11,
+      "allVotes": {
+        "D": 11972,
+        "WI": 347
+      },
+      "dVotes": 11972,
+      "rVotes": 0,
+      "totalVotes": 11972,
+      "totalAllVotes": 12319,
+      "winner": "D",
+      "uncontested": true,
+      "proxy": {
+        "dVotes": 11896,
+        "rVotes": 4895
+      },
+      "proxied": true,
+      "dEffectiveVotes": 11896,
+      "rEffectiveVotes": 4895,
+      "effectiveWinner": "D",
+      "dWasted": 3500,
+      "rWasted": 4895
+    },
+    {
+      "contest": "0282",
+      "contestName": "State Representative District 48A",
+      "precincts": 17,
+      "allVotes": {
+        "R": 12256,
+        "D": 12458,
+        "WI": 34
+      },
+      "dVotes": 12458,
+      "rVotes": 12256,
+      "totalVotes": 24714,
+      "totalAllVotes": 24748,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13609,
+        "rVotes": 12056
+      },
+      "dEffectiveVotes": 12458,
+      "rEffectiveVotes": 12256,
+      "effectiveWinner": "D",
+      "dWasted": 100,
+      "rWasted": 12256
+    },
+    {
+      "contest": "0252",
+      "contestName": "State Representative District 33A",
+      "precincts": 18,
+      "allVotes": {
+        "R": 14717,
+        "D": 8963,
+        "WI": 24
+      },
+      "dVotes": 8963,
+      "rVotes": 14717,
+      "totalVotes": 23680,
+      "totalAllVotes": 23704,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9330,
+        "rVotes": 16079
+      },
+      "dEffectiveVotes": 8963,
+      "rEffectiveVotes": 14717,
+      "effectiveWinner": "R",
+      "dWasted": 8963,
+      "rWasted": 2876
+    },
+    {
+      "contest": "0277",
+      "contestName": "State Representative District 45B",
+      "precincts": 15,
+      "allVotes": {
+        "R": 7740,
+        "D": 15053,
+        "WI": 31
+      },
+      "dVotes": 15053,
+      "rVotes": 7740,
+      "totalVotes": 22793,
+      "totalAllVotes": 22824,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 15537,
+        "rVotes": 8416
+      },
+      "dEffectiveVotes": 15053,
+      "rEffectiveVotes": 7740,
+      "effectiveWinner": "D",
+      "dWasted": 3656,
+      "rWasted": 7740
+    },
+    {
+      "contest": "0276",
+      "contestName": "State Representative District 45A",
+      "precincts": 16,
+      "allVotes": {
+        "R": 8459,
+        "D": 12520,
+        "WI": 33
+      },
+      "dVotes": 12520,
+      "rVotes": 8459,
+      "totalVotes": 20979,
+      "totalAllVotes": 21012,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13397,
+        "rVotes": 8767
+      },
+      "dEffectiveVotes": 12520,
+      "rEffectiveVotes": 8459,
+      "effectiveWinner": "D",
+      "dWasted": 2030,
+      "rWasted": 8459
+    },
+    {
+      "contest": "0254",
+      "contestName": "State Representative District 34A",
+      "precincts": 14,
+      "allVotes": {
+        "R": 14386,
+        "D": 7983,
+        "WI": 25
+      },
+      "dVotes": 7983,
+      "rVotes": 14386,
+      "totalVotes": 22369,
+      "totalAllVotes": 22394,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9706,
+        "rVotes": 13982
+      },
+      "dEffectiveVotes": 7983,
+      "rEffectiveVotes": 14386,
+      "effectiveWinner": "R",
+      "dWasted": 7983,
+      "rWasted": 3201
+    },
+    {
+      "contest": "0283",
+      "contestName": "State Representative District 48B",
+      "precincts": 11,
+      "allVotes": {
+        "R": 12787,
+        "D": 8891,
+        "WI": 29
+      },
+      "dVotes": 8891,
+      "rVotes": 12787,
+      "totalVotes": 21678,
+      "totalAllVotes": 21707,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10813,
+        "rVotes": 11964
+      },
+      "dEffectiveVotes": 8891,
+      "rEffectiveVotes": 12787,
+      "effectiveWinner": "R",
+      "dWasted": 8891,
+      "rWasted": 1947
+    },
+    {
+      "contest": "0284",
+      "contestName": "State Representative District 49A",
+      "precincts": 16,
+      "allVotes": {
+        "R": 11139,
+        "D": 14101,
+        "WI": 37
+      },
+      "dVotes": 14101,
+      "rVotes": 11139,
+      "totalVotes": 25240,
+      "totalAllVotes": 25277,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13913,
+        "rVotes": 12421
+      },
+      "dEffectiveVotes": 14101,
+      "rEffectiveVotes": 11139,
+      "effectiveWinner": "D",
+      "dWasted": 1480,
+      "rWasted": 11139
+    },
+    {
+      "contest": "0313",
+      "contestName": "State Representative District 63B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 5240,
+        "D": 17181,
+        "WI": 72
+      },
+      "dVotes": 17181,
+      "rVotes": 5240,
+      "totalVotes": 22421,
+      "totalAllVotes": 22493,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 18048,
+        "rVotes": 5865
+      },
+      "dEffectiveVotes": 17181,
+      "rEffectiveVotes": 5240,
+      "effectiveWinner": "D",
+      "dWasted": 5970,
+      "rWasted": 5240
+    },
+    {
+      "contest": "0278",
+      "contestName": "State Representative District 46A",
+      "precincts": 14,
+      "allVotes": {
+        "R": 7860,
+        "D": 15249,
+        "WI": 34
+      },
+      "dVotes": 15249,
+      "rVotes": 7860,
+      "totalVotes": 23109,
+      "totalAllVotes": 23143,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 16120,
+        "rVotes": 8437
+      },
+      "dEffectiveVotes": 15249,
+      "rEffectiveVotes": 7860,
+      "effectiveWinner": "D",
+      "dWasted": 3694,
+      "rWasted": 7860
+    },
+    {
+      "contest": "0247",
+      "contestName": "State Representative District 30B",
+      "precincts": 8,
+      "allVotes": {
+        "R": 12022,
+        "D": 7386,
+        "WI": 32
+      },
+      "dVotes": 7386,
+      "rVotes": 12022,
+      "totalVotes": 19408,
+      "totalAllVotes": 19440,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7929,
+        "rVotes": 13426
+      },
+      "dEffectiveVotes": 7386,
+      "rEffectiveVotes": 12022,
+      "effectiveWinner": "R",
+      "dWasted": 7386,
+      "rWasted": 2317
+    },
+    {
+      "contest": "0279",
+      "contestName": "State Representative District 46B",
+      "precincts": 15,
+      "allVotes": {
+        "R": 6372,
+        "D": 14956,
+        "WI": 45
+      },
+      "dVotes": 14956,
+      "rVotes": 6372,
+      "totalVotes": 21328,
+      "totalAllVotes": 21373,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 15367,
+        "rVotes": 7478
+      },
+      "dEffectiveVotes": 14956,
+      "rEffectiveVotes": 6372,
+      "effectiveWinner": "D",
+      "dWasted": 4291,
+      "rWasted": 6372
+    },
+    {
+      "contest": "0255",
+      "contestName": "State Representative District 34B",
+      "precincts": 15,
+      "allVotes": {
+        "R": 12802,
+        "D": 10652,
+        "WI": 29
+      },
+      "dVotes": 10652,
+      "rVotes": 12802,
+      "totalVotes": 23454,
+      "totalAllVotes": 23483,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11782,
+        "rVotes": 12997
+      },
+      "dEffectiveVotes": 10652,
+      "rEffectiveVotes": 12802,
+      "effectiveWinner": "R",
+      "dWasted": 10652,
+      "rWasted": 1074
+    },
+    {
+      "contest": "0306",
+      "contestName": "State Representative District 60A",
+      "precincts": 12,
+      "allVotes": {
+        "R": 3687,
+        "D": 17021,
+        "WI": 82
+      },
+      "dVotes": 17021,
+      "rVotes": 3687,
+      "totalVotes": 20708,
+      "totalAllVotes": 20790,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 17733,
+        "rVotes": 4259
+      },
+      "dEffectiveVotes": 17021,
+      "rEffectiveVotes": 3687,
+      "effectiveWinner": "D",
+      "dWasted": 6666,
+      "rWasted": 3687
+    },
+    {
+      "contest": "0312",
+      "contestName": "State Representative District 63A",
+      "precincts": 14,
+      "allVotes": {
+        "R": 3289,
+        "D": 19680,
+        "WI": 69
+      },
+      "dVotes": 19680,
+      "rVotes": 3289,
+      "totalVotes": 22969,
+      "totalAllVotes": 23038,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 20511,
+        "rVotes": 3547
+      },
+      "dEffectiveVotes": 19680,
+      "rEffectiveVotes": 3289,
+      "effectiveWinner": "D",
+      "dWasted": 8195,
+      "rWasted": 3289
+    },
+    {
+      "contest": "0307",
+      "contestName": "State Representative District 60B",
+      "precincts": 12,
+      "allVotes": {
+        "R": 3392,
+        "D": 12472,
+        "WI": 129
+      },
+      "dVotes": 12472,
+      "rVotes": 3392,
+      "totalVotes": 15864,
+      "totalAllVotes": 15993,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 15390,
+        "rVotes": 3890
+      },
+      "dEffectiveVotes": 12472,
+      "rEffectiveVotes": 3392,
+      "effectiveWinner": "D",
+      "dWasted": 4539,
+      "rWasted": 3392
+    },
+    {
+      "contest": "0305",
+      "contestName": "State Representative District 59B",
+      "precincts": 12,
+      "allVotes": {
+        "R": 3346,
+        "D": 12790,
+        "EDP": 1423,
+        "WI": 109
+      },
+      "dVotes": 12790,
+      "rVotes": 3346,
+      "totalVotes": 16136,
+      "totalAllVotes": 17668,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 16389,
+        "rVotes": 3502
+      },
+      "dEffectiveVotes": 12790,
+      "rEffectiveVotes": 3346,
+      "effectiveWinner": "D",
+      "dWasted": 4721,
+      "rWasted": 3346
+    },
+    {
+      "contest": "0304",
+      "contestName": "State Representative District 59A",
+      "precincts": 10,
+      "allVotes": {
+        "R": 2577,
+        "D": 14017,
+        "WI": 93
+      },
+      "dVotes": 14017,
+      "rVotes": 2577,
+      "totalVotes": 16594,
+      "totalAllVotes": 16687,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 15497,
+        "rVotes": 2569
+      },
+      "dEffectiveVotes": 14017,
+      "rEffectiveVotes": 2577,
+      "effectiveWinner": "D",
+      "dWasted": 5719,
+      "rWasted": 2577
+    },
+    {
+      "contest": "0310",
+      "contestName": "State Representative District 62A",
+      "precincts": 12,
+      "allVotes": {
+        "R": 1410,
+        "D": 12672,
+        "WI": 67
+      },
+      "dVotes": 12672,
+      "rVotes": 1410,
+      "totalVotes": 14082,
+      "totalAllVotes": 14149,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13802,
+        "rVotes": 1474
+      },
+      "dEffectiveVotes": 12672,
+      "rEffectiveVotes": 1410,
+      "effectiveWinner": "D",
+      "dWasted": 5630,
+      "rWasted": 1410
+    },
+    {
+      "contest": "0308",
+      "contestName": "State Representative District 61A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 4787,
+        "D": 19663,
+        "WI": 61
+      },
+      "dVotes": 19663,
+      "rVotes": 4787,
+      "totalVotes": 24450,
+      "totalAllVotes": 24511,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 21527,
+        "rVotes": 5338
+      },
+      "dEffectiveVotes": 19663,
+      "rEffectiveVotes": 4787,
+      "effectiveWinner": "D",
+      "dWasted": 7437,
+      "rWasted": 4787
+    },
+    {
+      "contest": "0311",
+      "contestName": "State Representative District 62B",
+      "precincts": 11,
+      "allVotes": {
+        "R": 2025,
+        "D": 16318,
+        "WI": 69
+      },
+      "dVotes": 16318,
+      "rVotes": 2025,
+      "totalVotes": 18343,
+      "totalAllVotes": 18412,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 17568,
+        "rVotes": 2040
+      },
+      "dEffectiveVotes": 16318,
+      "rEffectiveVotes": 2025,
+      "effectiveWinner": "D",
+      "dWasted": 7146,
+      "rWasted": 2025
+    },
+    {
+      "contest": "0309",
+      "contestName": "State Representative District 61B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 4448,
+        "D": 19748,
+        "WI": 68
+      },
+      "dVotes": 19748,
+      "rVotes": 4448,
+      "totalVotes": 24196,
+      "totalAllVotes": 24264,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 20902,
+        "rVotes": 5331
+      },
+      "dEffectiveVotes": 19748,
+      "rEffectiveVotes": 4448,
+      "effectiveWinner": "D",
+      "dWasted": 7649,
+      "rWasted": 4448
+    },
+    {
+      "contest": "0275",
+      "contestName": "State Representative District 44B",
+      "precincts": 18,
+      "allVotes": {
+        "R": 10848,
+        "D": 13754,
+        "WI": 36
+      },
+      "dVotes": 13754,
+      "rVotes": 10848,
+      "totalVotes": 24602,
+      "totalAllVotes": 24638,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14373,
+        "rVotes": 11706
+      },
+      "dEffectiveVotes": 13754,
+      "rEffectiveVotes": 10848,
+      "effectiveWinner": "D",
+      "dWasted": 1452,
+      "rWasted": 10848
+    },
+    {
+      "contest": "0274",
+      "contestName": "State Representative District 44A",
+      "precincts": 12,
+      "allVotes": {
+        "R": 12114,
+        "D": 11506,
+        "WI": 33
+      },
+      "dVotes": 11506,
+      "rVotes": 12114,
+      "totalVotes": 23620,
+      "totalAllVotes": 23653,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 12058,
+        "rVotes": 12729
+      },
+      "dEffectiveVotes": 11506,
+      "rEffectiveVotes": 12114,
+      "effectiveWinner": "R",
+      "dWasted": 11506,
+      "rWasted": 303
+    },
+    {
+      "contest": "0244",
+      "contestName": "State Representative District 29A",
+      "precincts": 23,
+      "allVotes": {
+        "R": 13002,
+        "D": 7954,
+        "WI": 34
+      },
+      "dVotes": 7954,
+      "rVotes": 13002,
+      "totalVotes": 20956,
+      "totalAllVotes": 20990,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8340,
+        "rVotes": 13311
+      },
+      "dEffectiveVotes": 7954,
+      "rEffectiveVotes": 13002,
+      "effectiveWinner": "R",
+      "dWasted": 7954,
+      "rWasted": 2523
+    },
+    {
+      "contest": "0198",
+      "contestName": "State Representative District 6A",
+      "precincts": 62,
+      "allVotes": {
+        "R": 5989,
+        "D": 14589,
+        "WI": 30
+      },
+      "dVotes": 14589,
+      "rVotes": 5989,
+      "totalVotes": 20578,
+      "totalAllVotes": 20608,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13326,
+        "rVotes": 7289
+      },
+      "dEffectiveVotes": 14589,
+      "rEffectiveVotes": 5989,
+      "effectiveWinner": "D",
+      "dWasted": 4299,
+      "rWasted": 5989
+    },
+    {
+      "contest": "0216",
+      "contestName": "State Representative District 15A",
+      "precincts": 37,
+      "allVotes": {
+        "R": 10027,
+        "D": 9106,
+        "WI": 16
+      },
+      "dVotes": 9106,
+      "rVotes": 10027,
+      "totalVotes": 19133,
+      "totalAllVotes": 19149,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8375,
+        "rVotes": 11039
+      },
+      "dEffectiveVotes": 9106,
+      "rEffectiveVotes": 10027,
+      "effectiveWinner": "R",
+      "dWasted": 9106,
+      "rWasted": 460
+    },
+    {
+      "contest": "0209",
+      "contestName": "State Representative District 11B",
+      "precincts": 57,
+      "allVotes": {
+        "R": 8908,
+        "D": 9396,
+        "WI": 37
+      },
+      "dVotes": 9396,
+      "rVotes": 8908,
+      "totalVotes": 18304,
+      "totalAllVotes": 18341,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8786,
+        "rVotes": 9575
+      },
+      "dEffectiveVotes": 9396,
+      "rEffectiveVotes": 8908,
+      "effectiveWinner": "D",
+      "dWasted": 243,
+      "rWasted": 8908
+    },
+    {
+      "contest": "0221",
+      "contestName": "State Representative District 17B",
+      "precincts": 40,
+      "allVotes": {
+        "IP": 1457,
+        "R": 8562,
+        "D": 9370,
+        "WI": 12
+      },
+      "dVotes": 9370,
+      "rVotes": 8562,
+      "totalVotes": 17932,
+      "totalAllVotes": 19401,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9311,
+        "rVotes": 10119
+      },
+      "dEffectiveVotes": 9370,
+      "rEffectiveVotes": 8562,
+      "effectiveWinner": "D",
+      "dWasted": 403,
+      "rWasted": 8562
+    },
+    {
+      "contest": "0188",
+      "contestName": "State Representative District 1A",
+      "precincts": 155,
+      "allVotes": {
+        "R": 11146,
+        "D": 7370,
+        "WI": 9
+      },
+      "dVotes": 7370,
+      "rVotes": 11146,
+      "totalVotes": 18516,
+      "totalAllVotes": 18525,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8144,
+        "rVotes": 10294
+      },
+      "dEffectiveVotes": 7370,
+      "rEffectiveVotes": 11146,
+      "effectiveWinner": "R",
+      "dWasted": 7370,
+      "rWasted": 1887
+    },
+    {
+      "contest": "0193",
+      "contestName": "State Representative District 3B",
+      "precincts": 20,
+      "allVotes": {
+        "R": 7727,
+        "D": 14366,
+        "WI": 31
+      },
+      "dVotes": 14366,
+      "rVotes": 7727,
+      "totalVotes": 22093,
+      "totalAllVotes": 22124,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14047,
+        "rVotes": 8895
+      },
+      "dEffectiveVotes": 14366,
+      "rEffectiveVotes": 7727,
+      "effectiveWinner": "D",
+      "dWasted": 3319,
+      "rWasted": 7727
+    },
+    {
+      "contest": "0226",
+      "contestName": "State Representative District 20A",
+      "precincts": 21,
+      "allVotes": {
+        "R": 10878,
+        "D": 9071,
+        "WI": 26
+      },
+      "dVotes": 9071,
+      "rVotes": 10878,
+      "totalVotes": 19949,
+      "totalAllVotes": 19975,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8621,
+        "rVotes": 12326
+      },
+      "dEffectiveVotes": 9071,
+      "rEffectiveVotes": 10878,
+      "effectiveWinner": "R",
+      "dWasted": 9071,
+      "rWasted": 903
+    },
+    {
+      "contest": "0227",
+      "contestName": "State Representative District 20B",
+      "precincts": 25,
+      "allVotes": {
+        "R": 8843,
+        "D": 11700,
+        "WI": 20
+      },
+      "dVotes": 11700,
+      "rVotes": 8843,
+      "totalVotes": 20543,
+      "totalAllVotes": 20563,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11920,
+        "rVotes": 9657
+      },
+      "dEffectiveVotes": 11700,
+      "rEffectiveVotes": 8843,
+      "effectiveWinner": "D",
+      "dWasted": 1428,
+      "rWasted": 8843
+    },
+    {
+      "contest": "0230",
+      "contestName": "State Representative District 22A",
+      "precincts": 110,
+      "allVotes": {
+        "R": 11555,
+        "D": 8006,
+        "WI": 22
+      },
+      "dVotes": 8006,
+      "rVotes": 11555,
+      "totalVotes": 19561,
+      "totalAllVotes": 19583,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8384,
+        "rVotes": 11401
+      },
+      "dEffectiveVotes": 8006,
+      "rEffectiveVotes": 11555,
+      "effectiveWinner": "R",
+      "dWasted": 8006,
+      "rWasted": 1774
+    },
+    {
+      "contest": "0222",
+      "contestName": "State Representative District 18A",
+      "precincts": 37,
+      "allVotes": {
+        "R": 11744,
+        "D": 8372,
+        "WI": 35
+      },
+      "dVotes": 8372,
+      "rVotes": 11744,
+      "totalVotes": 20116,
+      "totalAllVotes": 20151,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8192,
+        "rVotes": 11903
+      },
+      "dEffectiveVotes": 8372,
+      "rEffectiveVotes": 11744,
+      "effectiveWinner": "R",
+      "dWasted": 8372,
+      "rWasted": 1685
+    },
+    {
+      "contest": "0223",
+      "contestName": "State Representative District 18B",
+      "precincts": 48,
+      "allVotes": {
+        "R": 11053,
+        "D": 7971,
+        "WI": 34
+      },
+      "dVotes": 7971,
+      "rVotes": 11053,
+      "totalVotes": 19024,
+      "totalAllVotes": 19058,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7359,
+        "rVotes": 12054
+      },
+      "dEffectiveVotes": 7971,
+      "rEffectiveVotes": 11053,
+      "effectiveWinner": "R",
+      "dWasted": 7971,
+      "rWasted": 1540
+    },
+    {
+      "contest": "0205",
+      "contestName": "State Representative District 9B",
+      "precincts": 55,
+      "allVotes": {
+        "R": 9881,
+        "D": 8751,
+        "WI": 23
+      },
+      "dVotes": 8751,
+      "rVotes": 9881,
+      "totalVotes": 18632,
+      "totalAllVotes": 18655,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7322,
+        "rVotes": 11765
+      },
+      "dEffectiveVotes": 8751,
+      "rEffectiveVotes": 9881,
+      "effectiveWinner": "R",
+      "dWasted": 8751,
+      "rWasted": 564
+    },
+    {
+      "contest": "0237",
+      "contestName": "State Representative District 25B",
+      "precincts": 18,
+      "allVotes": {
+        "R": 8725,
+        "D": 11869,
+        "WI": 38
+      },
+      "dVotes": 11869,
+      "rVotes": 8725,
+      "totalVotes": 20594,
+      "totalAllVotes": 20632,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11573,
+        "rVotes": 9693
+      },
+      "dEffectiveVotes": 11869,
+      "rEffectiveVotes": 8725,
+      "effectiveWinner": "D",
+      "dWasted": 1571,
+      "rWasted": 8725
+    },
+    {
+      "contest": "0239",
+      "contestName": "State Representative District 26B",
+      "precincts": 31,
+      "allVotes": {
+        "R": 12427,
+        "D": 9295,
+        "WI": 40
+      },
+      "dVotes": 9295,
+      "rVotes": 12427,
+      "totalVotes": 21722,
+      "totalAllVotes": 21762,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10224,
+        "rVotes": 12320
+      },
+      "dEffectiveVotes": 9295,
+      "rEffectiveVotes": 12427,
+      "effectiveWinner": "R",
+      "dWasted": 9295,
+      "rWasted": 1565
+    },
+    {
+      "contest": "0238",
+      "contestName": "State Representative District 26A",
+      "precincts": 21,
+      "allVotes": {
+        "R": 7306,
+        "D": 10484,
+        "WI": 41
+      },
+      "dVotes": 10484,
+      "rVotes": 7306,
+      "totalVotes": 17790,
+      "totalAllVotes": 17831,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10893,
+        "rVotes": 7518
+      },
+      "dEffectiveVotes": 10484,
+      "rEffectiveVotes": 7306,
+      "effectiveWinner": "D",
+      "dWasted": 1588,
+      "rWasted": 7306
+    },
+    {
+      "contest": "0202",
+      "contestName": "State Representative District 8A",
+      "precincts": 51,
+      "allVotes": {
+        "R": 13190,
+        "D": 7800,
+        "WI": 23
+      },
+      "dVotes": 7800,
+      "rVotes": 13190,
+      "totalVotes": 20990,
+      "totalAllVotes": 21013,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8601,
+        "rVotes": 12922
+      },
+      "dEffectiveVotes": 7800,
+      "rEffectiveVotes": 13190,
+      "effectiveWinner": "R",
+      "dWasted": 7800,
+      "rWasted": 2694
+    },
+    {
+      "contest": "0189",
+      "contestName": "State Representative District 1B",
+      "precincts": 123,
+      "allVotes": {
+        "R": 9401,
+        "D": 8685,
+        "WI": 27
+      },
+      "dVotes": 8685,
+      "rVotes": 9401,
+      "totalVotes": 18086,
+      "totalAllVotes": 18113,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8592,
+        "rVotes": 9677
+      },
+      "dEffectiveVotes": 8685,
+      "rEffectiveVotes": 9401,
+      "effectiveWinner": "R",
+      "dWasted": 8685,
+      "rWasted": 357
+    },
+    {
+      "contest": "0270",
+      "contestName": "State Representative District 42A",
+      "precincts": 13,
+      "allVotes": {
+        "R": 10591,
+        "D": 12122,
+        "WI": 32
+      },
+      "dVotes": 12122,
+      "rVotes": 10591,
+      "totalVotes": 22713,
+      "totalAllVotes": 22745,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12542,
+        "rVotes": 11329
+      },
+      "dEffectiveVotes": 12122,
+      "rEffectiveVotes": 10591,
+      "effectiveWinner": "D",
+      "dWasted": 765,
+      "rWasted": 10591
+    },
+    {
+      "contest": "0318",
+      "contestName": "State Representative District 66A",
+      "precincts": 13,
+      "allVotes": {
+        "IP": 1311,
+        "R": 6984,
+        "D": 14160,
+        "WI": 33
+      },
+      "dVotes": 14160,
+      "rVotes": 6984,
+      "totalVotes": 21144,
+      "totalAllVotes": 22488,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 16077,
+        "rVotes": 7783
+      },
+      "dEffectiveVotes": 14160,
+      "rEffectiveVotes": 6984,
+      "effectiveWinner": "D",
+      "dWasted": 3587,
+      "rWasted": 6984
+    },
+    {
+      "contest": "0271",
+      "contestName": "State Representative District 42B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 9462,
+        "D": 12884,
+        "WI": 48
+      },
+      "dVotes": 12884,
+      "rVotes": 9462,
+      "totalVotes": 22346,
+      "totalAllVotes": 22394,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13935,
+        "rVotes": 10135
+      },
+      "dEffectiveVotes": 12884,
+      "rEffectiveVotes": 9462,
+      "effectiveWinner": "D",
+      "dWasted": 1710,
+      "rWasted": 9462
+    },
+    {
+      "contest": "0272",
+      "contestName": "State Representative District 43A",
+      "precincts": 17,
+      "allVotes": {
+        "R": 10374,
+        "D": 11616,
+        "WI": 46
+      },
+      "dVotes": 11616,
+      "rVotes": 10374,
+      "totalVotes": 21990,
+      "totalAllVotes": 22036,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13418,
+        "rVotes": 9953
+      },
+      "dEffectiveVotes": 11616,
+      "rEffectiveVotes": 10374,
+      "effectiveWinner": "D",
+      "dWasted": 620,
+      "rWasted": 10374
+    },
+    {
+      "contest": "0273",
+      "contestName": "State Representative District 43B",
+      "precincts": 12,
+      "allVotes": {
+        "R": 8111,
+        "D": 12445,
+        "WI": 40
+      },
+      "dVotes": 12445,
+      "rVotes": 8111,
+      "totalVotes": 20556,
+      "totalAllVotes": 20596,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12976,
+        "rVotes": 9100
+      },
+      "dEffectiveVotes": 12445,
+      "rEffectiveVotes": 8111,
+      "effectiveWinner": "D",
+      "dWasted": 2166,
+      "rWasted": 8111
+    },
+    {
+      "contest": "0292",
+      "contestName": "State Representative District 53A",
+      "precincts": 14,
+      "allVotes": {
+        "R": 9269,
+        "D": 11932,
+        "WI": 34
+      },
+      "dVotes": 11932,
+      "rVotes": 9269,
+      "totalVotes": 21201,
+      "totalAllVotes": 21235,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12889,
+        "rVotes": 9467
+      },
+      "dEffectiveVotes": 11932,
+      "rEffectiveVotes": 9269,
+      "effectiveWinner": "D",
+      "dWasted": 1331,
+      "rWasted": 9269
+    },
+    {
+      "contest": "0263",
+      "contestName": "State Representative District 38B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 12374,
+        "D": 11248,
+        "WI": 38
+      },
+      "dVotes": 11248,
+      "rVotes": 12374,
+      "totalVotes": 23622,
+      "totalAllVotes": 23660,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11759,
+        "rVotes": 13178
+      },
+      "dEffectiveVotes": 11248,
+      "rEffectiveVotes": 12374,
+      "effectiveWinner": "R",
+      "dWasted": 11248,
+      "rWasted": 562
+    },
+    {
+      "contest": "0314",
+      "contestName": "State Representative District 64A",
+      "precincts": 16,
+      "allVotes": {
+        "R": 4737,
+        "D": 17828,
+        "WI": 67
+      },
+      "dVotes": 17828,
+      "rVotes": 4737,
+      "totalVotes": 22565,
+      "totalAllVotes": 22632,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 19226,
+        "rVotes": 5076
+      },
+      "dEffectiveVotes": 17828,
+      "rEffectiveVotes": 4737,
+      "effectiveWinner": "D",
+      "dWasted": 6545,
+      "rWasted": 4737
+    },
+    {
+      "contest": "0316",
+      "contestName": "State Representative District 65A",
+      "precincts": 12,
+      "allVotes": {
+        "R": 2387,
+        "D": 13263,
+        "WI": 65
+      },
+      "dVotes": 13263,
+      "rVotes": 2387,
+      "totalVotes": 15650,
+      "totalAllVotes": 15715,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14923,
+        "rVotes": 2452
+      },
+      "dEffectiveVotes": 13263,
+      "rEffectiveVotes": 2387,
+      "effectiveWinner": "D",
+      "dWasted": 5437,
+      "rWasted": 2387
+    },
+    {
+      "contest": "0317",
+      "contestName": "State Representative District 65B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 3653,
+        "D": 13176,
+        "WI": 71
+      },
+      "dVotes": 13176,
+      "rVotes": 3653,
+      "totalVotes": 16829,
+      "totalAllVotes": 16900,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14793,
+        "rVotes": 3755
+      },
+      "dEffectiveVotes": 13176,
+      "rEffectiveVotes": 3653,
+      "effectiveWinner": "D",
+      "dWasted": 4761,
+      "rWasted": 3653
+    },
+    {
+      "contest": "0319",
+      "contestName": "State Representative District 66B",
+      "precincts": 11,
+      "allVotes": {
+        "R": 2951,
+        "D": 11504,
+        "WI": 70
+      },
+      "dVotes": 11504,
+      "rVotes": 2951,
+      "totalVotes": 14455,
+      "totalAllVotes": 14525,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13251,
+        "rVotes": 3176
+      },
+      "dEffectiveVotes": 11504,
+      "rEffectiveVotes": 2951,
+      "effectiveWinner": "D",
+      "dWasted": 4276,
+      "rWasted": 2951
+    },
+    {
+      "contest": "0315",
+      "contestName": "State Representative District 64B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 6612,
+        "D": 17273,
+        "WI": 70
+      },
+      "dVotes": 17273,
+      "rVotes": 6612,
+      "totalVotes": 23885,
+      "totalAllVotes": 23955,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 18483,
+        "rVotes": 7164
+      },
+      "dEffectiveVotes": 17273,
+      "rEffectiveVotes": 6612,
+      "effectiveWinner": "D",
+      "dWasted": 5330,
+      "rWasted": 6612
+    },
+    {
+      "contest": "0321",
+      "contestName": "State Representative District 67B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 3569,
+        "D": 11318,
+        "WI": 51
+      },
+      "dVotes": 11318,
+      "rVotes": 3569,
+      "totalVotes": 14887,
+      "totalAllVotes": 14938,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12521,
+        "rVotes": 3853
+      },
+      "dEffectiveVotes": 11318,
+      "rEffectiveVotes": 3569,
+      "effectiveWinner": "D",
+      "dWasted": 3874,
+      "rWasted": 3569
+    },
+    {
+      "contest": "0320",
+      "contestName": "State Representative District 67A",
+      "precincts": 13,
+      "allVotes": {
+        "R": 2941,
+        "D": 10533,
+        "WI": 58
+      },
+      "dVotes": 10533,
+      "rVotes": 2941,
+      "totalVotes": 13474,
+      "totalAllVotes": 13532,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11789,
+        "rVotes": 3377
+      },
+      "dEffectiveVotes": 10533,
+      "rEffectiveVotes": 2941,
+      "effectiveWinner": "D",
+      "dWasted": 3795,
+      "rWasted": 2941
+    },
+    {
+      "contest": "0199",
+      "contestName": "State Representative District 6B",
+      "precincts": 53,
+      "allVotes": {
+        "R": 7012,
+        "D": 15146,
+        "WI": 59
+      },
+      "dVotes": 15146,
+      "rVotes": 7012,
+      "totalVotes": 22158,
+      "totalAllVotes": 22217,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14253,
+        "rVotes": 8277
+      },
+      "dEffectiveVotes": 15146,
+      "rEffectiveVotes": 7012,
+      "effectiveWinner": "D",
+      "dWasted": 4066,
+      "rWasted": 7012
+    },
+    {
+      "contest": "0200",
+      "contestName": "State Representative District 7A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 6302,
+        "D": 15622,
+        "WI": 116
+      },
+      "dVotes": 15622,
+      "rVotes": 6302,
+      "totalVotes": 21924,
+      "totalAllVotes": 22040,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 16229,
+        "rVotes": 7316
+      },
+      "dEffectiveVotes": 15622,
+      "rEffectiveVotes": 6302,
+      "effectiveWinner": "D",
+      "dWasted": 4659,
+      "rWasted": 6302
+    },
+    {
+      "contest": "0201",
+      "contestName": "State Representative District 7B",
+      "precincts": 17,
+      "allVotes": {
+        "R": 4345,
+        "D": 12450,
+        "WI": 3127
+      },
+      "dVotes": 12450,
+      "rVotes": 4345,
+      "totalVotes": 16795,
+      "totalAllVotes": 19922,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14887,
+        "rVotes": 5877
+      },
+      "dEffectiveVotes": 12450,
+      "rEffectiveVotes": 4345,
+      "effectiveWinner": "D",
+      "dWasted": 4052,
+      "rWasted": 4345
+    },
+    {
+      "contest": "0297",
+      "contestName": "State Representative District 55B",
+      "precincts": 16,
+      "allVotes": {
+        "R": 13569,
+        "D": 7808,
+        "WI": 28
+      },
+      "dVotes": 7808,
+      "rVotes": 13569,
+      "totalVotes": 21377,
+      "totalAllVotes": 21405,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8869,
+        "rVotes": 13999
+      },
+      "dEffectiveVotes": 7808,
+      "rEffectiveVotes": 13569,
+      "effectiveWinner": "R",
+      "dWasted": 7808,
+      "rWasted": 2880
+    },
+    {
+      "contest": "0296",
+      "contestName": "State Representative District 55A",
+      "precincts": 14,
+      "allVotes": {
+        "R": 10008,
+        "D": 8294,
+        "WI": 44
+      },
+      "dVotes": 8294,
+      "rVotes": 10008,
+      "totalVotes": 18302,
+      "totalAllVotes": 18346,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9077,
+        "rVotes": 10155
+      },
+      "dEffectiveVotes": 8294,
+      "rEffectiveVotes": 10008,
+      "effectiveWinner": "R",
+      "dWasted": 8294,
+      "rWasted": 856
+    },
+    {
+      "contest": "0246",
+      "contestName": "State Representative District 30A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 12723,
+        "D": 7217,
+        "WI": 21
+      },
+      "dVotes": 7217,
+      "rVotes": 12723,
+      "totalVotes": 19940,
+      "totalAllVotes": 19961,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8378,
+        "rVotes": 12392
+      },
+      "dEffectiveVotes": 7217,
+      "rEffectiveVotes": 12723,
+      "effectiveWinner": "R",
+      "dWasted": 7217,
+      "rWasted": 2752
+    },
+    {
+      "contest": "0212",
+      "contestName": "State Representative District 13A",
+      "precincts": 27,
+      "allVotes": {
+        "R": 12073,
+        "D": 8337,
+        "WI": 26
+      },
+      "dVotes": 8337,
+      "rVotes": 12073,
+      "totalVotes": 20410,
+      "totalAllVotes": 20436,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9022,
+        "rVotes": 12492
+      },
+      "dEffectiveVotes": 8337,
+      "rEffectiveVotes": 12073,
+      "effectiveWinner": "R",
+      "dWasted": 8337,
+      "rWasted": 1867
+    },
+    {
+      "contest": "0214",
+      "contestName": "State Representative District 14A",
+      "precincts": 16,
+      "allVotes": {
+        "R": 10269,
+        "D": 8726,
+        "WI": 56
+      },
+      "dVotes": 8726,
+      "rVotes": 10269,
+      "totalVotes": 18995,
+      "totalAllVotes": 19051,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9610,
+        "rVotes": 10124
+      },
+      "dEffectiveVotes": 8726,
+      "rEffectiveVotes": 10269,
+      "effectiveWinner": "R",
+      "dWasted": 8726,
+      "rWasted": 771
+    },
+    {
+      "contest": "0234",
+      "contestName": "State Representative District 24A",
+      "precincts": 23,
+      "allVotes": {
+        "R": 9906,
+        "D": 9036,
+        "WI": 41
+      },
+      "dVotes": 9036,
+      "rVotes": 9906,
+      "totalVotes": 18942,
+      "totalAllVotes": 18983,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9098,
+        "rVotes": 10405
+      },
+      "dEffectiveVotes": 9036,
+      "rEffectiveVotes": 9906,
+      "effectiveWinner": "R",
+      "dWasted": 9036,
+      "rWasted": 434
+    },
+    {
+      "contest": "0265",
+      "contestName": "State Representative District 39B",
+      "precincts": 18,
+      "allVotes": {
+        "R": 12100,
+        "D": 10707,
+        "WI": 29
+      },
+      "dVotes": 10707,
+      "rVotes": 12100,
+      "totalVotes": 22807,
+      "totalAllVotes": 22836,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11373,
+        "rVotes": 12048
+      },
+      "dEffectiveVotes": 10707,
+      "rEffectiveVotes": 12100,
+      "effectiveWinner": "R",
+      "dWasted": 10707,
+      "rWasted": 696
+    },
+    {
+      "contest": "0293",
+      "contestName": "State Representative District 53B",
+      "precincts": 10,
+      "allVotes": {
+        "R": 12060,
+        "D": 9909,
+        "WI": 24
+      },
+      "dVotes": 9909,
+      "rVotes": 12060,
+      "totalVotes": 21969,
+      "totalAllVotes": 21993,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11023,
+        "rVotes": 12242
+      },
+      "dEffectiveVotes": 9909,
+      "rEffectiveVotes": 12060,
+      "effectiveWinner": "R",
+      "dWasted": 9909,
+      "rWasted": 1075
+    },
+    {
+      "contest": "0242",
+      "contestName": "State Representative District 28A",
+      "precincts": 34,
+      "allVotes": {
+        "R": 6435,
+        "D": 12969,
+        "WI": 47
+      },
+      "dVotes": 12969,
+      "rVotes": 6435,
+      "totalVotes": 19404,
+      "totalAllVotes": 19451,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11947,
+        "rVotes": 8613
+      },
+      "dEffectiveVotes": 12969,
+      "rEffectiveVotes": 6435,
+      "effectiveWinner": "D",
+      "dWasted": 3266,
+      "rWasted": 6435
+    },
+    {
+      "contest": "0245",
+      "contestName": "State Representative District 29B",
+      "precincts": 9,
+      "allVotes": {
+        "IP": 1429,
+        "R": 9654,
+        "D": 8136,
+        "WI": 31
+      },
+      "dVotes": 8136,
+      "rVotes": 9654,
+      "totalVotes": 17790,
+      "totalAllVotes": 19250,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8229,
+        "rVotes": 11705
+      },
+      "dEffectiveVotes": 8136,
+      "rEffectiveVotes": 9654,
+      "effectiveWinner": "R",
+      "dWasted": 8136,
+      "rWasted": 758
+    }
+  ]
+}

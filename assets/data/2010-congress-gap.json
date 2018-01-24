@@ -1,0 +1,226 @@
+{
+  "totals": {
+    "type": "congress",
+    "year": 2010,
+    "districts": 8,
+    "proxied": 0,
+    "proxiedAgain": 0,
+    "proxyContest": "Governor",
+    "dVotes": 1002026,
+    "rVotes": 970741,
+    "dWins": 4,
+    "rWins": 4,
+    "votes": 1972767,
+    "dEffectiveVotes": 1002026,
+    "rEffectiveVotes": 970741,
+    "dEffectiveWins": 4,
+    "rEffectiveWins": 4,
+    "effectiveVotes": 1972767,
+    "dEffectiveWasted": 560875,
+    "rEffectiveWasted": 425503,
+    "gap": 0.06862036925800158,
+    "gapSeats": 0.5489629540640126
+  },
+  "districts": [
+    {
+      "contest": "8.0",
+      "contestName": "US Congress District 8.0",
+      "precincts": 804,
+      "allVotes": {
+        "R": 133490,
+        "D": 129091,
+        "I": 11876,
+        "W": 132
+      },
+      "dVotes": 129091,
+      "rVotes": 133490,
+      "totalVotes": 262581,
+      "totalAllVotes": 274589,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 133621,
+        "rVotes": 112330
+      },
+      "dEffectiveVotes": 129091,
+      "rEffectiveVotes": 133490,
+      "effectiveWinner": "R",
+      "dWasted": 129091,
+      "rWasted": 2199
+    },
+    {
+      "contest": "6.0",
+      "contestName": "US Congress District 6.0",
+      "precincts": 322,
+      "allVotes": {
+        "R": 159476,
+        "D": 120846,
+        "I": 17698,
+        "W": 181
+      },
+      "dVotes": 120846,
+      "rVotes": 159476,
+      "totalVotes": 280322,
+      "totalAllVotes": 298201,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 105064,
+        "rVotes": 160619
+      },
+      "dEffectiveVotes": 120846,
+      "rEffectiveVotes": 159476,
+      "effectiveWinner": "R",
+      "dWasted": 120846,
+      "rWasted": 19314
+    },
+    {
+      "contest": "5.0",
+      "contestName": "US Congress District 5.0",
+      "precincts": 222,
+      "allVotes": {
+        "R": 55222,
+        "D": 154833,
+        "I": 7446,
+        "W": 229
+      },
+      "dVotes": 154833,
+      "rVotes": 55222,
+      "totalVotes": 210055,
+      "totalAllVotes": 217730,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 150691,
+        "rVotes": 54382
+      },
+      "dEffectiveVotes": 154833,
+      "rEffectiveVotes": 55222,
+      "effectiveWinner": "D",
+      "dWasted": 49805,
+      "rWasted": 55222
+    },
+    {
+      "contest": "3.0",
+      "contestName": "US Congress District 3.0",
+      "precincts": 246,
+      "allVotes": {
+        "R": 161177,
+        "D": 100240,
+        "I": 12508,
+        "W": 167
+      },
+      "dVotes": 100240,
+      "rVotes": 161177,
+      "totalVotes": 261417,
+      "totalAllVotes": 274092,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 107190,
+        "rVotes": 131668
+      },
+      "dEffectiveVotes": 100240,
+      "rEffectiveVotes": 161177,
+      "effectiveWinner": "R",
+      "dWasted": 100240,
+      "rWasted": 30468
+    },
+    {
+      "contest": "7.0",
+      "contestName": "US Congress District 7.0",
+      "precincts": 1254,
+      "allVotes": {
+        "R": 90652,
+        "D": 133096,
+        "I": 7839,
+        "W": 193
+      },
+      "dVotes": 133096,
+      "rVotes": 90652,
+      "totalVotes": 223748,
+      "totalAllVotes": 231780,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 95167,
+        "rVotes": 114104
+      },
+      "dEffectiveVotes": 133096,
+      "rEffectiveVotes": 90652,
+      "effectiveWinner": "D",
+      "dWasted": 21221,
+      "rWasted": 90652
+    },
+    {
+      "contest": "1.0",
+      "contestName": "US Congress District 1.0",
+      "precincts": 752,
+      "allVotes": {
+        "R": 109242,
+        "D": 122365,
+        "I": 13242,
+        "W": 102
+      },
+      "dVotes": 122365,
+      "rVotes": 109242,
+      "totalVotes": 231607,
+      "totalAllVotes": 244951,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 98862,
+        "rVotes": 112742
+      },
+      "dEffectiveVotes": 122365,
+      "rEffectiveVotes": 109242,
+      "effectiveWinner": "D",
+      "dWasted": 6561,
+      "rWasted": 109242
+    },
+    {
+      "contest": "2.0",
+      "contestName": "US Congress District 2.0",
+      "precincts": 316,
+      "allVotes": {
+        "R": 181341,
+        "D": 104809,
+        "I": 0,
+        "W": 303
+      },
+      "dVotes": 104809,
+      "rVotes": 181341,
+      "totalVotes": 286150,
+      "totalAllVotes": 286453,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 103659,
+        "rVotes": 145660
+      },
+      "dEffectiveVotes": 104809,
+      "rEffectiveVotes": 181341,
+      "effectiveWinner": "R",
+      "dWasted": 104809,
+      "rWasted": 38265
+    },
+    {
+      "contest": "4.0",
+      "contestName": "US Congress District 4.0",
+      "precincts": 220,
+      "allVotes": {
+        "R": 80141,
+        "D": 136746,
+        "I": 14207,
+        "W": 332
+      },
+      "dVotes": 136746,
+      "rVotes": 80141,
+      "totalVotes": 216887,
+      "totalAllVotes": 231426,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 124978,
+        "rVotes": 78957
+      },
+      "dEffectiveVotes": 136746,
+      "rEffectiveVotes": 80141,
+      "effectiveWinner": "D",
+      "dWasted": 28302,
+      "rWasted": 80141
+    }
+  ]
+}

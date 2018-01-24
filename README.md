@@ -42,6 +42,7 @@ decisions in a district plan."
     Proxy State Auditor.
   * 1996 saw Ross Perot run for President who got a lot of votes. Might be good
     to proxy US Senator race.
+* Geographical boundary data from [state legislature](https://www.gis.leg.mn/html/download.html).
 
 ### Data processing
 

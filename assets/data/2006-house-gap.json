@@ -1,0 +1,3260 @@
+{
+  "totals": {
+    "type": "house",
+    "year": 2006,
+    "districts": 134,
+    "proxied": 5,
+    "proxiedAgain": 2,
+    "proxyContest": "US SENATOR",
+    "dVotes": 1169298,
+    "rVotes": 947138,
+    "dWins": 85,
+    "rWins": 49,
+    "votes": 2116436,
+    "dEffectiveVotes": 1169254,
+    "rEffectiveVotes": 955086,
+    "dEffectiveWins": 85,
+    "rEffectiveWins": 49,
+    "effectiveVotes": 2124340,
+    "dEffectiveWasted": 524331,
+    "rEffectiveWasted": 537740,
+    "gap": -0.006312078104258264,
+    "gapSeats": -0.8458184659706074
+  },
+  "districts": [
+    {
+      "contest": "0193",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 03B",
+      "precincts": 73,
+      "allVotes": {
+        "D": 13282,
+        "WI": 378
+      },
+      "dVotes": 13282,
+      "rVotes": 0,
+      "totalVotes": 13282,
+      "totalAllVotes": 13660,
+      "winner": "D",
+      "uncontested": true,
+      "proxy": {
+        "dVotes": 10089,
+        "rVotes": 6468
+      },
+      "proxied": true,
+      "dEffectiveVotes": 10089,
+      "rEffectiveVotes": 6468,
+      "effectiveWinner": "D",
+      "dWasted": 1810,
+      "rWasted": 6468
+    },
+    {
+      "contest": "0284",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 49A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 10779,
+        "D": 7071,
+        "WI": 23
+      },
+      "dVotes": 7071,
+      "rVotes": 10779,
+      "totalVotes": 17850,
+      "totalAllVotes": 17873,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8728,
+        "rVotes": 9251
+      },
+      "dEffectiveVotes": 7071,
+      "rEffectiveVotes": 10779,
+      "effectiveWinner": "R",
+      "dWasted": 7071,
+      "rWasted": 1853
+    },
+    {
+      "contest": "0285",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 49B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 7919,
+        "D": 6637,
+        "WI": 12
+      },
+      "dVotes": 6637,
+      "rVotes": 7919,
+      "totalVotes": 14556,
+      "totalAllVotes": 14568,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8308,
+        "rVotes": 6158
+      },
+      "dEffectiveVotes": 6637,
+      "rEffectiveVotes": 7919,
+      "effectiveWinner": "R",
+      "dWasted": 6637,
+      "rWasted": 640
+    },
+    {
+      "contest": "0283",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 48B",
+      "precincts": 16,
+      "allVotes": {
+        "R": 9157,
+        "D": 5950,
+        "WI": 22
+      },
+      "dVotes": 5950,
+      "rVotes": 9157,
+      "totalVotes": 15107,
+      "totalAllVotes": 15129,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8117,
+        "rVotes": 6875
+      },
+      "dEffectiveVotes": 5950,
+      "rEffectiveVotes": 9157,
+      "effectiveWinner": "R",
+      "dWasted": 5950,
+      "rWasted": 1603
+    },
+    {
+      "contest": "0282",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 48A",
+      "precincts": 14,
+      "allVotes": {
+        "R": 9986,
+        "D": 7849,
+        "WI": 24
+      },
+      "dVotes": 7849,
+      "rVotes": 9986,
+      "totalVotes": 17835,
+      "totalAllVotes": 17859,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9060,
+        "rVotes": 8665
+      },
+      "dEffectiveVotes": 7849,
+      "rEffectiveVotes": 9986,
+      "effectiveWinner": "R",
+      "dWasted": 7849,
+      "rWasted": 1068
+    },
+    {
+      "contest": "0292",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 53A",
+      "precincts": 13,
+      "allVotes": {
+        "R": 9141,
+        "D": 9192,
+        "WI": 14
+      },
+      "dVotes": 9192,
+      "rVotes": 9141,
+      "totalVotes": 18333,
+      "totalAllVotes": 18347,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10173,
+        "rVotes": 7917
+      },
+      "dEffectiveVotes": 9192,
+      "rEffectiveVotes": 9141,
+      "effectiveWinner": "D",
+      "dWasted": 25,
+      "rWasted": 9141
+    },
+    {
+      "contest": "0288",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 51A",
+      "precincts": 18,
+      "allVotes": {
+        "R": 8275,
+        "D": 9344,
+        "WI": 31
+      },
+      "dVotes": 9344,
+      "rVotes": 8275,
+      "totalVotes": 17619,
+      "totalAllVotes": 17650,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10194,
+        "rVotes": 7339
+      },
+      "dEffectiveVotes": 9344,
+      "rEffectiveVotes": 8275,
+      "effectiveWinner": "D",
+      "dWasted": 534,
+      "rWasted": 8275
+    },
+    {
+      "contest": "0289",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 51B",
+      "precincts": 17,
+      "allVotes": {
+        "R": 5831,
+        "D": 8643,
+        "WI": 33
+      },
+      "dVotes": 8643,
+      "rVotes": 5831,
+      "totalVotes": 14474,
+      "totalAllVotes": 14507,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9189,
+        "rVotes": 5226
+      },
+      "dEffectiveVotes": 8643,
+      "rEffectiveVotes": 5831,
+      "effectiveWinner": "D",
+      "dWasted": 1405,
+      "rWasted": 5831
+    },
+    {
+      "contest": "0290",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 52A",
+      "precincts": 12,
+      "allVotes": {
+        "R": 10791,
+        "D": 8794,
+        "WI": 22
+      },
+      "dVotes": 8794,
+      "rVotes": 10791,
+      "totalVotes": 19585,
+      "totalAllVotes": 19607,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10316,
+        "rVotes": 9108
+      },
+      "dEffectiveVotes": 8794,
+      "rEffectiveVotes": 10791,
+      "effectiveWinner": "R",
+      "dWasted": 8794,
+      "rWasted": 998
+    },
+    {
+      "contest": "0286",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 50A",
+      "precincts": 17,
+      "allVotes": {
+        "IP": 926,
+        "R": 4188,
+        "D": 8513,
+        "WI": 22
+      },
+      "dVotes": 8513,
+      "rVotes": 4188,
+      "totalVotes": 12701,
+      "totalAllVotes": 13649,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9314,
+        "rVotes": 4271
+      },
+      "dEffectiveVotes": 8513,
+      "rEffectiveVotes": 4188,
+      "effectiveWinner": "D",
+      "dWasted": 2162,
+      "rWasted": 4188
+    },
+    {
+      "contest": "0280",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 47A",
+      "precincts": 9,
+      "allVotes": {
+        "R": 6905,
+        "D": 8106,
+        "WI": 24
+      },
+      "dVotes": 8106,
+      "rVotes": 6905,
+      "totalVotes": 15011,
+      "totalAllVotes": 15035,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8343,
+        "rVotes": 6417
+      },
+      "dEffectiveVotes": 8106,
+      "rEffectiveVotes": 6905,
+      "effectiveWinner": "D",
+      "dWasted": 600,
+      "rWasted": 6905
+    },
+    {
+      "contest": "0281",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 47B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 7301,
+        "D": 9269,
+        "WI": 23
+      },
+      "dVotes": 9269,
+      "rVotes": 7301,
+      "totalVotes": 16570,
+      "totalAllVotes": 16593,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9781,
+        "rVotes": 6547
+      },
+      "dEffectiveVotes": 9269,
+      "rEffectiveVotes": 7301,
+      "effectiveWinner": "D",
+      "dWasted": 983,
+      "rWasted": 7301
+    },
+    {
+      "contest": "0287",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 50B",
+      "precincts": 10,
+      "allVotes": {
+        "R": 7769,
+        "D": 9025,
+        "WI": 22
+      },
+      "dVotes": 9025,
+      "rVotes": 7769,
+      "totalVotes": 16794,
+      "totalAllVotes": 16816,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10100,
+        "rVotes": 6680
+      },
+      "dEffectiveVotes": 9025,
+      "rEffectiveVotes": 7769,
+      "effectiveWinner": "D",
+      "dWasted": 627,
+      "rWasted": 7769
+    },
+    {
+      "contest": "0220",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 17A",
+      "precincts": 18,
+      "allVotes": {
+        "R": 8834,
+        "D": 8639,
+        "WI": 17
+      },
+      "dVotes": 8639,
+      "rVotes": 8834,
+      "totalVotes": 17473,
+      "totalAllVotes": 17490,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9156,
+        "rVotes": 7960
+      },
+      "dEffectiveVotes": 8639,
+      "rEffectiveVotes": 8834,
+      "effectiveWinner": "R",
+      "dWasted": 8639,
+      "rWasted": 97
+    },
+    {
+      "contest": "0190",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 02A",
+      "precincts": 111,
+      "allVotes": {
+        "R": 4606,
+        "D": 10428,
+        "WI": 19
+      },
+      "dVotes": 10428,
+      "rVotes": 4606,
+      "totalVotes": 15034,
+      "totalAllVotes": 15053,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8557,
+        "rVotes": 6188
+      },
+      "dEffectiveVotes": 10428,
+      "rEffectiveVotes": 4606,
+      "effectiveWinner": "D",
+      "dWasted": 2910,
+      "rWasted": 4606
+    },
+    {
+      "contest": "0205",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 09B",
+      "precincts": 88,
+      "allVotes": {
+        "R": 3666,
+        "D": 12291,
+        "WI": 11
+      },
+      "dVotes": 12291,
+      "rVotes": 3666,
+      "totalVotes": 15957,
+      "totalAllVotes": 15968,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8673,
+        "rVotes": 6769
+      },
+      "dEffectiveVotes": 12291,
+      "rEffectiveVotes": 3666,
+      "effectiveWinner": "D",
+      "dWasted": 4312,
+      "rWasted": 3666
+    },
+    {
+      "contest": "0207",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 10B",
+      "precincts": 69,
+      "allVotes": {
+        "R": 9471,
+        "D": 6067,
+        "WI": 8
+      },
+      "dVotes": 6067,
+      "rVotes": 9471,
+      "totalVotes": 15538,
+      "totalAllVotes": 15546,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7313,
+        "rVotes": 7864
+      },
+      "dEffectiveVotes": 6067,
+      "rEffectiveVotes": 9471,
+      "effectiveWinner": "R",
+      "dWasted": 6067,
+      "rWasted": 1701
+    },
+    {
+      "contest": "0191",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 02B",
+      "precincts": 102,
+      "allVotes": {
+        "R": 7859,
+        "D": 9228,
+        "WI": 20
+      },
+      "dVotes": 9228,
+      "rVotes": 7859,
+      "totalVotes": 17087,
+      "totalAllVotes": 17107,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9349,
+        "rVotes": 7144
+      },
+      "dEffectiveVotes": 9228,
+      "rEffectiveVotes": 7859,
+      "effectiveWinner": "D",
+      "dWasted": 684,
+      "rWasted": 7859
+    },
+    {
+      "contest": "0194",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 04A",
+      "precincts": 65,
+      "allVotes": {
+        "IP": 510,
+        "R": 4810,
+        "D": 9990,
+        "WI": 11
+      },
+      "dVotes": 9990,
+      "rVotes": 4810,
+      "totalVotes": 14800,
+      "totalAllVotes": 15321,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8623,
+        "rVotes": 6212
+      },
+      "dEffectiveVotes": 9990,
+      "rEffectiveVotes": 4810,
+      "effectiveWinner": "D",
+      "dWasted": 2589,
+      "rWasted": 4810
+    },
+    {
+      "contest": "0218",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 16A",
+      "precincts": 46,
+      "allVotes": {
+        "R": 8752,
+        "D": 8293,
+        "WI": 20
+      },
+      "dVotes": 8293,
+      "rVotes": 8752,
+      "totalVotes": 17045,
+      "totalAllVotes": 17065,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8923,
+        "rVotes": 7602
+      },
+      "dEffectiveVotes": 8293,
+      "rEffectiveVotes": 8752,
+      "effectiveWinner": "R",
+      "dWasted": 8293,
+      "rWasted": 229
+    },
+    {
+      "contest": "0214",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 14A",
+      "precincts": 29,
+      "allVotes": {
+        "R": 9291,
+        "D": 7914,
+        "WI": 19
+      },
+      "dVotes": 7914,
+      "rVotes": 9291,
+      "totalVotes": 17205,
+      "totalAllVotes": 17224,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8667,
+        "rVotes": 8250
+      },
+      "dEffectiveVotes": 7914,
+      "rEffectiveVotes": 9291,
+      "effectiveWinner": "R",
+      "dWasted": 7914,
+      "rWasted": 688
+    },
+    {
+      "contest": "0217",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 15B",
+      "precincts": 23,
+      "allVotes": {
+        "R": 4119,
+        "D": 7674,
+        "WI": 32
+      },
+      "dVotes": 7674,
+      "rVotes": 4119,
+      "totalVotes": 11793,
+      "totalAllVotes": 11825,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 6885,
+        "rVotes": 4735
+      },
+      "dEffectiveVotes": 7674,
+      "rEffectiveVotes": 4119,
+      "effectiveWinner": "D",
+      "dWasted": 1777,
+      "rWasted": 4119
+    },
+    {
+      "contest": "0226",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 20A",
+      "precincts": 120,
+      "allVotes": {
+        "R": 6765,
+        "D": 9030,
+        "WI": 17
+      },
+      "dVotes": 9030,
+      "rVotes": 6765,
+      "totalVotes": 15795,
+      "totalAllVotes": 15812,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9219,
+        "rVotes": 6022
+      },
+      "dEffectiveVotes": 9030,
+      "rEffectiveVotes": 6765,
+      "effectiveWinner": "D",
+      "dWasted": 1132,
+      "rWasted": 6765
+    },
+    {
+      "contest": "0235",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 24B",
+      "precincts": 66,
+      "allVotes": {
+        "R": 9108,
+        "D": 7636,
+        "WI": 16
+      },
+      "dVotes": 7636,
+      "rVotes": 9108,
+      "totalVotes": 16744,
+      "totalAllVotes": 16760,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9233,
+        "rVotes": 6795
+      },
+      "dEffectiveVotes": 7636,
+      "rEffectiveVotes": 9108,
+      "effectiveWinner": "R",
+      "dWasted": 7636,
+      "rWasted": 735
+    },
+    {
+      "contest": "0233",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 23B",
+      "precincts": 24,
+      "allVotes": {
+        "R": 6254,
+        "D": 9704,
+        "WI": 45
+      },
+      "dVotes": 9704,
+      "rVotes": 6254,
+      "totalVotes": 15958,
+      "totalAllVotes": 16003,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9978,
+        "rVotes": 5807
+      },
+      "dEffectiveVotes": 9704,
+      "rEffectiveVotes": 6254,
+      "effectiveWinner": "D",
+      "dWasted": 1724,
+      "rWasted": 6254
+    },
+    {
+      "contest": "0229",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 21B",
+      "precincts": 57,
+      "allVotes": {
+        "R": 8460,
+        "D": 6986,
+        "WI": 12
+      },
+      "dVotes": 6986,
+      "rVotes": 8460,
+      "totalVotes": 15446,
+      "totalAllVotes": 15458,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7806,
+        "rVotes": 7107
+      },
+      "dEffectiveVotes": 6986,
+      "rEffectiveVotes": 8460,
+      "effectiveWinner": "R",
+      "dWasted": 6986,
+      "rWasted": 736
+    },
+    {
+      "contest": "0202",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 08A",
+      "precincts": 70,
+      "allVotes": {
+        "R": 4935,
+        "D": 10677,
+        "WI": 19
+      },
+      "dVotes": 10677,
+      "rVotes": 4935,
+      "totalVotes": 15612,
+      "totalAllVotes": 15631,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10662,
+        "rVotes": 4632
+      },
+      "dEffectiveVotes": 10677,
+      "rEffectiveVotes": 4935,
+      "effectiveWinner": "D",
+      "dWasted": 2870,
+      "rWasted": 4935
+    },
+    {
+      "contest": "0199",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 06B",
+      "precincts": 15,
+      "allVotes": {
+        "R": 4583,
+        "D": 12060,
+        "WI": 29
+      },
+      "dVotes": 12060,
+      "rVotes": 4583,
+      "totalVotes": 16643,
+      "totalAllVotes": 16672,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11557,
+        "rVotes": 5022
+      },
+      "dEffectiveVotes": 12060,
+      "rEffectiveVotes": 4583,
+      "effectiveWinner": "D",
+      "dWasted": 3738,
+      "rWasted": 4583
+    },
+    {
+      "contest": "0254",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 34A",
+      "precincts": 25,
+      "allVotes": {
+        "R": 13082,
+        "D": 6819,
+        "WI": 13
+      },
+      "dVotes": 6819,
+      "rVotes": 13082,
+      "totalVotes": 19901,
+      "totalAllVotes": 19914,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8947,
+        "rVotes": 10931
+      },
+      "dEffectiveVotes": 6819,
+      "rEffectiveVotes": 13082,
+      "effectiveWinner": "R",
+      "dWasted": 6819,
+      "rWasted": 3131
+    },
+    {
+      "contest": "0255",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 34B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 9888,
+        "D": 6347,
+        "WI": 12
+      },
+      "dVotes": 6347,
+      "rVotes": 9888,
+      "totalVotes": 16235,
+      "totalAllVotes": 16247,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8088,
+        "rVotes": 8252
+      },
+      "dEffectiveVotes": 6347,
+      "rEffectiveVotes": 9888,
+      "effectiveWinner": "R",
+      "dWasted": 6347,
+      "rWasted": 1770
+    },
+    {
+      "contest": "0195",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 04B",
+      "precincts": 75,
+      "allVotes": {
+        "R": 10006,
+        "D": 9036,
+        "WI": 22
+      },
+      "dVotes": 9036,
+      "rVotes": 10006,
+      "totalVotes": 19042,
+      "totalAllVotes": 19064,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9470,
+        "rVotes": 9347
+      },
+      "dEffectiveVotes": 9036,
+      "rEffectiveVotes": 10006,
+      "effectiveWinner": "R",
+      "dWasted": 9036,
+      "rWasted": 484
+    },
+    {
+      "contest": "0227",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 20B",
+      "precincts": 76,
+      "allVotes": {
+        "R": 6512,
+        "D": 8673,
+        "WI": 13
+      },
+      "dVotes": 8673,
+      "rVotes": 6512,
+      "totalVotes": 15185,
+      "totalAllVotes": 15198,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8959,
+        "rVotes": 5751
+      },
+      "dEffectiveVotes": 8673,
+      "rEffectiveVotes": 6512,
+      "effectiveWinner": "D",
+      "dWasted": 1080,
+      "rWasted": 6512
+    },
+    {
+      "contest": "0221",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 17B",
+      "precincts": 21,
+      "allVotes": {
+        "R": 9425,
+        "D": 9629,
+        "WI": 25
+      },
+      "dVotes": 9629,
+      "rVotes": 9425,
+      "totalVotes": 19054,
+      "totalAllVotes": 19079,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10300,
+        "rVotes": 8493
+      },
+      "dEffectiveVotes": 9629,
+      "rEffectiveVotes": 9425,
+      "effectiveWinner": "D",
+      "dWasted": 101,
+      "rWasted": 9425
+    },
+    {
+      "contest": "0204",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 09A",
+      "precincts": 26,
+      "allVotes": {
+        "R": 7838,
+        "D": 5421,
+        "WI": 15
+      },
+      "dVotes": 5421,
+      "rVotes": 7838,
+      "totalVotes": 13259,
+      "totalAllVotes": 13274,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7584,
+        "rVotes": 5325
+      },
+      "dEffectiveVotes": 5421,
+      "rEffectiveVotes": 7838,
+      "effectiveWinner": "R",
+      "dWasted": 5421,
+      "rWasted": 1208
+    },
+    {
+      "contest": "0198",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 06A",
+      "precincts": 73,
+      "allVotes": {
+        "D": 16129,
+        "WI": 468
+      },
+      "dVotes": 16129,
+      "rVotes": 0,
+      "totalVotes": 16129,
+      "totalAllVotes": 16597,
+      "winner": "D",
+      "uncontested": true,
+      "proxy": {
+        "dVotes": 13066,
+        "rVotes": 5900
+      },
+      "proxied": true,
+      "dEffectiveVotes": 13066,
+      "rEffectiveVotes": 5900,
+      "effectiveWinner": "D",
+      "dWasted": 3582,
+      "rWasted": 5900
+    },
+    {
+      "contest": "0231",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 22B",
+      "precincts": 74,
+      "allVotes": {
+        "R": 7713,
+        "D": 7249,
+        "WI": 13
+      },
+      "dVotes": 7249,
+      "rVotes": 7713,
+      "totalVotes": 14962,
+      "totalAllVotes": 14975,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7714,
+        "rVotes": 6692
+      },
+      "dEffectiveVotes": 7249,
+      "rEffectiveVotes": 7713,
+      "effectiveWinner": "R",
+      "dWasted": 7249,
+      "rWasted": 231
+    },
+    {
+      "contest": "0210",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 12A",
+      "precincts": 27,
+      "allVotes": {
+        "R": 7460,
+        "D": 8987,
+        "WI": 13
+      },
+      "dVotes": 8987,
+      "rVotes": 7460,
+      "totalVotes": 16447,
+      "totalAllVotes": 16460,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8500,
+        "rVotes": 7352
+      },
+      "dEffectiveVotes": 8987,
+      "rEffectiveVotes": 7460,
+      "effectiveWinner": "D",
+      "dWasted": 763,
+      "rWasted": 7460
+    },
+    {
+      "contest": "0211",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 12B",
+      "precincts": 52,
+      "allVotes": {
+        "R": 8033,
+        "D": 8615,
+        "WI": 16
+      },
+      "dVotes": 8615,
+      "rVotes": 8033,
+      "totalVotes": 16648,
+      "totalAllVotes": 16664,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8534,
+        "rVotes": 7573
+      },
+      "dEffectiveVotes": 8615,
+      "rEffectiveVotes": 8033,
+      "effectiveWinner": "D",
+      "dWasted": 290,
+      "rWasted": 8033
+    },
+    {
+      "contest": "0260",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 37A",
+      "precincts": 13,
+      "allVotes": {
+        "R": 8239,
+        "D": 8434,
+        "WI": 15
+      },
+      "dVotes": 8434,
+      "rVotes": 8239,
+      "totalVotes": 16673,
+      "totalAllVotes": 16688,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9593,
+        "rVotes": 7219
+      },
+      "dEffectiveVotes": 8434,
+      "rEffectiveVotes": 8239,
+      "effectiveWinner": "D",
+      "dWasted": 97,
+      "rWasted": 8239
+    },
+    {
+      "contest": "0261",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 37B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 14143,
+        "WI": 450
+      },
+      "dVotes": 0,
+      "rVotes": 14143,
+      "totalVotes": 14143,
+      "totalAllVotes": 14593,
+      "winner": "R",
+      "uncontested": true,
+      "proxy": {
+        "dVotes": 10050,
+        "rVotes": 7807
+      },
+      "proxied": true,
+      "dEffectiveVotes": 3536,
+      "rEffectiveVotes": 10607,
+      "effectiveWinner": "R",
+      "proxiedAgain": true,
+      "dWasted": 3536,
+      "rWasted": 3535
+    },
+    {
+      "contest": "0266",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 40A",
+      "precincts": 11,
+      "allVotes": {
+        "R": 6548,
+        "D": 7457,
+        "WI": 19
+      },
+      "dVotes": 7457,
+      "rVotes": 6548,
+      "totalVotes": 14005,
+      "totalAllVotes": 14024,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8225,
+        "rVotes": 5750
+      },
+      "dEffectiveVotes": 7457,
+      "rEffectiveVotes": 6548,
+      "effectiveWinner": "D",
+      "dWasted": 454,
+      "rWasted": 6548
+    },
+    {
+      "contest": "0262",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 38A",
+      "precincts": 11,
+      "allVotes": {
+        "R": 7544,
+        "D": 7601,
+        "WI": 11
+      },
+      "dVotes": 7601,
+      "rVotes": 7544,
+      "totalVotes": 15145,
+      "totalAllVotes": 15156,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9096,
+        "rVotes": 6005
+      },
+      "dEffectiveVotes": 7601,
+      "rEffectiveVotes": 7544,
+      "effectiveWinner": "D",
+      "dWasted": 28,
+      "rWasted": 7544
+    },
+    {
+      "contest": "0259",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 36B",
+      "precincts": 31,
+      "allVotes": {
+        "R": 10304,
+        "D": 8123,
+        "WI": 23
+      },
+      "dVotes": 8123,
+      "rVotes": 10304,
+      "totalVotes": 18427,
+      "totalAllVotes": 18450,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9953,
+        "rVotes": 8460
+      },
+      "dEffectiveVotes": 8123,
+      "rEffectiveVotes": 10304,
+      "effectiveWinner": "R",
+      "dWasted": 8123,
+      "rWasted": 1090
+    },
+    {
+      "contest": "0264",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 39A",
+      "precincts": 18,
+      "allVotes": {
+        "R": 6045,
+        "D": 11211,
+        "WI": 25
+      },
+      "dVotes": 11211,
+      "rVotes": 6045,
+      "totalVotes": 17256,
+      "totalAllVotes": 17281,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11084,
+        "rVotes": 6207
+      },
+      "dEffectiveVotes": 11211,
+      "rEffectiveVotes": 6045,
+      "effectiveWinner": "D",
+      "dWasted": 2582,
+      "rWasted": 6045
+    },
+    {
+      "contest": "0263",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 38B",
+      "precincts": 12,
+      "allVotes": {
+        "R": 8282,
+        "D": 8119,
+        "WI": 14
+      },
+      "dVotes": 8119,
+      "rVotes": 8282,
+      "totalVotes": 16401,
+      "totalAllVotes": 16415,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9465,
+        "rVotes": 6794
+      },
+      "dEffectiveVotes": 8119,
+      "rEffectiveVotes": 8282,
+      "effectiveWinner": "R",
+      "dWasted": 8119,
+      "rWasted": 81
+    },
+    {
+      "contest": "0301",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 57B",
+      "precincts": 21,
+      "allVotes": {
+        "IP": 542,
+        "R": 9737,
+        "D": 7344,
+        "WI": 11
+      },
+      "dVotes": 7344,
+      "rVotes": 9737,
+      "totalVotes": 17081,
+      "totalAllVotes": 17634,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10155,
+        "rVotes": 7064
+      },
+      "dEffectiveVotes": 7344,
+      "rEffectiveVotes": 9737,
+      "effectiveWinner": "R",
+      "dWasted": 7344,
+      "rWasted": 1196
+    },
+    {
+      "contest": "0265",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 39B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 4735,
+        "D": 12046,
+        "WI": 15
+      },
+      "dVotes": 12046,
+      "rVotes": 4735,
+      "totalVotes": 16781,
+      "totalAllVotes": 16796,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9994,
+        "rVotes": 6422
+      },
+      "dEffectiveVotes": 12046,
+      "rEffectiveVotes": 4735,
+      "effectiveWinner": "D",
+      "dWasted": 3655,
+      "rWasted": 4735
+    },
+    {
+      "contest": "0258",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 36A",
+      "precincts": 12,
+      "allVotes": {
+        "R": 10782,
+        "D": 6754,
+        "WI": 14
+      },
+      "dVotes": 6754,
+      "rVotes": 10782,
+      "totalVotes": 17536,
+      "totalAllVotes": 17550,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8876,
+        "rVotes": 8707
+      },
+      "dEffectiveVotes": 6754,
+      "rEffectiveVotes": 10782,
+      "effectiveWinner": "R",
+      "dWasted": 6754,
+      "rWasted": 2013
+    },
+    {
+      "contest": "0300",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 57A",
+      "precincts": 15,
+      "allVotes": {
+        "IP": 807,
+        "R": 4783,
+        "D": 8647,
+        "WI": 22
+      },
+      "dVotes": 8647,
+      "rVotes": 4783,
+      "totalVotes": 13430,
+      "totalAllVotes": 14259,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9172,
+        "rVotes": 4984
+      },
+      "dEffectiveVotes": 8647,
+      "rEffectiveVotes": 4783,
+      "effectiveWinner": "D",
+      "dWasted": 1931,
+      "rWasted": 4783
+    },
+    {
+      "contest": "0244",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 29A",
+      "precincts": 33,
+      "allVotes": {
+        "R": 10312,
+        "D": 7495,
+        "WI": 19
+      },
+      "dVotes": 7495,
+      "rVotes": 10312,
+      "totalVotes": 17807,
+      "totalAllVotes": 17826,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9248,
+        "rVotes": 8159
+      },
+      "dEffectiveVotes": 7495,
+      "rEffectiveVotes": 10312,
+      "effectiveWinner": "R",
+      "dWasted": 7495,
+      "rWasted": 1408
+    },
+    {
+      "contest": "0208",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 11A",
+      "precincts": 72,
+      "allVotes": {
+        "R": 11011,
+        "D": 6479,
+        "WI": 26
+      },
+      "dVotes": 6479,
+      "rVotes": 11011,
+      "totalVotes": 17490,
+      "totalAllVotes": 17516,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9381,
+        "rVotes": 7534
+      },
+      "dEffectiveVotes": 6479,
+      "rEffectiveVotes": 11011,
+      "effectiveWinner": "R",
+      "dWasted": 6479,
+      "rWasted": 2265
+    },
+    {
+      "contest": "0209",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 11B",
+      "precincts": 54,
+      "allVotes": {
+        "R": 6619,
+        "D": 10199,
+        "WI": 20
+      },
+      "dVotes": 10199,
+      "rVotes": 6619,
+      "totalVotes": 16818,
+      "totalAllVotes": 16838,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8693,
+        "rVotes": 7565
+      },
+      "dEffectiveVotes": 10199,
+      "rEffectiveVotes": 6619,
+      "effectiveWinner": "D",
+      "dWasted": 1789,
+      "rWasted": 6619
+    },
+    {
+      "contest": "0234",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 24A",
+      "precincts": 61,
+      "allVotes": {
+        "R": 9905,
+        "D": 5007,
+        "WI": 17
+      },
+      "dVotes": 5007,
+      "rVotes": 9905,
+      "totalVotes": 14912,
+      "totalAllVotes": 14929,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7532,
+        "rVotes": 6916
+      },
+      "dEffectiveVotes": 5007,
+      "rEffectiveVotes": 9905,
+      "effectiveWinner": "R",
+      "dWasted": 5007,
+      "rWasted": 2448
+    },
+    {
+      "contest": "0249",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 31B",
+      "precincts": 56,
+      "allVotes": {
+        "R": 8011,
+        "D": 8063,
+        "WI": 47
+      },
+      "dVotes": 8063,
+      "rVotes": 8011,
+      "totalVotes": 16074,
+      "totalAllVotes": 16121,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8984,
+        "rVotes": 6330
+      },
+      "dEffectiveVotes": 8063,
+      "rEffectiveVotes": 8011,
+      "effectiveWinner": "D",
+      "dWasted": 25,
+      "rWasted": 8011
+    },
+    {
+      "contest": "0241",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 27B",
+      "precincts": 35,
+      "allVotes": {
+        "R": 6591,
+        "D": 8529,
+        "WI": 21
+      },
+      "dVotes": 8529,
+      "rVotes": 6591,
+      "totalVotes": 15120,
+      "totalAllVotes": 15141,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9721,
+        "rVotes": 4873
+      },
+      "dEffectiveVotes": 8529,
+      "rEffectiveVotes": 6591,
+      "effectiveWinner": "D",
+      "dWasted": 968,
+      "rWasted": 6591
+    },
+    {
+      "contest": "0240",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 27A",
+      "precincts": 49,
+      "allVotes": {
+        "R": 8332,
+        "D": 8617,
+        "WI": 19
+      },
+      "dVotes": 8617,
+      "rVotes": 8332,
+      "totalVotes": 16949,
+      "totalAllVotes": 16968,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10673,
+        "rVotes": 5729
+      },
+      "dEffectiveVotes": 8617,
+      "rEffectiveVotes": 8332,
+      "effectiveWinner": "D",
+      "dWasted": 142,
+      "rWasted": 8332
+    },
+    {
+      "contest": "0243",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 28B",
+      "precincts": 53,
+      "allVotes": {
+        "R": 9677,
+        "D": 6214,
+        "WI": 20
+      },
+      "dVotes": 6214,
+      "rVotes": 9677,
+      "totalVotes": 15891,
+      "totalAllVotes": 15911,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8395,
+        "rVotes": 6905
+      },
+      "dEffectiveVotes": 6214,
+      "rEffectiveVotes": 9677,
+      "effectiveWinner": "R",
+      "dWasted": 6214,
+      "rWasted": 1731
+    },
+    {
+      "contest": "0242",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 28A",
+      "precincts": 34,
+      "allVotes": {
+        "R": 7899,
+        "D": 8395,
+        "WI": 50
+      },
+      "dVotes": 8395,
+      "rVotes": 7899,
+      "totalVotes": 16294,
+      "totalAllVotes": 16344,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9570,
+        "rVotes": 6287
+      },
+      "dEffectiveVotes": 8395,
+      "rEffectiveVotes": 7899,
+      "effectiveWinner": "D",
+      "dWasted": 247,
+      "rWasted": 7899
+    },
+    {
+      "contest": "0267",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 40B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 5363,
+        "D": 11434,
+        "WI": 22
+      },
+      "dVotes": 11434,
+      "rVotes": 5363,
+      "totalVotes": 16797,
+      "totalAllVotes": 16819,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10246,
+        "rVotes": 6353
+      },
+      "dEffectiveVotes": 11434,
+      "rEffectiveVotes": 5363,
+      "effectiveWinner": "D",
+      "dWasted": 3035,
+      "rWasted": 5363
+    },
+    {
+      "contest": "0269",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 41B",
+      "precincts": 15,
+      "allVotes": {
+        "R": 9340,
+        "D": 8147,
+        "WI": 24
+      },
+      "dVotes": 8147,
+      "rVotes": 9340,
+      "totalVotes": 17487,
+      "totalAllVotes": 17511,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10119,
+        "rVotes": 7528
+      },
+      "dEffectiveVotes": 8147,
+      "rEffectiveVotes": 9340,
+      "effectiveWinner": "R",
+      "dWasted": 8147,
+      "rWasted": 596
+    },
+    {
+      "contest": "0313",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 63B",
+      "precincts": 13,
+      "allVotes": {
+        "IP": 474,
+        "R": 4847,
+        "D": 7454,
+        "WI": 14
+      },
+      "dVotes": 7454,
+      "rVotes": 4847,
+      "totalVotes": 12301,
+      "totalAllVotes": 12789,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8468,
+        "rVotes": 4149
+      },
+      "dEffectiveVotes": 7454,
+      "rEffectiveVotes": 4847,
+      "effectiveWinner": "D",
+      "dWasted": 1303,
+      "rWasted": 4847
+    },
+    {
+      "contest": "0279",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 46B",
+      "precincts": 10,
+      "allVotes": {
+        "R": 3848,
+        "D": 7550,
+        "WI": 18
+      },
+      "dVotes": 7550,
+      "rVotes": 3848,
+      "totalVotes": 11398,
+      "totalAllVotes": 11416,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 7850,
+        "rVotes": 3532
+      },
+      "dEffectiveVotes": 7550,
+      "rEffectiveVotes": 3848,
+      "effectiveWinner": "D",
+      "dWasted": 1850,
+      "rWasted": 3848
+    },
+    {
+      "contest": "0278",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 46A",
+      "precincts": 12,
+      "allVotes": {
+        "R": 3422,
+        "D": 6007,
+        "WI": 14
+      },
+      "dVotes": 6007,
+      "rVotes": 3422,
+      "totalVotes": 9429,
+      "totalAllVotes": 9443,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 6267,
+        "rVotes": 3127
+      },
+      "dEffectiveVotes": 6007,
+      "rEffectiveVotes": 3422,
+      "effectiveWinner": "D",
+      "dWasted": 1292,
+      "rWasted": 3422
+    },
+    {
+      "contest": "0250",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 32A",
+      "precincts": 20,
+      "allVotes": {
+        "R": 13977,
+        "D": 7591,
+        "WI": 17
+      },
+      "dVotes": 7591,
+      "rVotes": 13977,
+      "totalVotes": 21568,
+      "totalAllVotes": 21585,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10295,
+        "rVotes": 11193
+      },
+      "dEffectiveVotes": 7591,
+      "rEffectiveVotes": 13977,
+      "effectiveWinner": "R",
+      "dWasted": 7591,
+      "rWasted": 3192
+    },
+    {
+      "contest": "0277",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 45B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 5905,
+        "D": 10824,
+        "WI": 22
+      },
+      "dVotes": 10824,
+      "rVotes": 5905,
+      "totalVotes": 16729,
+      "totalAllVotes": 16751,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11346,
+        "rVotes": 5233
+      },
+      "dEffectiveVotes": 10824,
+      "rEffectiveVotes": 5905,
+      "effectiveWinner": "D",
+      "dWasted": 2459,
+      "rWasted": 5905
+    },
+    {
+      "contest": "0276",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 45A",
+      "precincts": 16,
+      "allVotes": {
+        "R": 6403,
+        "D": 8616,
+        "WI": 17
+      },
+      "dVotes": 8616,
+      "rVotes": 6403,
+      "totalVotes": 15019,
+      "totalAllVotes": 15036,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9497,
+        "rVotes": 5447
+      },
+      "dEffectiveVotes": 8616,
+      "rEffectiveVotes": 6403,
+      "effectiveWinner": "D",
+      "dWasted": 1106,
+      "rWasted": 6403
+    },
+    {
+      "contest": "0253",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 33B",
+      "precincts": 22,
+      "allVotes": {
+        "R": 10530,
+        "D": 8442,
+        "WI": 34
+      },
+      "dVotes": 8442,
+      "rVotes": 10530,
+      "totalVotes": 18972,
+      "totalAllVotes": 19006,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9881,
+        "rVotes": 9022
+      },
+      "dEffectiveVotes": 8442,
+      "rEffectiveVotes": 10530,
+      "effectiveWinner": "R",
+      "dWasted": 8442,
+      "rWasted": 1043
+    },
+    {
+      "contest": "0270",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 42A",
+      "precincts": 17,
+      "allVotes": {
+        "R": 8131,
+        "D": 9963,
+        "WI": 16
+      },
+      "dVotes": 9963,
+      "rVotes": 8131,
+      "totalVotes": 18094,
+      "totalAllVotes": 18110,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10564,
+        "rVotes": 7292
+      },
+      "dEffectiveVotes": 9963,
+      "rEffectiveVotes": 8131,
+      "effectiveWinner": "D",
+      "dWasted": 915,
+      "rWasted": 8131
+    },
+    {
+      "contest": "0271",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 42B",
+      "precincts": 12,
+      "allVotes": {
+        "R": 11389,
+        "D": 6380,
+        "WI": 15
+      },
+      "dVotes": 6380,
+      "rVotes": 11389,
+      "totalVotes": 17769,
+      "totalAllVotes": 17784,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9290,
+        "rVotes": 8542
+      },
+      "dEffectiveVotes": 6380,
+      "rEffectiveVotes": 11389,
+      "effectiveWinner": "R",
+      "dWasted": 6380,
+      "rWasted": 2504
+    },
+    {
+      "contest": "0268",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 41A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 12133,
+        "D": 8230,
+        "WI": 25
+      },
+      "dVotes": 8230,
+      "rVotes": 12133,
+      "totalVotes": 20363,
+      "totalAllVotes": 20388,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 12220,
+        "rVotes": 8316
+      },
+      "dEffectiveVotes": 8230,
+      "rEffectiveVotes": 12133,
+      "effectiveWinner": "R",
+      "dWasted": 8230,
+      "rWasted": 1951
+    },
+    {
+      "contest": "0275",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 44B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 5276,
+        "D": 11987,
+        "WI": 37
+      },
+      "dVotes": 11987,
+      "rVotes": 5276,
+      "totalVotes": 17263,
+      "totalAllVotes": 17300,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12607,
+        "rVotes": 4867
+      },
+      "dEffectiveVotes": 11987,
+      "rEffectiveVotes": 5276,
+      "effectiveWinner": "D",
+      "dWasted": 3355,
+      "rWasted": 5276
+    },
+    {
+      "contest": "0274",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 44A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 4590,
+        "D": 10886,
+        "WI": 29
+      },
+      "dVotes": 10886,
+      "rVotes": 4590,
+      "totalVotes": 15476,
+      "totalAllVotes": 15505,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10928,
+        "rVotes": 4448
+      },
+      "dEffectiveVotes": 10886,
+      "rEffectiveVotes": 4590,
+      "effectiveWinner": "D",
+      "dWasted": 3147,
+      "rWasted": 4590
+    },
+    {
+      "contest": "0252",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 33A",
+      "precincts": 17,
+      "allVotes": {
+        "R": 14351,
+        "WI": 521
+      },
+      "dVotes": 0,
+      "rVotes": 14351,
+      "totalVotes": 14351,
+      "totalAllVotes": 14872,
+      "winner": "R",
+      "uncontested": true,
+      "proxy": {
+        "dVotes": 9539,
+        "rVotes": 9517
+      },
+      "proxied": true,
+      "dEffectiveVotes": 3588,
+      "rEffectiveVotes": 10763,
+      "effectiveWinner": "R",
+      "proxiedAgain": true,
+      "dWasted": 3588,
+      "rWasted": 3587
+    },
+    {
+      "contest": "0251",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 32B",
+      "precincts": 16,
+      "allVotes": {
+        "IP": 822,
+        "R": 7786,
+        "D": 7430,
+        "WI": 12
+      },
+      "dVotes": 7430,
+      "rVotes": 7786,
+      "totalVotes": 15216,
+      "totalAllVotes": 16050,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9025,
+        "rVotes": 7079
+      },
+      "dEffectiveVotes": 7430,
+      "rEffectiveVotes": 7786,
+      "effectiveWinner": "R",
+      "dWasted": 7430,
+      "rWasted": 177
+    },
+    {
+      "contest": "0272",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 43A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 9350,
+        "D": 8429,
+        "WI": 16
+      },
+      "dVotes": 8429,
+      "rVotes": 9350,
+      "totalVotes": 17779,
+      "totalAllVotes": 17795,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10246,
+        "rVotes": 7662
+      },
+      "dEffectiveVotes": 8429,
+      "rEffectiveVotes": 9350,
+      "effectiveWinner": "R",
+      "dWasted": 8429,
+      "rWasted": 460
+    },
+    {
+      "contest": "0304",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 59A",
+      "precincts": 12,
+      "allVotes": {
+        "R": 2459,
+        "D": 11548,
+        "WI": 57
+      },
+      "dVotes": 11548,
+      "rVotes": 2459,
+      "totalVotes": 14007,
+      "totalAllVotes": 14064,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11283,
+        "rVotes": 2572
+      },
+      "dEffectiveVotes": 11548,
+      "rEffectiveVotes": 2459,
+      "effectiveWinner": "D",
+      "dWasted": 4544,
+      "rWasted": 2459
+    },
+    {
+      "contest": "0305",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 59B",
+      "precincts": 13,
+      "allVotes": {
+        "IP": 1167,
+        "R": 1968,
+        "D": 8658,
+        "WI": 35
+      },
+      "dVotes": 8658,
+      "rVotes": 1968,
+      "totalVotes": 10626,
+      "totalAllVotes": 11828,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9860,
+        "rVotes": 2134
+      },
+      "dEffectiveVotes": 8658,
+      "rEffectiveVotes": 1968,
+      "effectiveWinner": "D",
+      "dWasted": 3344,
+      "rWasted": 1968
+    },
+    {
+      "contest": "0310",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 62A",
+      "precincts": 13,
+      "allVotes": {
+        "R": 2708,
+        "D": 14188,
+        "WI": 39
+      },
+      "dVotes": 14188,
+      "rVotes": 2708,
+      "totalVotes": 16896,
+      "totalAllVotes": 16935,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14371,
+        "rVotes": 2372
+      },
+      "dEffectiveVotes": 14188,
+      "rEffectiveVotes": 2708,
+      "effectiveWinner": "D",
+      "dWasted": 5739,
+      "rWasted": 2708
+    },
+    {
+      "contest": "0302",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 58A",
+      "precincts": 12,
+      "allVotes": {
+        "R": 1831,
+        "D": 7504,
+        "IND": 555,
+        "WI": 28
+      },
+      "dVotes": 7504,
+      "rVotes": 1831,
+      "totalVotes": 9335,
+      "totalAllVotes": 9918,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 7775,
+        "rVotes": 1911
+      },
+      "dEffectiveVotes": 7504,
+      "rEffectiveVotes": 1831,
+      "effectiveWinner": "D",
+      "dWasted": 2836,
+      "rWasted": 1831
+    },
+    {
+      "contest": "0303",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 58B",
+      "precincts": 14,
+      "allVotes": {
+        "IP": 880,
+        "R": 1392,
+        "D": 6127,
+        "WI": 11
+      },
+      "dVotes": 6127,
+      "rVotes": 1392,
+      "totalVotes": 7519,
+      "totalAllVotes": 8410,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 7202,
+        "rVotes": 1281
+      },
+      "dEffectiveVotes": 6127,
+      "rEffectiveVotes": 1392,
+      "effectiveWinner": "D",
+      "dWasted": 2367,
+      "rWasted": 1392
+    },
+    {
+      "contest": "0309",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 61B",
+      "precincts": 12,
+      "allVotes": {
+        "R": 1034,
+        "D": 9045,
+        "WI": 38
+      },
+      "dVotes": 9045,
+      "rVotes": 1034,
+      "totalVotes": 10079,
+      "totalAllVotes": 10117,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9075,
+        "rVotes": 999
+      },
+      "dEffectiveVotes": 9045,
+      "rEffectiveVotes": 1034,
+      "effectiveWinner": "D",
+      "dWasted": 4005,
+      "rWasted": 1034
+    },
+    {
+      "contest": "0308",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 61A",
+      "precincts": 11,
+      "allVotes": {
+        "R": 919,
+        "D": 7053,
+        "WI": 24
+      },
+      "dVotes": 7053,
+      "rVotes": 919,
+      "totalVotes": 7972,
+      "totalAllVotes": 7996,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 6858,
+        "rVotes": 928
+      },
+      "dEffectiveVotes": 7053,
+      "rEffectiveVotes": 919,
+      "effectiveWinner": "D",
+      "dWasted": 3066,
+      "rWasted": 919
+    },
+    {
+      "contest": "0306",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 60A",
+      "precincts": 13,
+      "allVotes": {
+        "R": 3166,
+        "D": 13331,
+        "WI": 48
+      },
+      "dVotes": 13331,
+      "rVotes": 3166,
+      "totalVotes": 16497,
+      "totalAllVotes": 16545,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13982,
+        "rVotes": 2622
+      },
+      "dEffectiveVotes": 13331,
+      "rEffectiveVotes": 3166,
+      "effectiveWinner": "D",
+      "dWasted": 5082,
+      "rWasted": 3166
+    },
+    {
+      "contest": "0307",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 60B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 3474,
+        "D": 15867,
+        "WI": 47
+      },
+      "dVotes": 15867,
+      "rVotes": 3474,
+      "totalVotes": 19341,
+      "totalAllVotes": 19388,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 16633,
+        "rVotes": 3010
+      },
+      "dEffectiveVotes": 15867,
+      "rEffectiveVotes": 3474,
+      "effectiveWinner": "D",
+      "dWasted": 6196,
+      "rWasted": 3474
+    },
+    {
+      "contest": "0311",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 62B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 3524,
+        "D": 14636,
+        "WI": 40
+      },
+      "dVotes": 14636,
+      "rVotes": 3524,
+      "totalVotes": 18160,
+      "totalAllVotes": 18200,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14846,
+        "rVotes": 3452
+      },
+      "dEffectiveVotes": 14636,
+      "rEffectiveVotes": 3524,
+      "effectiveWinner": "D",
+      "dWasted": 5555,
+      "rWasted": 3524
+    },
+    {
+      "contest": "0312",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 63A",
+      "precincts": 10,
+      "allVotes": {
+        "R": 4149,
+        "D": 12304,
+        "WI": 26
+      },
+      "dVotes": 12304,
+      "rVotes": 4149,
+      "totalVotes": 16453,
+      "totalAllVotes": 16479,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12187,
+        "rVotes": 4433
+      },
+      "dEffectiveVotes": 12304,
+      "rEffectiveVotes": 4149,
+      "effectiveWinner": "D",
+      "dWasted": 4077,
+      "rWasted": 4149
+    },
+    {
+      "contest": "0273",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 43B",
+      "precincts": 17,
+      "allVotes": {
+        "R": 8471,
+        "D": 9927,
+        "WI": 13
+      },
+      "dVotes": 9927,
+      "rVotes": 8471,
+      "totalVotes": 18398,
+      "totalAllVotes": 18411,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11361,
+        "rVotes": 7010
+      },
+      "dEffectiveVotes": 9927,
+      "rEffectiveVotes": 8471,
+      "effectiveWinner": "D",
+      "dWasted": 727,
+      "rWasted": 8471
+    },
+    {
+      "contest": "0225",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 19B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 12469,
+        "D": 8077,
+        "WI": 26
+      },
+      "dVotes": 8077,
+      "rVotes": 12469,
+      "totalVotes": 20546,
+      "totalAllVotes": 20572,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 9747,
+        "rVotes": 11063
+      },
+      "dEffectiveVotes": 8077,
+      "rEffectiveVotes": 12469,
+      "effectiveWinner": "R",
+      "dWasted": 8077,
+      "rWasted": 2195
+    },
+    {
+      "contest": "0294",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 54A",
+      "precincts": 11,
+      "allVotes": {
+        "R": 6368,
+        "D": 11662,
+        "WI": 17
+      },
+      "dVotes": 11662,
+      "rVotes": 6368,
+      "totalVotes": 18030,
+      "totalAllVotes": 18047,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11462,
+        "rVotes": 6341
+      },
+      "dEffectiveVotes": 11662,
+      "rEffectiveVotes": 6368,
+      "effectiveWinner": "D",
+      "dWasted": 2646,
+      "rWasted": 6368
+    },
+    {
+      "contest": "0248",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 31A",
+      "precincts": 32,
+      "allVotes": {
+        "R": 4216,
+        "D": 9839,
+        "WI": 36
+      },
+      "dVotes": 9839,
+      "rVotes": 4216,
+      "totalVotes": 14055,
+      "totalAllVotes": 14091,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8221,
+        "rVotes": 5316
+      },
+      "dEffectiveVotes": 9839,
+      "rEffectiveVotes": 4216,
+      "effectiveWinner": "D",
+      "dWasted": 2811,
+      "rWasted": 4216
+    },
+    {
+      "contest": "0203",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 08B",
+      "precincts": 42,
+      "allVotes": {
+        "R": 7499,
+        "D": 8230,
+        "WI": 43
+      },
+      "dVotes": 8230,
+      "rVotes": 7499,
+      "totalVotes": 15729,
+      "totalAllVotes": 15772,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8652,
+        "rVotes": 6589
+      },
+      "dEffectiveVotes": 8230,
+      "rEffectiveVotes": 7499,
+      "effectiveWinner": "D",
+      "dWasted": 365,
+      "rWasted": 7499
+    },
+    {
+      "contest": "0192",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 03A",
+      "precincts": 95,
+      "allVotes": {
+        "IP": 520,
+        "R": 5755,
+        "D": 9492,
+        "WI": 19
+      },
+      "dVotes": 9492,
+      "rVotes": 5755,
+      "totalVotes": 15247,
+      "totalAllVotes": 15786,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10229,
+        "rVotes": 5119
+      },
+      "dEffectiveVotes": 9492,
+      "rEffectiveVotes": 5755,
+      "effectiveWinner": "D",
+      "dWasted": 1868,
+      "rWasted": 5755
+    },
+    {
+      "contest": "0212",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 13A",
+      "precincts": 71,
+      "allVotes": {
+        "R": 11356,
+        "D": 4972,
+        "WI": 12
+      },
+      "dVotes": 4972,
+      "rVotes": 11356,
+      "totalVotes": 16328,
+      "totalAllVotes": 16340,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8317,
+        "rVotes": 7447
+      },
+      "dEffectiveVotes": 4972,
+      "rEffectiveVotes": 11356,
+      "effectiveWinner": "R",
+      "dWasted": 4972,
+      "rWasted": 3191
+    },
+    {
+      "contest": "0213",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 13B",
+      "precincts": 38,
+      "allVotes": {
+        "R": 7163,
+        "D": 8524,
+        "WI": 16
+      },
+      "dVotes": 8524,
+      "rVotes": 7163,
+      "totalVotes": 15687,
+      "totalAllVotes": 15703,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8263,
+        "rVotes": 6997
+      },
+      "dEffectiveVotes": 8524,
+      "rEffectiveVotes": 7163,
+      "effectiveWinner": "D",
+      "dWasted": 680,
+      "rWasted": 7163
+    },
+    {
+      "contest": "0188",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 01A",
+      "precincts": 127,
+      "allVotes": {
+        "R": 6495,
+        "D": 7632,
+        "WI": 28
+      },
+      "dVotes": 7632,
+      "rVotes": 6495,
+      "totalVotes": 14127,
+      "totalAllVotes": 14155,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 7951,
+        "rVotes": 5803
+      },
+      "dEffectiveVotes": 7632,
+      "rEffectiveVotes": 6495,
+      "effectiveWinner": "D",
+      "dWasted": 568,
+      "rWasted": 6495
+    },
+    {
+      "contest": "0236",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 25A",
+      "precincts": 39,
+      "allVotes": {
+        "R": 9472,
+        "D": 7021,
+        "WI": 11
+      },
+      "dVotes": 7021,
+      "rVotes": 9472,
+      "totalVotes": 16493,
+      "totalAllVotes": 16504,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8979,
+        "rVotes": 6944
+      },
+      "dEffectiveVotes": 7021,
+      "rEffectiveVotes": 9472,
+      "effectiveWinner": "R",
+      "dWasted": 7021,
+      "rWasted": 1225
+    },
+    {
+      "contest": "0228",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 21A",
+      "precincts": 60,
+      "allVotes": {
+        "R": 8446,
+        "D": 5452,
+        "WI": 18
+      },
+      "dVotes": 5452,
+      "rVotes": 8446,
+      "totalVotes": 13898,
+      "totalAllVotes": 13916,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 6862,
+        "rVotes": 6537
+      },
+      "dEffectiveVotes": 5452,
+      "rEffectiveVotes": 8446,
+      "effectiveWinner": "R",
+      "dWasted": 5452,
+      "rWasted": 1496
+    },
+    {
+      "contest": "0222",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 18A",
+      "precincts": 31,
+      "allVotes": {
+        "R": 8614,
+        "D": 6516,
+        "WI": 15
+      },
+      "dVotes": 6516,
+      "rVotes": 8614,
+      "totalVotes": 15130,
+      "totalAllVotes": 15145,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7347,
+        "rVotes": 7395
+      },
+      "dEffectiveVotes": 6516,
+      "rEffectiveVotes": 8614,
+      "effectiveWinner": "R",
+      "dWasted": 6516,
+      "rWasted": 1048
+    },
+    {
+      "contest": "0189",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 01B",
+      "precincts": 118,
+      "allVotes": {
+        "R": 6139,
+        "D": 8191,
+        "WI": 12
+      },
+      "dVotes": 8191,
+      "rVotes": 6139,
+      "totalVotes": 14330,
+      "totalAllVotes": 14342,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8403,
+        "rVotes": 5556
+      },
+      "dEffectiveVotes": 8191,
+      "rEffectiveVotes": 6139,
+      "effectiveWinner": "D",
+      "dWasted": 1025,
+      "rWasted": 6139
+    },
+    {
+      "contest": "0223",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 18B",
+      "precincts": 37,
+      "allVotes": {
+        "R": 8860,
+        "D": 7869,
+        "WI": 12
+      },
+      "dVotes": 7869,
+      "rVotes": 8860,
+      "totalVotes": 16729,
+      "totalAllVotes": 16741,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8465,
+        "rVotes": 7699
+      },
+      "dEffectiveVotes": 7869,
+      "rEffectiveVotes": 8860,
+      "effectiveWinner": "R",
+      "dWasted": 7869,
+      "rWasted": 495
+    },
+    {
+      "contest": "0230",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 22A",
+      "precincts": 99,
+      "allVotes": {
+        "R": 8635,
+        "D": 6835,
+        "WI": 12
+      },
+      "dVotes": 6835,
+      "rVotes": 8635,
+      "totalVotes": 15470,
+      "totalAllVotes": 15482,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7393,
+        "rVotes": 7448
+      },
+      "dEffectiveVotes": 6835,
+      "rEffectiveVotes": 8635,
+      "effectiveWinner": "R",
+      "dWasted": 6835,
+      "rWasted": 899
+    },
+    {
+      "contest": "0232",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 23A",
+      "precincts": 45,
+      "allVotes": {
+        "R": 8018,
+        "D": 8834,
+        "WI": 27
+      },
+      "dVotes": 8834,
+      "rVotes": 8018,
+      "totalVotes": 16852,
+      "totalAllVotes": 16879,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9876,
+        "rVotes": 6559
+      },
+      "dEffectiveVotes": 8834,
+      "rEffectiveVotes": 8018,
+      "effectiveWinner": "D",
+      "dWasted": 407,
+      "rWasted": 8018
+    },
+    {
+      "contest": "0247",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 30B",
+      "precincts": 30,
+      "allVotes": {
+        "R": 8928,
+        "D": 9634,
+        "WI": 17
+      },
+      "dVotes": 9634,
+      "rVotes": 8928,
+      "totalVotes": 18562,
+      "totalAllVotes": 18579,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9375,
+        "rVotes": 8593
+      },
+      "dEffectiveVotes": 9634,
+      "rEffectiveVotes": 8928,
+      "effectiveWinner": "D",
+      "dWasted": 352,
+      "rWasted": 8928
+    },
+    {
+      "contest": "0246",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 30A",
+      "precincts": 18,
+      "allVotes": {
+        "R": 6336,
+        "D": 7106,
+        "WI": 27
+      },
+      "dVotes": 7106,
+      "rVotes": 6336,
+      "totalVotes": 13442,
+      "totalAllVotes": 13469,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 7948,
+        "rVotes": 5120
+      },
+      "dEffectiveVotes": 7106,
+      "rEffectiveVotes": 6336,
+      "effectiveWinner": "D",
+      "dWasted": 384,
+      "rWasted": 6336
+    },
+    {
+      "contest": "0245",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 29B",
+      "precincts": 17,
+      "allVotes": {
+        "R": 7662,
+        "D": 7761,
+        "WI": 28
+      },
+      "dVotes": 7761,
+      "rVotes": 7662,
+      "totalVotes": 15423,
+      "totalAllVotes": 15451,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8492,
+        "rVotes": 6541
+      },
+      "dEffectiveVotes": 7761,
+      "rEffectiveVotes": 7662,
+      "effectiveWinner": "D",
+      "dWasted": 49,
+      "rWasted": 7662
+    },
+    {
+      "contest": "0206",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 10A",
+      "precincts": 53,
+      "allVotes": {
+        "R": 8928,
+        "D": 6984,
+        "WI": 20
+      },
+      "dVotes": 6984,
+      "rVotes": 8928,
+      "totalVotes": 15912,
+      "totalAllVotes": 15932,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 7582,
+        "rVotes": 7555
+      },
+      "dEffectiveVotes": 6984,
+      "rEffectiveVotes": 8928,
+      "effectiveWinner": "R",
+      "dWasted": 6984,
+      "rWasted": 971
+    },
+    {
+      "contest": "0319",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 66B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 3449,
+        "D": 12438,
+        "WI": 37
+      },
+      "dVotes": 12438,
+      "rVotes": 3449,
+      "totalVotes": 15887,
+      "totalAllVotes": 15924,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 12622,
+        "rVotes": 3200
+      },
+      "dEffectiveVotes": 12438,
+      "rEffectiveVotes": 3449,
+      "effectiveWinner": "D",
+      "dWasted": 4494,
+      "rWasted": 3449
+    },
+    {
+      "contest": "0295",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 54B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 7969,
+        "D": 9229,
+        "WI": 17
+      },
+      "dVotes": 9229,
+      "rVotes": 7969,
+      "totalVotes": 17198,
+      "totalAllVotes": 17215,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10391,
+        "rVotes": 6474
+      },
+      "dEffectiveVotes": 9229,
+      "rEffectiveVotes": 7969,
+      "effectiveWinner": "D",
+      "dWasted": 629,
+      "rWasted": 7969
+    },
+    {
+      "contest": "0296",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 55A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 5059,
+        "D": 10123,
+        "WI": 23
+      },
+      "dVotes": 10123,
+      "rVotes": 5059,
+      "totalVotes": 15182,
+      "totalAllVotes": 15205,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9855,
+        "rVotes": 5298
+      },
+      "dEffectiveVotes": 10123,
+      "rEffectiveVotes": 5059,
+      "effectiveWinner": "D",
+      "dWasted": 2531,
+      "rWasted": 5059
+    },
+    {
+      "contest": "0297",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 55B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 5344,
+        "D": 10497,
+        "WI": 25
+      },
+      "dVotes": 10497,
+      "rVotes": 5344,
+      "totalVotes": 15841,
+      "totalAllVotes": 15866,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10024,
+        "rVotes": 5848
+      },
+      "dEffectiveVotes": 10497,
+      "rEffectiveVotes": 5344,
+      "effectiveWinner": "D",
+      "dWasted": 2576,
+      "rWasted": 5344
+    },
+    {
+      "contest": "0293",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 53B",
+      "precincts": 10,
+      "allVotes": {
+        "R": 9545,
+        "D": 8178,
+        "WI": 20
+      },
+      "dVotes": 8178,
+      "rVotes": 9545,
+      "totalVotes": 17723,
+      "totalAllVotes": 17743,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10438,
+        "rVotes": 7279
+      },
+      "dEffectiveVotes": 8178,
+      "rEffectiveVotes": 9545,
+      "effectiveWinner": "R",
+      "dWasted": 8178,
+      "rWasted": 683
+    },
+    {
+      "contest": "0314",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 64A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 3144,
+        "D": 11385,
+        "GP": 2671,
+        "WI": 17
+      },
+      "dVotes": 11385,
+      "rVotes": 3144,
+      "totalVotes": 14529,
+      "totalAllVotes": 17217,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13819,
+        "rVotes": 3276
+      },
+      "dEffectiveVotes": 11385,
+      "rEffectiveVotes": 3144,
+      "effectiveWinner": "D",
+      "dWasted": 4120,
+      "rWasted": 3144
+    },
+    {
+      "contest": "0316",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 65A",
+      "precincts": 11,
+      "allVotes": {
+        "R": 1391,
+        "D": 5810,
+        "WI": 43
+      },
+      "dVotes": 5810,
+      "rVotes": 1391,
+      "totalVotes": 7201,
+      "totalAllVotes": 7244,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 5826,
+        "rVotes": 1329
+      },
+      "dEffectiveVotes": 5810,
+      "rEffectiveVotes": 1391,
+      "effectiveWinner": "D",
+      "dWasted": 2209,
+      "rWasted": 1391
+    },
+    {
+      "contest": "0317",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 65B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 2648,
+        "D": 9307,
+        "WI": 42
+      },
+      "dVotes": 9307,
+      "rVotes": 2648,
+      "totalVotes": 11955,
+      "totalAllVotes": 11997,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 9624,
+        "rVotes": 2449
+      },
+      "dEffectiveVotes": 9307,
+      "rEffectiveVotes": 2648,
+      "effectiveWinner": "D",
+      "dWasted": 3329,
+      "rWasted": 2648
+    },
+    {
+      "contest": "0318",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 66A",
+      "precincts": 12,
+      "allVotes": {
+        "R": 1712,
+        "D": 6007,
+        "WI": 35
+      },
+      "dVotes": 6007,
+      "rVotes": 1712,
+      "totalVotes": 7719,
+      "totalAllVotes": 7754,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 6032,
+        "rVotes": 1860
+      },
+      "dEffectiveVotes": 6007,
+      "rEffectiveVotes": 1712,
+      "effectiveWinner": "D",
+      "dWasted": 2147,
+      "rWasted": 1712
+    },
+    {
+      "contest": "0315",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 64B",
+      "precincts": 14,
+      "allVotes": {
+        "R": 5412,
+        "D": 13326,
+        "WI": 16
+      },
+      "dVotes": 13326,
+      "rVotes": 5412,
+      "totalVotes": 18738,
+      "totalAllVotes": 18754,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13969,
+        "rVotes": 4780
+      },
+      "dEffectiveVotes": 13326,
+      "rEffectiveVotes": 5412,
+      "effectiveWinner": "D",
+      "dWasted": 3956,
+      "rWasted": 5412
+    },
+    {
+      "contest": "0320",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 67A",
+      "precincts": 13,
+      "allVotes": {
+        "R": 2064,
+        "D": 7248,
+        "WI": 27
+      },
+      "dVotes": 7248,
+      "rVotes": 2064,
+      "totalVotes": 9312,
+      "totalAllVotes": 9339,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 6862,
+        "rVotes": 2446
+      },
+      "dEffectiveVotes": 7248,
+      "rEffectiveVotes": 2064,
+      "effectiveWinner": "D",
+      "dWasted": 2591,
+      "rWasted": 2064
+    },
+    {
+      "contest": "0321",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 67B",
+      "precincts": 13,
+      "allVotes": {
+        "R": 2674,
+        "D": 7019,
+        "WI": 30
+      },
+      "dVotes": 7019,
+      "rVotes": 2674,
+      "totalVotes": 9693,
+      "totalAllVotes": 9723,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 7087,
+        "rVotes": 2603
+      },
+      "dEffectiveVotes": 7019,
+      "rEffectiveVotes": 2674,
+      "effectiveWinner": "D",
+      "dWasted": 2172,
+      "rWasted": 2674
+    },
+    {
+      "contest": "0237",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 25B",
+      "precincts": 24,
+      "allVotes": {
+        "R": 9233,
+        "D": 9293,
+        "WI": 14
+      },
+      "dVotes": 9293,
+      "rVotes": 9233,
+      "totalVotes": 18526,
+      "totalAllVotes": 18540,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11280,
+        "rVotes": 6842
+      },
+      "dEffectiveVotes": 9293,
+      "rEffectiveVotes": 9233,
+      "effectiveWinner": "D",
+      "dWasted": 29,
+      "rWasted": 9233
+    },
+    {
+      "contest": "0239",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 26B",
+      "precincts": 24,
+      "allVotes": {
+        "R": 6569,
+        "D": 7110,
+        "WI": 23
+      },
+      "dVotes": 7110,
+      "rVotes": 6569,
+      "totalVotes": 13679,
+      "totalAllVotes": 13702,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 7896,
+        "rVotes": 5235
+      },
+      "dEffectiveVotes": 7110,
+      "rEffectiveVotes": 6569,
+      "effectiveWinner": "D",
+      "dWasted": 270,
+      "rWasted": 6569
+    },
+    {
+      "contest": "0196",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 05A",
+      "precincts": 49,
+      "allVotes": {
+        "R": 3400,
+        "D": 13992,
+        "WI": 21
+      },
+      "dVotes": 13992,
+      "rVotes": 3400,
+      "totalVotes": 17392,
+      "totalAllVotes": 17413,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13048,
+        "rVotes": 3974
+      },
+      "dEffectiveVotes": 13992,
+      "rEffectiveVotes": 3400,
+      "effectiveWinner": "D",
+      "dWasted": 5295,
+      "rWasted": 3400
+    },
+    {
+      "contest": "0197",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 05B",
+      "precincts": 44,
+      "allVotes": {
+        "R": 3824,
+        "D": 12395,
+        "WI": 10
+      },
+      "dVotes": 12395,
+      "rVotes": 3824,
+      "totalVotes": 16219,
+      "totalAllVotes": 16229,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11687,
+        "rVotes": 4308
+      },
+      "dEffectiveVotes": 12395,
+      "rEffectiveVotes": 3824,
+      "effectiveWinner": "D",
+      "dWasted": 4285,
+      "rWasted": 3824
+    },
+    {
+      "contest": "0200",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 07A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 5093,
+        "D": 11223,
+        "WI": 38
+      },
+      "dVotes": 11223,
+      "rVotes": 5093,
+      "totalVotes": 16316,
+      "totalAllVotes": 16354,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 11566,
+        "rVotes": 4630
+      },
+      "dEffectiveVotes": 11223,
+      "rEffectiveVotes": 5093,
+      "effectiveWinner": "D",
+      "dWasted": 3064,
+      "rWasted": 5093
+    },
+    {
+      "contest": "0201",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 07B",
+      "precincts": 16,
+      "allVotes": {
+        "D": 10831,
+        "WI": 332
+      },
+      "dVotes": 10831,
+      "rVotes": 0,
+      "totalVotes": 10831,
+      "totalAllVotes": 11163,
+      "winner": "D",
+      "uncontested": true,
+      "proxy": {
+        "dVotes": 9919,
+        "rVotes": 2704
+      },
+      "proxied": true,
+      "dEffectiveVotes": 9919,
+      "rEffectiveVotes": 2704,
+      "effectiveWinner": "D",
+      "dWasted": 3607,
+      "rWasted": 2704
+    },
+    {
+      "contest": "0257",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 35B",
+      "precincts": 15,
+      "allVotes": {
+        "R": 10880,
+        "D": 6708,
+        "WI": 36
+      },
+      "dVotes": 6708,
+      "rVotes": 10880,
+      "totalVotes": 17588,
+      "totalAllVotes": 17624,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8966,
+        "rVotes": 9094
+      },
+      "dEffectiveVotes": 6708,
+      "rEffectiveVotes": 10880,
+      "effectiveWinner": "R",
+      "dWasted": 6708,
+      "rWasted": 2085
+    },
+    {
+      "contest": "0256",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 35A",
+      "precincts": 20,
+      "allVotes": {
+        "R": 10462,
+        "D": 8817,
+        "WI": 25
+      },
+      "dVotes": 8817,
+      "rVotes": 10462,
+      "totalVotes": 19279,
+      "totalAllVotes": 19304,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 10043,
+        "rVotes": 9223
+      },
+      "dEffectiveVotes": 8817,
+      "rEffectiveVotes": 10462,
+      "effectiveWinner": "R",
+      "dWasted": 8817,
+      "rWasted": 822
+    },
+    {
+      "contest": "0219",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 16B",
+      "precincts": 18,
+      "allVotes": {
+        "R": 10484,
+        "D": 7538,
+        "WI": 14
+      },
+      "dVotes": 7538,
+      "rVotes": 10484,
+      "totalVotes": 18022,
+      "totalAllVotes": 18036,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8345,
+        "rVotes": 9421
+      },
+      "dEffectiveVotes": 7538,
+      "rEffectiveVotes": 10484,
+      "effectiveWinner": "R",
+      "dWasted": 7538,
+      "rWasted": 1472
+    },
+    {
+      "contest": "0215",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 14B",
+      "precincts": 26,
+      "allVotes": {
+        "R": 7262,
+        "D": 9780,
+        "WI": 31
+      },
+      "dVotes": 9780,
+      "rVotes": 7262,
+      "totalVotes": 17042,
+      "totalAllVotes": 17073,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 8503,
+        "rVotes": 8001
+      },
+      "dEffectiveVotes": 9780,
+      "rEffectiveVotes": 7262,
+      "effectiveWinner": "D",
+      "dWasted": 1258,
+      "rWasted": 7262
+    },
+    {
+      "contest": "0216",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 15A",
+      "precincts": 19,
+      "allVotes": {
+        "R": 8445,
+        "D": 7031,
+        "WI": 16
+      },
+      "dVotes": 7031,
+      "rVotes": 8445,
+      "totalVotes": 15476,
+      "totalAllVotes": 15492,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8095,
+        "rVotes": 7161
+      },
+      "dEffectiveVotes": 7031,
+      "rEffectiveVotes": 8445,
+      "effectiveWinner": "R",
+      "dWasted": 7031,
+      "rWasted": 706
+    },
+    {
+      "contest": "0238",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 26A",
+      "precincts": 23,
+      "allVotes": {
+        "R": 9068,
+        "D": 6986,
+        "WI": 32
+      },
+      "dVotes": 6986,
+      "rVotes": 9068,
+      "totalVotes": 16054,
+      "totalAllVotes": 16086,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8564,
+        "rVotes": 6822
+      },
+      "dEffectiveVotes": 6986,
+      "rEffectiveVotes": 9068,
+      "effectiveWinner": "R",
+      "dWasted": 6986,
+      "rWasted": 1040
+    },
+    {
+      "contest": "0298",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 56A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 8970,
+        "D": 9214,
+        "WI": 12
+      },
+      "dVotes": 9214,
+      "rVotes": 8970,
+      "totalVotes": 18184,
+      "totalAllVotes": 18196,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10182,
+        "rVotes": 7777
+      },
+      "dEffectiveVotes": 9214,
+      "rEffectiveVotes": 8970,
+      "effectiveWinner": "D",
+      "dWasted": 121,
+      "rWasted": 8970
+    },
+    {
+      "contest": "0291",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 52B",
+      "precincts": 21,
+      "allVotes": {
+        "R": 11149,
+        "D": 10345,
+        "WI": 10
+      },
+      "dVotes": 10345,
+      "rVotes": 11149,
+      "totalVotes": 21494,
+      "totalAllVotes": 21504,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 11926,
+        "rVotes": 9435
+      },
+      "dEffectiveVotes": 10345,
+      "rEffectiveVotes": 11149,
+      "effectiveWinner": "R",
+      "dWasted": 10345,
+      "rWasted": 401
+    },
+    {
+      "contest": "0299",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 56B",
+      "precincts": 11,
+      "allVotes": {
+        "R": 9591,
+        "D": 10039,
+        "WI": 14
+      },
+      "dVotes": 10039,
+      "rVotes": 9591,
+      "totalVotes": 19630,
+      "totalAllVotes": 19644,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 10858,
+        "rVotes": 8581
+      },
+      "dEffectiveVotes": 10039,
+      "rEffectiveVotes": 9591,
+      "effectiveWinner": "D",
+      "dWasted": 223,
+      "rWasted": 9591
+    },
+    {
+      "contest": "0224",
+      "contestName": "STATE REPRESENTATIVE DISTRICT 19A",
+      "precincts": 15,
+      "allVotes": {
+        "R": 10191,
+        "D": 7309,
+        "WI": 20
+      },
+      "dVotes": 7309,
+      "rVotes": 10191,
+      "totalVotes": 17500,
+      "totalAllVotes": 17520,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 8702,
+        "rVotes": 8586
+      },
+      "dEffectiveVotes": 7309,
+      "rEffectiveVotes": 10191,
+      "effectiveWinner": "R",
+      "dWasted": 7309,
+      "rWasted": 1440
+    }
+  ]
+}

@@ -1,0 +1,1646 @@
+{
+  "totals": {
+    "type": "senate",
+    "year": 2006,
+    "districts": 67,
+    "proxied": 2,
+    "proxiedAgain": 1,
+    "proxyContest": "US SENATOR",
+    "dVotes": 1183319,
+    "rVotes": 925978,
+    "dWins": 44,
+    "rWins": 23,
+    "votes": 2109297,
+    "dEffectiveVotes": 1182144,
+    "rEffectiveVotes": 930006,
+    "dEffectiveWins": 44,
+    "rEffectiveWins": 23,
+    "effectiveVotes": 2112150,
+    "dEffectiveWasted": 513106,
+    "rEffectiveWasted": 542917,
+    "gap": -0.014114054399545486,
+    "gapSeats": -0.9456416447695476
+  },
+  "districts": [
+    {
+      "contest": "0123",
+      "contestName": "STATE SENATOR DISTRICT 03",
+      "precincts": 168,
+      "allVotes": {
+        "R": 11351,
+        "D": 21226,
+        "WI": 52
+      },
+      "dVotes": 21226,
+      "rVotes": 11351,
+      "totalVotes": 32577,
+      "totalAllVotes": 32629,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 20318,
+        "rVotes": 11587
+      },
+      "dEffectiveVotes": 21226,
+      "rEffectiveVotes": 11351,
+      "effectiveWinner": "D",
+      "dWasted": 4937,
+      "rWasted": 11351
+    },
+    {
+      "contest": "0169",
+      "contestName": "STATE SENATOR DISTRICT 49",
+      "precincts": 28,
+      "allVotes": {
+        "R": 16923,
+        "D": 15487,
+        "WI": 36
+      },
+      "dVotes": 15487,
+      "rVotes": 16923,
+      "totalVotes": 32410,
+      "totalAllVotes": 32446,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 17036,
+        "rVotes": 15409
+      },
+      "dEffectiveVotes": 15487,
+      "rEffectiveVotes": 16923,
+      "effectiveWinner": "R",
+      "dWasted": 15487,
+      "rWasted": 717
+    },
+    {
+      "contest": "0168",
+      "contestName": "STATE SENATOR DISTRICT 48",
+      "precincts": 30,
+      "allVotes": {
+        "R": 16929,
+        "D": 16044,
+        "WI": 50
+      },
+      "dVotes": 16044,
+      "rVotes": 16929,
+      "totalVotes": 32973,
+      "totalAllVotes": 33023,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 17177,
+        "rVotes": 15540
+      },
+      "dEffectiveVotes": 16044,
+      "rEffectiveVotes": 16929,
+      "effectiveWinner": "R",
+      "dWasted": 16044,
+      "rWasted": 442
+    },
+    {
+      "contest": "0173",
+      "contestName": "STATE SENATOR DISTRICT 53",
+      "precincts": 23,
+      "allVotes": {
+        "R": 16914,
+        "D": 19179,
+        "WI": 35
+      },
+      "dVotes": 19179,
+      "rVotes": 16914,
+      "totalVotes": 36093,
+      "totalAllVotes": 36128,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 20611,
+        "rVotes": 15196
+      },
+      "dEffectiveVotes": 19179,
+      "rEffectiveVotes": 16914,
+      "effectiveWinner": "D",
+      "dWasted": 1132,
+      "rWasted": 16914
+    },
+    {
+      "contest": "0171",
+      "contestName": "STATE SENATOR DISTRICT 51",
+      "precincts": 35,
+      "allVotes": {
+        "R": 14861,
+        "D": 17802,
+        "WI": 61
+      },
+      "dVotes": 17802,
+      "rVotes": 14861,
+      "totalVotes": 32663,
+      "totalAllVotes": 32724,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 19383,
+        "rVotes": 12565
+      },
+      "dEffectiveVotes": 17802,
+      "rEffectiveVotes": 14861,
+      "effectiveWinner": "D",
+      "dWasted": 1470,
+      "rWasted": 14861
+    },
+    {
+      "contest": "0172",
+      "contestName": "STATE SENATOR DISTRICT 52",
+      "precincts": 33,
+      "allVotes": {
+        "R": 21472,
+        "D": 19455,
+        "WI": 46
+      },
+      "dVotes": 19455,
+      "rVotes": 21472,
+      "totalVotes": 40927,
+      "totalAllVotes": 40973,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 22242,
+        "rVotes": 18543
+      },
+      "dEffectiveVotes": 19455,
+      "rEffectiveVotes": 21472,
+      "effectiveWinner": "R",
+      "dWasted": 19455,
+      "rWasted": 1008
+    },
+    {
+      "contest": "0170",
+      "contestName": "STATE SENATOR DISTRICT 50",
+      "precincts": 27,
+      "allVotes": {
+        "R": 11105,
+        "D": 19139,
+        "WI": 63
+      },
+      "dVotes": 19139,
+      "rVotes": 11105,
+      "totalVotes": 30244,
+      "totalAllVotes": 30307,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 19414,
+        "rVotes": 10951
+      },
+      "dEffectiveVotes": 19139,
+      "rEffectiveVotes": 11105,
+      "effectiveWinner": "D",
+      "dWasted": 4016,
+      "rWasted": 11105
+    },
+    {
+      "contest": "0167",
+      "contestName": "STATE SENATOR DISTRICT 47",
+      "precincts": 23,
+      "allVotes": {
+        "R": 15506,
+        "D": 15942,
+        "WI": 45
+      },
+      "dVotes": 15942,
+      "rVotes": 15506,
+      "totalVotes": 31448,
+      "totalAllVotes": 31493,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 18124,
+        "rVotes": 12964
+      },
+      "dEffectiveVotes": 15942,
+      "rEffectiveVotes": 15506,
+      "effectiveWinner": "D",
+      "dWasted": 217,
+      "rWasted": 15506
+    },
+    {
+      "contest": "0137",
+      "contestName": "STATE SENATOR DISTRICT 17",
+      "precincts": 39,
+      "allVotes": {
+        "IP": 2278,
+        "R": 16919,
+        "D": 17355,
+        "WI": 21
+      },
+      "dVotes": 17355,
+      "rVotes": 16919,
+      "totalVotes": 34274,
+      "totalAllVotes": 36573,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 19456,
+        "rVotes": 16453
+      },
+      "dEffectiveVotes": 17355,
+      "rEffectiveVotes": 16919,
+      "effectiveWinner": "D",
+      "dWasted": 217,
+      "rWasted": 16919
+    },
+    {
+      "contest": "0122",
+      "contestName": "STATE SENATOR DISTRICT 02",
+      "precincts": 213,
+      "allVotes": {
+        "R": 12540,
+        "D": 19471,
+        "WI": 33
+      },
+      "dVotes": 19471,
+      "rVotes": 12540,
+      "totalVotes": 32011,
+      "totalAllVotes": 32044,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 17906,
+        "rVotes": 13332
+      },
+      "dEffectiveVotes": 19471,
+      "rEffectiveVotes": 12540,
+      "effectiveWinner": "D",
+      "dWasted": 3465,
+      "rWasted": 12540
+    },
+    {
+      "contest": "0129",
+      "contestName": "STATE SENATOR DISTRICT 09",
+      "precincts": 114,
+      "allVotes": {
+        "R": 8771,
+        "D": 20353,
+        "WI": 33
+      },
+      "dVotes": 20353,
+      "rVotes": 8771,
+      "totalVotes": 29124,
+      "totalAllVotes": 29157,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 16257,
+        "rVotes": 12094
+      },
+      "dEffectiveVotes": 20353,
+      "rEffectiveVotes": 8771,
+      "effectiveWinner": "D",
+      "dWasted": 5790,
+      "rWasted": 8771
+    },
+    {
+      "contest": "0130",
+      "contestName": "STATE SENATOR DISTRICT 10",
+      "precincts": 122,
+      "allVotes": {
+        "R": 14191,
+        "D": 17530,
+        "WI": 18
+      },
+      "dVotes": 17530,
+      "rVotes": 14191,
+      "totalVotes": 31721,
+      "totalAllVotes": 31739,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14895,
+        "rVotes": 15419
+      },
+      "dEffectiveVotes": 17530,
+      "rEffectiveVotes": 14191,
+      "effectiveWinner": "D",
+      "dWasted": 1669,
+      "rWasted": 14191
+    },
+    {
+      "contest": "0124",
+      "contestName": "STATE SENATOR DISTRICT 04",
+      "precincts": 140,
+      "allVotes": {
+        "R": 16635,
+        "D": 18119,
+        "WI": 24
+      },
+      "dVotes": 18119,
+      "rVotes": 16635,
+      "totalVotes": 34754,
+      "totalAllVotes": 34778,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 18093,
+        "rVotes": 15559
+      },
+      "dEffectiveVotes": 18119,
+      "rEffectiveVotes": 16635,
+      "effectiveWinner": "D",
+      "dWasted": 741,
+      "rWasted": 16635
+    },
+    {
+      "contest": "0136",
+      "contestName": "STATE SENATOR DISTRICT 16",
+      "precincts": 64,
+      "allVotes": {
+        "R": 20042,
+        "D": 14869,
+        "WI": 36
+      },
+      "dVotes": 14869,
+      "rVotes": 20042,
+      "totalVotes": 34911,
+      "totalAllVotes": 34947,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 17268,
+        "rVotes": 17023
+      },
+      "dEffectiveVotes": 14869,
+      "rEffectiveVotes": 20042,
+      "effectiveWinner": "R",
+      "dWasted": 14869,
+      "rWasted": 2586
+    },
+    {
+      "contest": "0134",
+      "contestName": "STATE SENATOR DISTRICT 14",
+      "precincts": 55,
+      "allVotes": {
+        "R": 19668,
+        "D": 14215,
+        "WI": 32
+      },
+      "dVotes": 14215,
+      "rVotes": 19668,
+      "totalVotes": 33883,
+      "totalAllVotes": 33915,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 17170,
+        "rVotes": 16251
+      },
+      "dEffectiveVotes": 14215,
+      "rEffectiveVotes": 19668,
+      "effectiveWinner": "R",
+      "dWasted": 14215,
+      "rWasted": 2726
+    },
+    {
+      "contest": "0135",
+      "contestName": "STATE SENATOR DISTRICT 15",
+      "precincts": 42,
+      "allVotes": {
+        "R": 12060,
+        "D": 15581,
+        "WI": 35
+      },
+      "dVotes": 15581,
+      "rVotes": 12060,
+      "totalVotes": 27641,
+      "totalAllVotes": 27676,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14980,
+        "rVotes": 11896
+      },
+      "dEffectiveVotes": 15581,
+      "rEffectiveVotes": 12060,
+      "effectiveWinner": "D",
+      "dWasted": 1760,
+      "rWasted": 12060
+    },
+    {
+      "contest": "0140",
+      "contestName": "STATE SENATOR DISTRICT 20",
+      "precincts": 196,
+      "allVotes": {
+        "R": 10047,
+        "D": 20829,
+        "WI": 21
+      },
+      "dVotes": 20829,
+      "rVotes": 10047,
+      "totalVotes": 30876,
+      "totalAllVotes": 30897,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 18178,
+        "rVotes": 11773
+      },
+      "dEffectiveVotes": 20829,
+      "rEffectiveVotes": 10047,
+      "effectiveWinner": "D",
+      "dWasted": 5390,
+      "rWasted": 10047
+    },
+    {
+      "contest": "0144",
+      "contestName": "STATE SENATOR DISTRICT 24",
+      "precincts": 127,
+      "allVotes": {
+        "R": 19579,
+        "D": 11880,
+        "WI": 27
+      },
+      "dVotes": 11880,
+      "rVotes": 19579,
+      "totalVotes": 31459,
+      "totalAllVotes": 31486,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 16765,
+        "rVotes": 13711
+      },
+      "dEffectiveVotes": 11880,
+      "rEffectiveVotes": 19579,
+      "effectiveWinner": "R",
+      "dWasted": 11880,
+      "rWasted": 3849
+    },
+    {
+      "contest": "0143",
+      "contestName": "STATE SENATOR DISTRICT 23",
+      "precincts": 69,
+      "allVotes": {
+        "R": 14073,
+        "D": 19040,
+        "WI": 67
+      },
+      "dVotes": 19040,
+      "rVotes": 14073,
+      "totalVotes": 33113,
+      "totalAllVotes": 33180,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 19854,
+        "rVotes": 12366
+      },
+      "dEffectiveVotes": 19040,
+      "rEffectiveVotes": 14073,
+      "effectiveWinner": "D",
+      "dWasted": 2483,
+      "rWasted": 14073
+    },
+    {
+      "contest": "0141",
+      "contestName": "STATE SENATOR DISTRICT 21",
+      "precincts": 117,
+      "allVotes": {
+        "IP": 1810,
+        "R": 17262,
+        "D": 9813,
+        "WI": 22
+      },
+      "dVotes": 9813,
+      "rVotes": 17262,
+      "totalVotes": 27075,
+      "totalAllVotes": 28907,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 14668,
+        "rVotes": 13644
+      },
+      "dEffectiveVotes": 9813,
+      "rEffectiveVotes": 17262,
+      "effectiveWinner": "R",
+      "dWasted": 9813,
+      "rWasted": 3724
+    },
+    {
+      "contest": "0128",
+      "contestName": "STATE SENATOR DISTRICT 08",
+      "precincts": 112,
+      "allVotes": {
+        "R": 13307,
+        "D": 18087,
+        "WI": 66
+      },
+      "dVotes": 18087,
+      "rVotes": 13307,
+      "totalVotes": 31394,
+      "totalAllVotes": 31460,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 19314,
+        "rVotes": 11221
+      },
+      "dEffectiveVotes": 18087,
+      "rEffectiveVotes": 13307,
+      "effectiveWinner": "D",
+      "dWasted": 2389,
+      "rWasted": 13307
+    },
+    {
+      "contest": "0126",
+      "contestName": "STATE SENATOR DISTRICT 06",
+      "precincts": 88,
+      "allVotes": {
+        "R": 10065,
+        "D": 25275,
+        "WI": 93
+      },
+      "dVotes": 25275,
+      "rVotes": 10065,
+      "totalVotes": 35340,
+      "totalAllVotes": 35433,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 24623,
+        "rVotes": 10922
+      },
+      "dEffectiveVotes": 25275,
+      "rEffectiveVotes": 10065,
+      "effectiveWinner": "D",
+      "dWasted": 7604,
+      "rWasted": 10065
+    },
+    {
+      "contest": "0154",
+      "contestName": "STATE SENATOR DISTRICT 34",
+      "precincts": 39,
+      "allVotes": {
+        "R": 21712,
+        "D": 14630,
+        "WI": 33
+      },
+      "dVotes": 14630,
+      "rVotes": 21712,
+      "totalVotes": 36342,
+      "totalAllVotes": 36375,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 17035,
+        "rVotes": 19183
+      },
+      "dEffectiveVotes": 14630,
+      "rEffectiveVotes": 21712,
+      "effectiveWinner": "R",
+      "dWasted": 14630,
+      "rWasted": 3540
+    },
+    {
+      "contest": "0142",
+      "contestName": "STATE SENATOR DISTRICT 22",
+      "precincts": 173,
+      "allVotes": {
+        "R": 12789,
+        "D": 17683,
+        "WI": 24
+      },
+      "dVotes": 17683,
+      "rVotes": 12789,
+      "totalVotes": 30472,
+      "totalAllVotes": 30496,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 15107,
+        "rVotes": 14140
+      },
+      "dEffectiveVotes": 17683,
+      "rEffectiveVotes": 12789,
+      "effectiveWinner": "D",
+      "dWasted": 2446,
+      "rWasted": 12789
+    },
+    {
+      "contest": "0132",
+      "contestName": "STATE SENATOR DISTRICT 12",
+      "precincts": 79,
+      "allVotes": {
+        "R": 18241,
+        "D": 14260,
+        "WI": 507
+      },
+      "dVotes": 14260,
+      "rVotes": 18241,
+      "totalVotes": 32501,
+      "totalAllVotes": 33008,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 17034,
+        "rVotes": 14925
+      },
+      "dEffectiveVotes": 14260,
+      "rEffectiveVotes": 18241,
+      "effectiveWinner": "R",
+      "dWasted": 14260,
+      "rWasted": 1990
+    },
+    {
+      "contest": "0157",
+      "contestName": "STATE SENATOR DISTRICT 37",
+      "precincts": 27,
+      "allVotes": {
+        "R": 18847,
+        "D": 15835,
+        "WI": 35
+      },
+      "dVotes": 15835,
+      "rVotes": 18847,
+      "totalVotes": 34682,
+      "totalAllVotes": 34717,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 19643,
+        "rVotes": 15026
+      },
+      "dEffectiveVotes": 15835,
+      "rEffectiveVotes": 18847,
+      "effectiveWinner": "R",
+      "dWasted": 15835,
+      "rWasted": 1505
+    },
+    {
+      "contest": "0160",
+      "contestName": "STATE SENATOR DISTRICT 40",
+      "precincts": 25,
+      "allVotes": {
+        "R": 14563,
+        "D": 15897,
+        "WI": 36
+      },
+      "dVotes": 15897,
+      "rVotes": 14563,
+      "totalVotes": 30460,
+      "totalAllVotes": 30496,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 18471,
+        "rVotes": 12103
+      },
+      "dEffectiveVotes": 15897,
+      "rEffectiveVotes": 14563,
+      "effectiveWinner": "D",
+      "dWasted": 666,
+      "rWasted": 14563
+    },
+    {
+      "contest": "0158",
+      "contestName": "STATE SENATOR DISTRICT 38",
+      "precincts": 23,
+      "allVotes": {
+        "R": 14622,
+        "D": 16916,
+        "WI": 28
+      },
+      "dVotes": 16916,
+      "rVotes": 14622,
+      "totalVotes": 31538,
+      "totalAllVotes": 31566,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 18561,
+        "rVotes": 12799
+      },
+      "dEffectiveVotes": 16916,
+      "rEffectiveVotes": 14622,
+      "effectiveWinner": "D",
+      "dWasted": 1146,
+      "rWasted": 14622
+    },
+    {
+      "contest": "0156",
+      "contestName": "STATE SENATOR DISTRICT 36",
+      "precincts": 43,
+      "allVotes": {
+        "R": 20522,
+        "D": 15388,
+        "WI": 42
+      },
+      "dVotes": 15388,
+      "rVotes": 20522,
+      "totalVotes": 35910,
+      "totalAllVotes": 35952,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 18829,
+        "rVotes": 17167
+      },
+      "dEffectiveVotes": 15388,
+      "rEffectiveVotes": 20522,
+      "effectiveWinner": "R",
+      "dWasted": 15388,
+      "rWasted": 2566
+    },
+    {
+      "contest": "0159",
+      "contestName": "STATE SENATOR DISTRICT 39",
+      "precincts": 31,
+      "allVotes": {
+        "R": 12264,
+        "D": 21871,
+        "WI": 47
+      },
+      "dVotes": 21871,
+      "rVotes": 12264,
+      "totalVotes": 34135,
+      "totalAllVotes": 34182,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 21078,
+        "rVotes": 12629
+      },
+      "dEffectiveVotes": 21871,
+      "rEffectiveVotes": 12264,
+      "effectiveWinner": "D",
+      "dWasted": 4803,
+      "rWasted": 12264
+    },
+    {
+      "contest": "0177",
+      "contestName": "STATE SENATOR DISTRICT 57",
+      "precincts": 36,
+      "allVotes": {
+        "R": 11189,
+        "D": 20798,
+        "WI": 26
+      },
+      "dVotes": 20798,
+      "rVotes": 11189,
+      "totalVotes": 31987,
+      "totalAllVotes": 32013,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 19327,
+        "rVotes": 12048
+      },
+      "dEffectiveVotes": 20798,
+      "rEffectiveVotes": 11189,
+      "effectiveWinner": "D",
+      "dWasted": 4804,
+      "rWasted": 11189
+    },
+    {
+      "contest": "0149",
+      "contestName": "STATE SENATOR DISTRICT 29",
+      "precincts": 50,
+      "allVotes": {
+        "IP": 3693,
+        "R": 18377,
+        "D": 11057,
+        "WI": 25
+      },
+      "dVotes": 11057,
+      "rVotes": 18377,
+      "totalVotes": 29434,
+      "totalAllVotes": 33152,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 17740,
+        "rVotes": 14700
+      },
+      "dEffectiveVotes": 11057,
+      "rEffectiveVotes": 18377,
+      "effectiveWinner": "R",
+      "dWasted": 11057,
+      "rWasted": 3659
+    },
+    {
+      "contest": "0131",
+      "contestName": "STATE SENATOR DISTRICT 11",
+      "precincts": 126,
+      "allVotes": {
+        "R": 17699,
+        "D": 16765,
+        "WI": 38
+      },
+      "dVotes": 16765,
+      "rVotes": 17699,
+      "totalVotes": 34464,
+      "totalAllVotes": 34502,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 18074,
+        "rVotes": 15099
+      },
+      "dEffectiveVotes": 16765,
+      "rEffectiveVotes": 17699,
+      "effectiveWinner": "R",
+      "dWasted": 16765,
+      "rWasted": 466
+    },
+    {
+      "contest": "0151",
+      "contestName": "STATE SENATOR DISTRICT 31",
+      "precincts": 88,
+      "allVotes": {
+        "R": 10802,
+        "D": 14270,
+        "IND": 5428,
+        "WI": 30
+      },
+      "dVotes": 14270,
+      "rVotes": 10802,
+      "totalVotes": 25072,
+      "totalAllVotes": 30530,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 17205,
+        "rVotes": 11646
+      },
+      "dEffectiveVotes": 14270,
+      "rEffectiveVotes": 10802,
+      "effectiveWinner": "D",
+      "dWasted": 1733,
+      "rWasted": 10802
+    },
+    {
+      "contest": "0147",
+      "contestName": "STATE SENATOR DISTRICT 27",
+      "precincts": 84,
+      "allVotes": {
+        "R": 10329,
+        "D": 21739,
+        "WI": 32
+      },
+      "dVotes": 21739,
+      "rVotes": 10329,
+      "totalVotes": 32068,
+      "totalAllVotes": 32100,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 20394,
+        "rVotes": 10602
+      },
+      "dEffectiveVotes": 21739,
+      "rEffectiveVotes": 10329,
+      "effectiveWinner": "D",
+      "dWasted": 5704,
+      "rWasted": 10329
+    },
+    {
+      "contest": "0148",
+      "contestName": "STATE SENATOR DISTRICT 28",
+      "precincts": 87,
+      "allVotes": {
+        "R": 14627,
+        "D": 17511,
+        "WI": 132
+      },
+      "dVotes": 17511,
+      "rVotes": 14627,
+      "totalVotes": 32138,
+      "totalAllVotes": 32270,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 17965,
+        "rVotes": 13192
+      },
+      "dEffectiveVotes": 17511,
+      "rEffectiveVotes": 14627,
+      "effectiveWinner": "D",
+      "dWasted": 1441,
+      "rWasted": 14627
+    },
+    {
+      "contest": "0161",
+      "contestName": "STATE SENATOR DISTRICT 41",
+      "precincts": 30,
+      "allVotes": {
+        "R": 21216,
+        "D": 11132,
+        "GP": 5431,
+        "WI": 36
+      },
+      "dVotes": 11132,
+      "rVotes": 21216,
+      "totalVotes": 32348,
+      "totalAllVotes": 37815,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 22339,
+        "rVotes": 15844
+      },
+      "dEffectiveVotes": 11132,
+      "rEffectiveVotes": 21216,
+      "effectiveWinner": "R",
+      "dWasted": 11132,
+      "rWasted": 5041
+    },
+    {
+      "contest": "0183",
+      "contestName": "STATE SENATOR DISTRICT 63",
+      "precincts": 23,
+      "allVotes": {
+        "R": 8973,
+        "D": 20085,
+        "WI": 52
+      },
+      "dVotes": 20085,
+      "rVotes": 8973,
+      "totalVotes": 29058,
+      "totalAllVotes": 29110,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 20655,
+        "rVotes": 8582
+      },
+      "dEffectiveVotes": 20085,
+      "rEffectiveVotes": 8973,
+      "effectiveWinner": "D",
+      "dWasted": 5555,
+      "rWasted": 8973
+    },
+    {
+      "contest": "0166",
+      "contestName": "STATE SENATOR DISTRICT 46",
+      "precincts": 22,
+      "allVotes": {
+        "R": 6861,
+        "D": 14069,
+        "WI": 34
+      },
+      "dVotes": 14069,
+      "rVotes": 6861,
+      "totalVotes": 20930,
+      "totalAllVotes": 20964,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14117,
+        "rVotes": 6659
+      },
+      "dEffectiveVotes": 14069,
+      "rEffectiveVotes": 6861,
+      "effectiveWinner": "D",
+      "dWasted": 3603,
+      "rWasted": 6861
+    },
+    {
+      "contest": "0152",
+      "contestName": "STATE SENATOR DISTRICT 32",
+      "precincts": 36,
+      "allVotes": {
+        "R": 21737,
+        "D": 15666,
+        "WI": 35
+      },
+      "dVotes": 15666,
+      "rVotes": 21737,
+      "totalVotes": 37403,
+      "totalAllVotes": 37438,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 19320,
+        "rVotes": 18272
+      },
+      "dEffectiveVotes": 15666,
+      "rEffectiveVotes": 21737,
+      "effectiveWinner": "R",
+      "dWasted": 15666,
+      "rWasted": 3035
+    },
+    {
+      "contest": "0165",
+      "contestName": "STATE SENATOR DISTRICT 45",
+      "precincts": 30,
+      "allVotes": {
+        "R": 11365,
+        "D": 20522,
+        "WI": 44
+      },
+      "dVotes": 20522,
+      "rVotes": 11365,
+      "totalVotes": 31887,
+      "totalAllVotes": 31931,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 20843,
+        "rVotes": 10680
+      },
+      "dEffectiveVotes": 20522,
+      "rEffectiveVotes": 11365,
+      "effectiveWinner": "D",
+      "dWasted": 4578,
+      "rWasted": 11365
+    },
+    {
+      "contest": "0153",
+      "contestName": "STATE SENATOR DISTRICT 33",
+      "precincts": 39,
+      "allVotes": {
+        "IP": 2135,
+        "R": 22321,
+        "D": 13622,
+        "WI": 18
+      },
+      "dVotes": 13622,
+      "rVotes": 22321,
+      "totalVotes": 35943,
+      "totalAllVotes": 38096,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 19420,
+        "rVotes": 18539
+      },
+      "dEffectiveVotes": 13622,
+      "rEffectiveVotes": 22321,
+      "effectiveWinner": "R",
+      "dWasted": 13622,
+      "rWasted": 4349
+    },
+    {
+      "contest": "0162",
+      "contestName": "STATE SENATOR DISTRICT 42",
+      "precincts": 29,
+      "allVotes": {
+        "R": 18547,
+        "D": 17249,
+        "WI": 28
+      },
+      "dVotes": 17249,
+      "rVotes": 18547,
+      "totalVotes": 35796,
+      "totalAllVotes": 35824,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 19854,
+        "rVotes": 15834
+      },
+      "dEffectiveVotes": 17249,
+      "rEffectiveVotes": 18547,
+      "effectiveWinner": "R",
+      "dWasted": 17249,
+      "rWasted": 648
+    },
+    {
+      "contest": "0164",
+      "contestName": "STATE SENATOR DISTRICT 44",
+      "precincts": 29,
+      "allVotes": {
+        "R": 10495,
+        "D": 22632,
+        "WI": 118
+      },
+      "dVotes": 22632,
+      "rVotes": 10495,
+      "totalVotes": 33127,
+      "totalAllVotes": 33245,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 23535,
+        "rVotes": 9315
+      },
+      "dEffectiveVotes": 22632,
+      "rEffectiveVotes": 10495,
+      "effectiveWinner": "D",
+      "dWasted": 6068,
+      "rWasted": 10495
+    },
+    {
+      "contest": "0163",
+      "contestName": "STATE SENATOR DISTRICT 43",
+      "precincts": 32,
+      "allVotes": {
+        "R": 17697,
+        "D": 19159,
+        "WI": 41
+      },
+      "dVotes": 19159,
+      "rVotes": 17697,
+      "totalVotes": 36856,
+      "totalAllVotes": 36897,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 21607,
+        "rVotes": 14672
+      },
+      "dEffectiveVotes": 19159,
+      "rEffectiveVotes": 17697,
+      "effectiveWinner": "D",
+      "dWasted": 730,
+      "rWasted": 17697
+    },
+    {
+      "contest": "0179",
+      "contestName": "STATE SENATOR DISTRICT 59",
+      "precincts": 25,
+      "allVotes": {
+        "IP": 1458,
+        "R": 4619,
+        "D": 19845,
+        "WI": 62
+      },
+      "dVotes": 19845,
+      "rVotes": 4619,
+      "totalVotes": 24464,
+      "totalAllVotes": 25984,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 21143,
+        "rVotes": 4706
+      },
+      "dEffectiveVotes": 19845,
+      "rEffectiveVotes": 4619,
+      "effectiveWinner": "D",
+      "dWasted": 7612,
+      "rWasted": 4619
+    },
+    {
+      "contest": "0182",
+      "contestName": "STATE SENATOR DISTRICT 62",
+      "precincts": 26,
+      "allVotes": {
+        "R": 6569,
+        "D": 28787,
+        "WI": 76
+      },
+      "dVotes": 28787,
+      "rVotes": 6569,
+      "totalVotes": 35356,
+      "totalAllVotes": 35432,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 29217,
+        "rVotes": 5824
+      },
+      "dEffectiveVotes": 28787,
+      "rEffectiveVotes": 6569,
+      "effectiveWinner": "D",
+      "dWasted": 11108,
+      "rWasted": 6569
+    },
+    {
+      "contest": "0178",
+      "contestName": "STATE SENATOR DISTRICT 58",
+      "precincts": 26,
+      "allVotes": {
+        "R": 3830,
+        "D": 14598,
+        "WI": 67
+      },
+      "dVotes": 14598,
+      "rVotes": 3830,
+      "totalVotes": 18428,
+      "totalAllVotes": 18495,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 14977,
+        "rVotes": 3192
+      },
+      "dEffectiveVotes": 14598,
+      "rEffectiveVotes": 3830,
+      "effectiveWinner": "D",
+      "dWasted": 5383,
+      "rWasted": 3830
+    },
+    {
+      "contest": "0181",
+      "contestName": "STATE SENATOR DISTRICT 61",
+      "precincts": 23,
+      "allVotes": {
+        "IP": 1151,
+        "R": 1728,
+        "D": 15451,
+        "WI": 43
+      },
+      "dVotes": 15451,
+      "rVotes": 1728,
+      "totalVotes": 17179,
+      "totalAllVotes": 18373,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 15933,
+        "rVotes": 1927
+      },
+      "dEffectiveVotes": 15451,
+      "rEffectiveVotes": 1728,
+      "effectiveWinner": "D",
+      "dWasted": 6861,
+      "rWasted": 1728
+    },
+    {
+      "contest": "0180",
+      "contestName": "STATE SENATOR DISTRICT 60",
+      "precincts": 26,
+      "allVotes": {
+        "R": 6200,
+        "D": 29770,
+        "WI": 82
+      },
+      "dVotes": 29770,
+      "rVotes": 6200,
+      "totalVotes": 35970,
+      "totalAllVotes": 36052,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 30615,
+        "rVotes": 5632
+      },
+      "dEffectiveVotes": 29770,
+      "rEffectiveVotes": 6200,
+      "effectiveWinner": "D",
+      "dWasted": 11784,
+      "rWasted": 6200
+    },
+    {
+      "contest": "0139",
+      "contestName": "STATE SENATOR DISTRICT 19",
+      "precincts": 28,
+      "allVotes": {
+        "R": 23524,
+        "D": 14780,
+        "WI": 39
+      },
+      "dVotes": 14780,
+      "rVotes": 23524,
+      "totalVotes": 38304,
+      "totalAllVotes": 38343,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 18449,
+        "rVotes": 19649
+      },
+      "dEffectiveVotes": 14780,
+      "rEffectiveVotes": 23524,
+      "effectiveWinner": "R",
+      "dWasted": 14780,
+      "rWasted": 4371
+    },
+    {
+      "contest": "0174",
+      "contestName": "STATE SENATOR DISTRICT 54",
+      "precincts": 24,
+      "allVotes": {
+        "R": 13328,
+        "D": 21847,
+        "WI": 33
+      },
+      "dVotes": 21847,
+      "rVotes": 13328,
+      "totalVotes": 35175,
+      "totalAllVotes": 35208,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 21853,
+        "rVotes": 12815
+      },
+      "dEffectiveVotes": 21847,
+      "rEffectiveVotes": 13328,
+      "effectiveWinner": "D",
+      "dWasted": 4259,
+      "rWasted": 13328
+    },
+    {
+      "contest": "0133",
+      "contestName": "STATE SENATOR DISTRICT 13",
+      "precincts": 109,
+      "allVotes": {
+        "R": 16222,
+        "D": 15669,
+        "WI": 46
+      },
+      "dVotes": 15669,
+      "rVotes": 16222,
+      "totalVotes": 31891,
+      "totalAllVotes": 31937,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 16580,
+        "rVotes": 14444
+      },
+      "dEffectiveVotes": 15669,
+      "rEffectiveVotes": 16222,
+      "effectiveWinner": "R",
+      "dWasted": 15669,
+      "rWasted": 276
+    },
+    {
+      "contest": "0121",
+      "contestName": "STATE SENATOR DISTRICT 01",
+      "precincts": 245,
+      "allVotes": {
+        "D": 24861,
+        "WI": 972
+      },
+      "dVotes": 24861,
+      "rVotes": 0,
+      "totalVotes": 24861,
+      "totalAllVotes": 25833,
+      "winner": "D",
+      "uncontested": true,
+      "proxy": {
+        "dVotes": 16354,
+        "rVotes": 11359
+      },
+      "proxied": true,
+      "dEffectiveVotes": 16354,
+      "rEffectiveVotes": 11359,
+      "effectiveWinner": "D",
+      "dWasted": 2497,
+      "rWasted": 11359
+    },
+    {
+      "contest": "0145",
+      "contestName": "STATE SENATOR DISTRICT 25",
+      "precincts": 63,
+      "allVotes": {
+        "R": 18144,
+        "D": 16711,
+        "WI": 26
+      },
+      "dVotes": 16711,
+      "rVotes": 18144,
+      "totalVotes": 34855,
+      "totalAllVotes": 34881,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 20259,
+        "rVotes": 13786
+      },
+      "dEffectiveVotes": 16711,
+      "rEffectiveVotes": 18144,
+      "effectiveWinner": "R",
+      "dWasted": 16711,
+      "rWasted": 716
+    },
+    {
+      "contest": "0138",
+      "contestName": "STATE SENATOR DISTRICT 18",
+      "precincts": 68,
+      "allVotes": {
+        "R": 19654,
+        "D": 12054,
+        "WI": 24
+      },
+      "dVotes": 12054,
+      "rVotes": 19654,
+      "totalVotes": 31708,
+      "totalAllVotes": 31732,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 15812,
+        "rVotes": 15094
+      },
+      "dEffectiveVotes": 12054,
+      "rEffectiveVotes": 19654,
+      "effectiveWinner": "R",
+      "dWasted": 12054,
+      "rWasted": 3799
+    },
+    {
+      "contest": "0150",
+      "contestName": "STATE SENATOR DISTRICT 30",
+      "precincts": 48,
+      "allVotes": {
+        "R": 15073,
+        "D": 16681,
+        "WI": 39
+      },
+      "dVotes": 16681,
+      "rVotes": 15073,
+      "totalVotes": 31754,
+      "totalAllVotes": 31793,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 17323,
+        "rVotes": 13713
+      },
+      "dEffectiveVotes": 16681,
+      "rEffectiveVotes": 15073,
+      "effectiveWinner": "D",
+      "dWasted": 803,
+      "rWasted": 15073
+    },
+    {
+      "contest": "0186",
+      "contestName": "STATE SENATOR DISTRICT 66",
+      "precincts": 26,
+      "allVotes": {
+        "R": 5221,
+        "D": 18654,
+        "WI": 73
+      },
+      "dVotes": 18654,
+      "rVotes": 5221,
+      "totalVotes": 23875,
+      "totalAllVotes": 23948,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 18654,
+        "rVotes": 5060
+      },
+      "dEffectiveVotes": 18654,
+      "rEffectiveVotes": 5221,
+      "effectiveWinner": "D",
+      "dWasted": 6716,
+      "rWasted": 5221
+    },
+    {
+      "contest": "0175",
+      "contestName": "STATE SENATOR DISTRICT 55",
+      "precincts": 28,
+      "allVotes": {
+        "R": 10319,
+        "D": 20972,
+        "WI": 45
+      },
+      "dVotes": 20972,
+      "rVotes": 10319,
+      "totalVotes": 31291,
+      "totalAllVotes": 31336,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 19879,
+        "rVotes": 11146
+      },
+      "dEffectiveVotes": 20972,
+      "rEffectiveVotes": 10319,
+      "effectiveWinner": "D",
+      "dWasted": 5326,
+      "rWasted": 10319
+    },
+    {
+      "contest": "0184",
+      "contestName": "STATE SENATOR DISTRICT 64",
+      "precincts": 29,
+      "allVotes": {
+        "R": 8369,
+        "D": 27427,
+        "WI": 66
+      },
+      "dVotes": 27427,
+      "rVotes": 8369,
+      "totalVotes": 35796,
+      "totalAllVotes": 35862,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 27788,
+        "rVotes": 8056
+      },
+      "dEffectiveVotes": 27427,
+      "rEffectiveVotes": 8369,
+      "effectiveWinner": "D",
+      "dWasted": 9528,
+      "rWasted": 8369
+    },
+    {
+      "contest": "0185",
+      "contestName": "STATE SENATOR DISTRICT 65",
+      "precincts": 25,
+      "allVotes": {
+        "IP": 1361,
+        "R": 3308,
+        "D": 14866,
+        "WI": 47
+      },
+      "dVotes": 14866,
+      "rVotes": 3308,
+      "totalVotes": 18174,
+      "totalAllVotes": 19582,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 15450,
+        "rVotes": 3778
+      },
+      "dEffectiveVotes": 14866,
+      "rEffectiveVotes": 3308,
+      "effectiveWinner": "D",
+      "dWasted": 5778,
+      "rWasted": 3308
+    },
+    {
+      "contest": "0187",
+      "contestName": "STATE SENATOR DISTRICT 67",
+      "precincts": 26,
+      "allVotes": {
+        "R": 6005,
+        "D": 13509,
+        "WI": 57
+      },
+      "dVotes": 13509,
+      "rVotes": 6005,
+      "totalVotes": 19514,
+      "totalAllVotes": 19571,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 13949,
+        "rVotes": 5049
+      },
+      "dEffectiveVotes": 13509,
+      "rEffectiveVotes": 6005,
+      "effectiveWinner": "D",
+      "dWasted": 3751,
+      "rWasted": 6005
+    },
+    {
+      "contest": "0146",
+      "contestName": "STATE SENATOR DISTRICT 26",
+      "precincts": 47,
+      "allVotes": {
+        "R": 16148,
+        "D": 13450,
+        "WI": 44
+      },
+      "dVotes": 13450,
+      "rVotes": 16148,
+      "totalVotes": 29598,
+      "totalAllVotes": 29642,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 16460,
+        "rVotes": 12057
+      },
+      "dEffectiveVotes": 13450,
+      "rEffectiveVotes": 16148,
+      "effectiveWinner": "R",
+      "dWasted": 13450,
+      "rWasted": 1348
+    },
+    {
+      "contest": "0125",
+      "contestName": "STATE SENATOR DISTRICT 05",
+      "precincts": 93,
+      "allVotes": {
+        "R": 7422,
+        "D": 26143,
+        "WI": 24
+      },
+      "dVotes": 26143,
+      "rVotes": 7422,
+      "totalVotes": 33565,
+      "totalAllVotes": 33589,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 24735,
+        "rVotes": 8282
+      },
+      "dEffectiveVotes": 26143,
+      "rEffectiveVotes": 7422,
+      "effectiveWinner": "D",
+      "dWasted": 9360,
+      "rWasted": 7422
+    },
+    {
+      "contest": "0127",
+      "contestName": "STATE SENATOR DISTRICT 07",
+      "precincts": 31,
+      "allVotes": {
+        "R": 7243,
+        "D": 21861,
+        "WI": 71
+      },
+      "dVotes": 21861,
+      "rVotes": 7243,
+      "totalVotes": 29104,
+      "totalAllVotes": 29175,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 21485,
+        "rVotes": 7334
+      },
+      "dEffectiveVotes": 21861,
+      "rEffectiveVotes": 7243,
+      "effectiveWinner": "D",
+      "dWasted": 7308,
+      "rWasted": 7243
+    },
+    {
+      "contest": "0155",
+      "contestName": "STATE SENATOR DISTRICT 35",
+      "precincts": 35,
+      "allVotes": {
+        "R": 29326,
+        "WI": 961
+      },
+      "dVotes": 0,
+      "rVotes": 29326,
+      "totalVotes": 29326,
+      "totalAllVotes": 30287,
+      "winner": "R",
+      "uncontested": true,
+      "proxy": {
+        "dVotes": 19009,
+        "rVotes": 18317
+      },
+      "proxied": true,
+      "dEffectiveVotes": 7332,
+      "rEffectiveVotes": 21995,
+      "effectiveWinner": "R",
+      "proxiedAgain": true,
+      "dWasted": 7332,
+      "rWasted": 7331
+    },
+    {
+      "contest": "0176",
+      "contestName": "STATE SENATOR DISTRICT 56",
+      "precincts": 26,
+      "allVotes": {
+        "R": 17711,
+        "D": 19936,
+        "WI": 26
+      },
+      "dVotes": 19936,
+      "rVotes": 17711,
+      "totalVotes": 37647,
+      "totalAllVotes": 37673,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 21040,
+        "rVotes": 16358
+      },
+      "dEffectiveVotes": 19936,
+      "rEffectiveVotes": 17711,
+      "effectiveWinner": "D",
+      "dWasted": 1112,
+      "rWasted": 17711
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "totals": {
+    "type": "congress",
+    "year": 2008,
+    "districts": 8,
+    "proxied": 0,
+    "proxiedAgain": 0,
+    "proxyContest": "US President",
+    "dVotes": 1612480,
+    "rVotes": 1069015,
+    "dWins": 5,
+    "rWins": 3,
+    "votes": 2681495,
+    "dEffectiveVotes": 1612480,
+    "rEffectiveVotes": 1069015,
+    "dEffectiveWins": 5,
+    "rEffectiveWins": 3,
+    "effectiveVotes": 2681495,
+    "dEffectiveWasted": 810898,
+    "rEffectiveWasted": 529844,
+    "gap": 0.10481242739591161,
+    "gapSeats": 0.8384994191672929
+  },
+  "districts": [
+    {
+      "contest": "1",
+      "contestName": "US Congress District 1",
+      "precincts": 23,
+      "allVotes": {
+        "R": 109453,
+        "D": 207753,
+        "I": 14904,
+        "W": 290
+      },
+      "dVotes": 207753,
+      "rVotes": 109453,
+      "totalVotes": 317206,
+      "totalAllVotes": 332400,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 2241,
+        "rVotes": 2610
+      },
+      "dEffectiveVotes": 207753,
+      "rEffectiveVotes": 109453,
+      "effectiveWinner": "D",
+      "dWasted": 49149,
+      "rWasted": 109453
+    },
+    {
+      "contest": "2",
+      "contestName": "US Congress District 2",
+      "precincts": 8,
+      "allVotes": {
+        "R": 220924,
+        "D": 164093,
+        "I": 0,
+        "W": 639
+      },
+      "dVotes": 164093,
+      "rVotes": 220924,
+      "totalVotes": 385017,
+      "totalAllVotes": 385656,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 3174,
+        "rVotes": 4167
+      },
+      "dEffectiveVotes": 164093,
+      "rEffectiveVotes": 220924,
+      "effectiveWinner": "R",
+      "dWasted": 164093,
+      "rWasted": 28415
+    },
+    {
+      "contest": "3",
+      "contestName": "US Congress District 3",
+      "precincts": 2,
+      "allVotes": {
+        "R": 178932,
+        "D": 150787,
+        "I": 38970,
+        "W": 415
+      },
+      "dVotes": 150787,
+      "rVotes": 178932,
+      "totalVotes": 329719,
+      "totalAllVotes": 369104,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 987,
+        "rVotes": 768
+      },
+      "dEffectiveVotes": 150787,
+      "rEffectiveVotes": 178932,
+      "effectiveWinner": "R",
+      "dWasted": 150787,
+      "rWasted": 14072
+    },
+    {
+      "contest": "4",
+      "contestName": "US Congress District 4",
+      "precincts": 3,
+      "allVotes": {
+        "R": 98936,
+        "D": 216267,
+        "I": 0,
+        "W": 815
+      },
+      "dVotes": 216267,
+      "rVotes": 98936,
+      "totalVotes": 315203,
+      "totalAllVotes": 316018,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 3343,
+        "rVotes": 2864
+      },
+      "dEffectiveVotes": 216267,
+      "rEffectiveVotes": 98936,
+      "effectiveWinner": "D",
+      "dWasted": 58665,
+      "rWasted": 98936
+    },
+    {
+      "contest": "5",
+      "contestName": "US Congress District 5",
+      "precincts": 3,
+      "allVotes": {
+        "R": 71020,
+        "D": 228776,
+        "I": 22318,
+        "W": 633
+      },
+      "dVotes": 228776,
+      "rVotes": 71020,
+      "totalVotes": 299796,
+      "totalAllVotes": 322747,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 2634,
+        "rVotes": 2088
+      },
+      "dEffectiveVotes": 228776,
+      "rEffectiveVotes": 71020,
+      "effectiveWinner": "D",
+      "dWasted": 78877,
+      "rWasted": 71020
+    },
+    {
+      "contest": "6",
+      "contestName": "US Congress District 6",
+      "precincts": 8,
+      "allVotes": {
+        "R": 187817,
+        "D": 175786,
+        "I": 40643,
+        "W": 479
+      },
+      "dVotes": 175786,
+      "rVotes": 187817,
+      "totalVotes": 363603,
+      "totalAllVotes": 404725,
+      "winner": "R",
+      "proxy": {
+        "dVotes": 5137,
+        "rVotes": 5556
+      },
+      "dEffectiveVotes": 175786,
+      "rEffectiveVotes": 187817,
+      "effectiveWinner": "R",
+      "dWasted": 175786,
+      "rWasted": 6015
+    },
+    {
+      "contest": "7",
+      "contestName": "US Congress District 7",
+      "precincts": 35,
+      "allVotes": {
+        "R": 87062,
+        "D": 227187,
+        "I": 0,
+        "W": 431
+      },
+      "dVotes": 227187,
+      "rVotes": 87062,
+      "totalVotes": 314249,
+      "totalAllVotes": 314680,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 2556,
+        "rVotes": 3102
+      },
+      "dEffectiveVotes": 227187,
+      "rEffectiveVotes": 87062,
+      "effectiveWinner": "D",
+      "dWasted": 70062,
+      "rWasted": 87062
+    },
+    {
+      "contest": "8",
+      "contestName": "US Congress District 8",
+      "precincts": 18,
+      "allVotes": {
+        "R": 114871,
+        "D": 241831,
+        "I": 0,
+        "W": 582
+      },
+      "dVotes": 241831,
+      "rVotes": 114871,
+      "totalVotes": 356702,
+      "totalAllVotes": 357284,
+      "winner": "D",
+      "proxy": {
+        "dVotes": 3421,
+        "rVotes": 4229
+      },
+      "dEffectiveVotes": 241831,
+      "rEffectiveVotes": 114871,
+      "effectiveWinner": "D",
+      "dWasted": 63479,
+      "rWasted": 114871
+    }
+  ]
+}
