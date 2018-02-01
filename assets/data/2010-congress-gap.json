@@ -19,7 +19,16 @@
     "dEffectiveWasted": 560875,
     "rEffectiveWasted": 425503,
     "gap": 0.06862036925800158,
-    "gapSeats": 0.5489629540640126
+    "gapSeats": 0.5489629540640126,
+    "shareAnalysis": {
+      "dVoteShareAverage": 0.5204026868376325,
+      "rVoteShareAverage": 0.4795973131623676,
+      "dSeatShare": 0.5,
+      "rSeatShare": 0.5,
+      "dWastedShare": 0.27040268683763247,
+      "rWastedShare": 0.2295973131623676,
+      "gap": 0.04080537367526488
+    }
   },
   "districts": [
     {

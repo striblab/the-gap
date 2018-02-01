@@ -60,13 +60,59 @@ img {
   .wasted {
     position: absolute;
     min-height: 3em;
-    background:
-      repeating-linear-gradient(
-        45deg,
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.2) 10px,
-        rgba(0, 0, 0, 0.3) 10px,
-        rgba(0, 0, 0, 0.3) 20px
-      );
+    background: repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 10px,
+      rgba(0, 0, 0, 0.3) 10px,
+      rgba(0, 0, 0, 0.3) 20px
+    );
+  }
+}
+
+.legend {
+  text-align: center;
+
+  .legend-title {
+    font-weight: bold;
+  }
+
+  .legend-swatch {
+    display: inline-block;
+    margin-right: 0.25em;
+    line-height: 1.1em;
+  }
+
+  .swatch-color {
+    display: block;
+    width: 100%;
+    height: 1em;
+  }
+
+  .swatch-label {
+    font-size: 0.65em;
+    display: block;
+    width: 100%;
+    padding: 0 0.25em;
+  }
+}
+
+.district-analysis {
+  width: 33.3333%;
+  padding: 0.5em;
+  float: left;
+
+  h3 {
+    margin: 0.25em 0;
+  }
+
+  p {
+    margin: 0 0 1em;
+    line-height: 1.25em;
+    font-size: 0.85em;
+  }
+
+  svg.map-canvas {
+    max-width: 100%;
   }
 }

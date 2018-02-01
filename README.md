@@ -37,7 +37,7 @@ decisions in a district plan."
   * 2016 has state house district
     [32B missing](https://en.wikipedia.org/wiki/Minnesota_House_of_Representatives_District_32B_special_election,_2017).
   * [1998](http://www.sos.state.mn.us/elections-voting/1998-general-election-results/)
-    saw Jess Ventura win under the reform party which makes Governor not a good
+    saw Jesse Ventura win under the reform party which makes Governor not a good
     proxy, and it means that the reform party had some people on other tickets.
     Proxy State Auditor.
   * 1996 saw Ross Perot run for President who got a lot of votes. Might be good
@@ -119,8 +119,7 @@ here will be available in the templates in the `templates/` directory as the
 If `config.json` has a `content.spreadsheetId` value specified, `content.json`
 can be updated with information from a Google Spreadsheet.
 
-Since getting this content may not be very speedy, this is not done during `gulp
-develop`, so it requires a manual call: `gulp content`
+Since getting this content may not be very speedy, this is not done during `gulp develop`, so it requires a manual call: `gulp content`
 
 ##### Setting up
 
@@ -243,8 +242,7 @@ servers to do this would be very expensive time-wise as well.
 A manual test page is provided for looking at the piece embeded in another page.
 
 1. Assumes you are running the development server with `gulp develop`
-1. Run a local server for the test directory, such as `cd tests && python -m
-   SimpleHTTPServer` or `http-server ./tests/`
+1. Run a local server for the test directory, such as `cd tests && python -m SimpleHTTPServer` or `http-server ./tests/`
 1. In a browser, go to
    [http://localhost:8080/manual/embed.html](http://localhost:8080/manual/embed.html).
 
@@ -309,8 +307,7 @@ configured, the `default` will be used.
 The publishing function, uses a token that helps ensure a name collision with
 another project doesn't overwrite files unwittingly. The `publishToken` in
 `config.json` is used as an identifier. This gets deployed to S3 and then
-checked whenever publishing happens again. The `gulp publish` (run via `gulp
-deploy`) will automatically create this token if it doesn't exist.
+checked whenever publishing happens again. The `gulp publish` (run via `gulp deploy`) will automatically create this token if it doesn't exist.
 
 If you see an error message that states that the tokens do not match, make sure
 that the location you are publishing to doesn't have a different project at it,

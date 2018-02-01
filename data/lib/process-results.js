@@ -378,6 +378,26 @@ function processDistricts(type, raw, proxy) {
     (totals.dEffectiveWasted - totals.rEffectiveWasted) / totals.effectiveVotes;
   totals.gapSeats = totals.gap * totals.districts;
 
+  // Vote share version (AP analysis)
+  totals.shareAnalysis = {
+    dVoteShareAverage: _.meanBy(districts, d => {
+      return d.dEffectiveVotes / (d.dEffectiveVotes + d.rEffectiveVotes);
+    }),
+    rVoteShareAverage: _.meanBy(districts, d => {
+      return d.rEffectiveVotes / (d.dEffectiveVotes + d.rEffectiveVotes);
+    }),
+    dSeatShare: totals.dWins / totals.districts,
+    rSeatShare: totals.rWins / totals.districts
+  };
+  totals.shareAnalysis.dWastedShare =
+    totals.shareAnalysis.dVoteShareAverage -
+    totals.shareAnalysis.dSeatShare * 0.5;
+  totals.shareAnalysis.rWastedShare =
+    totals.shareAnalysis.rVoteShareAverage -
+    totals.shareAnalysis.rSeatShare * 0.5;
+  totals.shareAnalysis.gap =
+    totals.shareAnalysis.dWastedShare - totals.shareAnalysis.rWastedShare;
+
   return {
     totals: totals,
     districts: districts
